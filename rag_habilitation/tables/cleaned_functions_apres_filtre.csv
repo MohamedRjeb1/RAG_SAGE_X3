@@ -1,0 +1,377 @@
+CODINT_0;flags;Désignation;options_exist
+GESBPR;{'W': 'Toutes sociétés', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Tiers;WCMS
+GESBIC;{'V': 'Validation des factures', 'E': 'Echéances', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Factures tiers client;VECMS
+GESBIS;{'V': 'Validation des factures', 'E': 'Echéances', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Factures tiers fournisseur;VECMS
+GESFRM;{'V': 'Validation', 'F': 'Fichier banque', 'T': 'Transactions', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Saisie bordereau de remise;VFTCMS
+GESPIH;{'V': 'Validation', 'E': 'Echéances', 'U': 'Déblocage erreur rapprochement', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Factures;VEUICMS
+GESPNH;{'V': 'Validation', 'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Retours d'achat;VKCMS
+GESSDH;{'V': 'Validation', 'P': 'Proforma', 'F': 'Facture', 'K': 'Modif. mvts de stock/qtés', 'G': 'Colisage', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Livraisons;VPFKGICMS
+GESSDH2;{'V': 'Validation', 'P': 'Proforma', 'F': 'Facture', 'K': 'Modification mvts de stock', 'G': 'Colisage', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Livraisons;VPFKGCMS
+GESSIH;{'V': 'Validation', 'E': 'Echéances', 'R': 'Règlement', 'K': 'Modification mvts de stock', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Factures;VERKICMS
+GESSNL;{'V': 'Validation', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Inventaire;VCMS
+FUNPSH;{'U': 'Tous demandeurs'};Solde des demandes achat;U
+FUNPSH2;{'U': 'Tous demandeurs'};Solde des demandes achat;U
+BANAFFA;{'U': 'Accès par utilisateur'};Affectation banques;U
+BANAFFM;{'U': 'Accès par utilisateur'};Saisie banques;U
+BPCVAL;{'U': 'Accès par utilisateur'};Validation client;U
+BPSVAL;{'U': 'Accès par utilisateur'};Validation fournisseur;U
+CPTVAL;{'U': 'Accès par utilisateur'};Validation définitive;U
+FUNCFMINV;{'U': 'Accès par utilisateur'};Validation facture/avoir vente;U
+FUNPIH;{'U': 'Accès par utilisateur'};Validation des factures;U
+GENBORREM;{'U': 'Accès par utilisateur'};Génération bordereau de remise;U
+VALBIS;{'U': 'Accès par utilisateur'};Factures en attente;U
+GESGAS;{'T': 'Transaction', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Saisie pièces;TCMS
+GESBPC;{'T': 'Tarif', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Clients;TCMS
+GESBPS;{'T': 'Tarif', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Fournisseurs;TCMS
+GESITM;{'T': 'Tarif', 'c': 'Coût', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Articles;TcCMS
+GESPOD;{'T': 'Solde', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Demandes de livraisons;TCMS
+GESPOH;{'T': 'Solde', 'L': 'Détail structure de coût', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Commandes;TLICMS
+GESPSH;{'T': 'Solde', 'G': 'Génération', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Demandes d'achat;TGCMS
+GESPTH;{'T': 'Solde', 'K': 'Modification mvts de stock', 'L': 'Détail structure de coût', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Réceptions;TKLCMS
+GESPTH2;{'T': 'Solde', 'K': 'Modification mvts de stock', 'L': 'Détail structure de coût', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Réceptions;TKLCMS
+LECTRACE;{'S': 'Suppression'};Lecture traces;S
+GESSTQ;{'Q': 'Changement de statut', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Contrôle qualité;QCMS
+GESSOH;{'P': 'Proforma', 'L': 'Livraison', 'F': 'Facture', 'A': 'Allocation', 'D': 'Solde', 'R': 'Préparation', 'I': 'Emission', 'B': 'Contremarque achat', 'G': 'Contremarque production', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion des commandes;PLFADRIBGCMS
+GESBBY;{'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Assemblage;KCMS
+GESDBY;{'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Désassemblage;KCMS
+GESMTK;{'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Suivi de fabrication;KCMS
+GESSMO;{'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Sorties diverses;KCMS
+GESSMR;{'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Entrées diverses;KCMS
+GESSRH;{'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Retours client;KCMS
+PSIMP;{'K': 'Arrêt processus'};Surveillance impressions;K
+SAIWRKPLN;{'G': 'Signature', 'A': 'Annulation', 'U': 'Tous utilisateurs'};Moniteur Workflow;GAU
+PAYMEP;{'G': 'Génération', 'U': 'Accès par utilisateur'};Comptabilisation des effets;GU
+REMBAN;{'G': 'Génération', 'U': 'Accès par utilisateur'};Comptabilisation en banque;GU
+REMCPT;{'G': 'Génération', 'U': 'Accès par utilisateur'};Comptabilisation intermédiaire;GU
+GESSIS;{'D': 'Suppression', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Transferts inter-sites;DCMS
+BPRICRE;{'C': 'Client', 'S': 'Fournisseur', 'U': 'Accès par utilisateur'};Création facture périodique;CSU
+GESFAS;{'A': 'Transfert analytique', 'G': 'Transfert géographique', 'R': 'Modif. imputation comptable', 'T': 'Changement de méthode', 'U': 'Actualisation', 'V': 'Réévaluation', 'W': 'Eclatement', 'Z': 'Sortie', 'O': 'Modif information bien concess', 'P': 'Changer la règle de TVA', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Biens comptables;AGRTUVWZOPCMS
+GESPAY;{'A': 'Annulation comptable', 'V': 'Validation', 'T': 'Transactions', 'L': 'Lot de saisie', 'O': 'Annulation chèque', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Règlements;AVTLOCMS
+GESMFG;{'A': 'Allocations manuelles', 'J': 'Jalonnement', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion ordres de fabrication;AJCMS
+FUNDBENCH;{'A': 'Allocations', 'M': 'Allocations manuelles', 'J': 'Jalonnement', 'P': 'Planification multi-niveaux'};Plan de travail;AMJP
+FUNGBENCH;{'A': 'Allocation', 'M': 'Allocations manuelles', 'J': 'Jalonnement'};Planning global;AMJ
+GESSOQ;{'A': 'Allocation', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion demandes de livraisons;ACMS
+GESLOF;{'4': 'Eclatement', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Dépenses;4CMS
+GESGYM;{'2': 'Duplication', '3': 'Génération auto', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Pyramides de comptes;23CMS
+GESGAC;{'1': 'Changement de plan', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Comptes généraux;1CMS
+GESCCE;"{'1': ""Changement d'axe"", 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'}";Sections;1CMS
+AIMP;{};Impressions;
+ANURBK;{};Suppression relevé;
+ARCVISU;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Visualisation archive;CMS
+ARCVISUOBJ;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Interrogation GED;CMS
+BANREC;{};Pointage des relevés bancaires;
+BOMPRN;{};Impression nomenclatures;
+BOMRET;{};Analyse de faisabilité;
+BSIIMPORT;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Import transactions bancaires;CMS
+BUDGET;{};Saisie budgets;
+CALCSTSIM;{};Calcul coûts simulés;
+CALCSTSTD;{};Calcul coûts standards;
+CALMFGCOST;{};Calcul du prix de revient;
+CONSBAF;{};Consultation balance en devise;
+CONSBAG;{};Situation client;
+CONSBAGF;{};Situation fournisseur;
+CONSBAH;{};Balance âgée client à date;
+CONSBAHF;{};Balance âgée fourn à date;
+CONSBAL;{};Balances;
+CONSBAN;{};Banques;
+CONSBDT;{};Créances douteuses;
+CONSBPSI;{};Produits par fournisseur;
+CONSBSE;{};Consultation bilan;
+CONSBTR;{};Situation bancaire;
+CONSCHQ;{};Consultation chèque;
+CONSCPD;{};Consultation demandes d'achat;
+CONSCPI;{};Consultation factures;
+CONSCPJ;{};Consultation lignes factures;
+CONSCPN;{};Consultation retours;
+CONSCPO;{};Consultation commandes;
+CONSCPP;{};Consultation lignes commandes;
+CONSCPQ;{};Consultation lignes retours;
+CONSCPR;{};Consultation réceptions;
+CONSCPS;{};Consultation lignes réceptions;
+CONSCPT;{};Comptes;
+CONSCSD;{};Liste livraisons;
+CONSCSF;{};Lignes livraisons;
+CONSCSG;{};Tournées;
+CONSCSG2;{};Tournées;
+CONSCSI;{};Liste factures;
+CONSCSN;{};Consultation de retours;
+CONSCSO;{};Liste commandes;
+CONSCSP;{};Lignes commandes;
+CONSCSR;{};Ligne de retours;
+CONSCSS;{};Echéances facturation;
+CONSCST;{};Lignes factures de vente;
+CONSDNO;{};Gestion factures d'agios;
+CONSFAC;{};Factures;
+CONSLPN;{};Stock par numéro contenant;
+CONSMFG;{};Liste des OF;
+CONSMKI;{};Productions;
+CONSMKM;{};Consommations;
+CONSMKO;{};Temps passés;
+CONSNAT;{};Comptes analytiques;
+CONSORD;{};Encours article;
+CONSORD7;{};Encours article;
+CONSPAY;{};Règlements;
+CONSPCE;{};Ecritures;
+CONSPIA;{};Traçabilité pièces achats;
+CONSPIF;{};Traçabilité immobilisations;
+CONSPIT;{};Traçabilité pièces tiers;
+CONSPITV;{};Valorisation stock par période;
+CONSPIV;{};Traçabilité pièces ventes;
+CONSSAR;{};Stocks par article;
+CONSSAT;{};Mouvements en attente;
+CONSSBI;{};Articles en inventaire;
+CONSSBP;{};Stock prêté;
+CONSSCBCB;{};Résultats CBN;
+CONSSDA;{};Stock à date;
+CONSSDE;{};Stocks détaillés;
+CONSSDI;{};Stock disponible;
+CONSSDO;{};Stocks inactifs;
+CONSSEA;{};Emplacements;
+CONSSEC;{};Sections;
+CONSSED;{};Emplacements dédiés;
+CONSSFC;{};Stock par site;
+CONSSH3;{};Hist. fiche 130;
+CONSSHO;{};OF en rupture;
+CONSSHQ;{};Hist. fiche technique;
+CONSSIM;{};Consultation de simulation;
+CONSSLO;{};Stocks par lots;
+CONSSMA;{};Evolution du PMP par mouvement;
+CONSSMF;{};Mouvement prix FIFO;
+CONSSMJ;{};Mouvements par date;
+CONSSML;{};Mouvement prix moyen lot;
+CONSSMV;{};Mouvements par article;
+CONSSOE;{};Occupation emplacements;
+CONSSPE;{};Stock périmé;
+CONSSPR;{};Stock projeté;
+CONSSRF;{};Réponses contrôle qualité;
+CONSSSC;{};Consultation sous-traitance;
+CONSSSE;{};Numéros de série;
+CONSSTK;{};Traçabilité;
+CONSSXT;{};Stocks externes;
+COPYNOMEN;{};Copie nomenclatures;
+COURDEV;{};Cours des devises;
+DELETTRAGE;{};Délettrage;
+DEPOINTAGE;{};Dépointage;
+DIVTSC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Fam. stat. clients;CMS
+DIVTSI;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Fam. stat. articles;CMS
+DIVTSS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Fam. stat. fournisseurs;CMS
+EDITBLA;{};Balances analytiques;
+EXEALH;{};Requêteur;
+EXEALHGRP;{};Requêteur;
+FAS246G;{};Situation par code flux;
+FASCALC;{};Calcul amortissements;
+FASCLOTURE;{};Clôture période et exercice;
+FASENTRY;{};Pièces immobilisations;
+FASEXIT;{};Cessions et sorties immobilisations;
+FASISSM;{};Sortie d'actif - Tr massif;
+FASLISTDEP;{};Liste immobilisations;
+FICMAG;{};Remises magnétiques;
+FONADI;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Tables diverses;CMS
+FUNADCSEARCH;{};Paramétrage recherche stock;
+FUNBENCHI;{};Suivi de fabrication;
+FUNBENCHM;{};Suivi des matières;
+FUNBENCHO;{};Plan de suivi des temps;
+FUNBENCHR;{};Suivi des réintégrations;
+FUNBENCHT;{};Plan des fiches techniques;
+FUNBENPLT;{};Pilotage des plans de suivi;
+FUNCALREO;{};Réappro zone consommation;
+FUNCHGVAL;{};Changement de valeur;
+FUNCLEAR;{};Solde des commandes;
+FUNGRHPI;{};Consultation factures/période;
+FUNGRHPI2;{};Palmarès factures;
+FUNGRHPN;{};Consultation retours/période;
+FUNGRHPN2;{};Palmarès retours;
+FUNGRHPO;{};Consultation commandes/période;
+FUNGRHPR;{};Consultation réception/période;
+FUNGRHSDH1;{};Livraisons par période;
+FUNGRHSDH2;{};Palmarès motifs retours;
+FUNGRHSIH1;{};Factures par période;
+FUNGRHSIH2;{};Palmarès Devis;
+FUNGRHSIH3;{};Factures par représentant;
+FUNGRHSOH1;{};Commandes par période;
+FUNGRHSOH2;{};Palmarès commandes;
+FUNIPTD;{};Modification date d'imputation;
+FUNITC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Articles - Coûts;CMS
+FUNLOCS;{};Resynchronisation emplacements;
+FUNMAUTR;{};Lancement automatique;
+FUNMAUTS;{};Suppression automatique;
+FUNMCLOSE;{};Clôture/solde OF;
+FUNMPICK;{};Regroupement;
+FUNMPS;{};Plan directeur production;
+FUNMRP;{};Calcul besoins nets;
+FUNMRPG;{};Calcul besoins nets;
+FUNMSITU;{};Situation OF;
+FUNPNHTRT;{};Validation des retours;
+FUNPNS;{};Gestion des acomptes;
+FUNPTH;{};Factures à recevoir;
+FUNREO;{};Plan de réapprovisionnement;
+FUNSERMGT;{};Changement gestion no série;
+FUNSSL;{};Plan de rangement;
+FUNSTKACC;{};Interface comptabilité;
+FUNSTKADJ;{};Régularisation de prix;
+FUNSTKB;{};Réapprovisionnements hors MRP;
+FUNSTOR;{};Traitements divers stocks;
+FUNSTORUL;{};Règles de gestion de stock;
+FUNSTOWIPW;{};Resynchronisation qtés en saisie;
+FUNSTVA;{};Etat valorisé des stocks;
+FUNSYNCW;{};Resynchronisation encours;
+FUNSYNPIT;{};Resynchro valo. stock période;
+FUNSYNREO;{};Resynchro réappro zone conso;
+FUNSYNSER;{};Resynchronisation des séries;
+FUNSYNSRG;{};Resynchro plan de rangement;
+FUNTDUCLO;{};Clôture/solde en série;
+FUNTDUMRP;{};Replanification en série;
+FUNTDUOF;{};Modification des objectifs;
+FUNWIPBOM;{};Coût en-cours sans OF;
+FUNWIPMFC;{};Calcul prix de revient de fab;
+GESABN;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Banques (guichets);CMS
+GESADI2;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Tables diverses - Données;CMS
+GESAGF;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Groupes de sites;CMS
+GESAIN;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Interlocuteurs;CMS
+GESALB;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Liens subdivisions;CMS
+GESATU;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Subdivisions géographiques;CMS
+GESBAN;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Comptes en banque;CMS
+GESBCG;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Catégorie client;CMS
+GESBODP;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Nomenclatures production;CMS
+GESBPP;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Prospects;CMS
+GESBPT;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Transporteurs;CMS
+GESBSG;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Catégorie fournisseur;CMS
+GESCIB;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Ajustement manuel des sorties;CMS
+GESCII;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Validation de la cession;CMS
+GESCOA;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Plan comptable;CMS
+GESCPY;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Sociétés;CMS
+GESDPP;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Plan d'amortissement;CMS
+GESFCY;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Sites;CMS
+GESFIY;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Exercices;CMS
+GESGDA;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Schémas de comptes;CMS
+GESGSC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Groupes de collectif;CMS
+GESICA;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Coûts standards actualisés;CMS
+GESICB;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Coûts standards budget;CMS
+GESICD;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Coûts standards;CMS
+GESICS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Coûts standards simulés;CMS
+GESITF;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Articles - Sites;CMS
+GESITG;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Catégorie article;CMS
+GESJOU;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Journaux comptables;CMS
+GESLOC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Emplacements;CMS
+GESMFC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Consultation prix revient;CMS
+GESMFCP;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Consultation coût prévisionnel;CMS
+GESMWC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Sections de valorisation;CMS
+GESMWI;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Coûts de revient industriels;CMS
+GESMWS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Postes de charge;CMS
+GESMWW;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Cas d'emploi postes;CMS
+GESONA;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Catégories frais généraux;CMS
+GESORZ;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Prévisions de consommation;CMS
+GESORZS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Prévisions de consommation;CMS
+GESOVE;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Codes frais généraux;CMS
+GESPAS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Paramètres interface comptable;CMS
+GESPCB;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Paramètres calculs besoins;CMS
+GESPER;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Périodes;CMS
+GESPLP;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Plan de production;CMS
+GESPOC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion des commandes ouvertes;CMS
+GESPOS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Codes postaux;CMS
+GESPOV;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Visu des commandes ouvertes;CMS
+GESPPA;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Paramétrage code préparation;CMS
+GESPPL;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Saisie des tarifs;CMS
+GESPPY;{};Positive Pay;
+GESPREPI;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Facture d'acompte;CMS
+GESPTO;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Règles d'affectation;CMS
+GESQCR;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Demandes d'analyse;CMS
+GESQLC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Fiches techniques;CMS
+GESQST;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Questions;CMS
+GESRCC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Factures périodiques clients;CMS
+GESRCS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Factures périodiques fourn;CMS
+GESRLK;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Relevé bancaire;CMS
+GESROT;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Opérations standard;CMS
+GESROU;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion des gammes;CMS
+GESROW;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Cas d'emploi gammes;CMS
+GESRTZ;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion des retenues;CMS
+GESSCS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Changements stock;CMS
+GESSNX;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Sessions inventaires;CMS
+GESSOR;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion des commandes ouvertes;CMS
+GESSPL;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Saisie des tarifs;CMS
+GESSST;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Transferts sous-traitants;CMS
+GESSTE;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Paramètres stocks;CMS
+GESSTR;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Retours sous-traitants;CMS
+GESTAM;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Modes de règlement;CMS
+GESTBO;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Alternatives nomenclature;CMS
+GESTCM;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Méthodes de valorisation;CMS
+GESTCO;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Conversions d'unités;CMS
+GESTCT;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Réponses;CMS
+GESTCU;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Devises;CMS
+GESTCY;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Pays;CMS
+GESTKI;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Suivi OF;CMS
+GESTLA;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Langues;CMS
+GESTLO;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Types emplacements;CMS
+GESTMD;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Modes livraisons;CMS
+GESTMS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Messages;CMS
+GESTPA;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Emballages;CMS
+GESTPT;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Conditions paiement;CMS
+GESTRO;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Alternatives gammes;CMS
+GESTRP;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Politiques de réapprovisionnement;CMS
+GESTRU;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Règles d'allocations / sorties;CMS
+GESTSR;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Rebuts;CMS
+GESTST;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Statuts stock;CMS
+GESTUN;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Unités;CMS
+GESTUV;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Périodes d'indisponibilité;CMS
+GESTWC;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Centres de charge;CMS
+GESYAV;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion Avis;CMS
+GESYBH;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Bordereaux de transmission;CMS
+GESYCO;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Code comptable automatique;CMS
+GESYDEM;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Demande Chiffrage;CMS
+GESYFI;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Gestion des fiches inventaire;CMS
+GESYFP;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Saisie des fiches inventaire;CMS
+GESYPH;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Réception factures;CMS
+GESYRS;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Retenue à la source;CMS
+GESYSI;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Fiche chiffrage;CMS
+GESYSIM;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Chiffrage;CMS
+GESYSIM1;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Chiffrage test;CMS
+IMPAYE;{};Impayés;
+LETTRAGE;{};Lettrage;
+LETTRAUTO;{};Lettrage automatique;
+MESINT;{};Lancement interface MES;
+MULTIWOX;{};Planification multi-niveaux;
+PAYPROPAL;{};Proposition automatique;
+POINTAGE;{};Pointage;
+PROROG;{};Prorogation fournisseur;
+PROROGC;{};Prorogation client;
+RAPBAN;{};Rapprochement bancaire;
+RELBANK;{};Importation relevé bancaire;
+RETACC;{};Retour acceptation;
+RPT02;{};Impression/groupe;
+RPT03;{};Impression/groupe/compta;
+RPT04;{};Impression/groupe/compta;
+RPT06;{};Impression/groupe/compta;
+RPT08;{};Impression/groupe/compta;
+RPT10;{};Impression/groupe/compta;
+RPT12;{};Impression/groupe/ventes;
+RPT13;{};Impression/groupe/ventes;
+RPT14;{};Impression/groupe/ventes;
+RPT15;{};Impression/groupe/ventes;
+RPT16;{};Impression/groupe/ventes;
+RPT18;{};Impression/groupe/achats;
+RPT19;{};Impression/groupe/achats;
+RPT20;{};Impression/groupe/achats;
+RPT21;{};Impression/groupe/achats;
+RPT22;{};Impression/groupe/achats;
+RPT25;{};Impression/groupe/stocks;
+RPT26;{};Impression/groupe/stocks;
+RPT27;{};Impression/groupe/stocks;
+RPT28;{};Impression/groupe/stocks;
+RPT29;{};Impression/groupe/stocks;
+RPT31;{};Impression/groupe/production;
+RPT32;{};Impression/groupe/production;
+RPT33;{};Impression/groupe/production;
+RPT34;{};Impression/groupe/production;
+RPT35;{};Impression/groupe/production;
+SUPPRCOMP;{};Suppression composants;
+UTICHK;{};Pointage en partie simple;
+VALPCE;{};Tâches comptables;
+VALPORT;{};Dévalorisation des effets;
+VISUBOMG;{};Nomenclatures multi niveaux;
+VISUBOMROU;{};Recette;
+VISUROUG;{};Gammes multi niveaux;
+YINTFRPX3;{};Interfaçage FRP / X3;
+YSFIINTER;{};Validation des fiches;
+YSPL;{'C': 'Création', 'M': 'Modification', 'S': 'Suppression'};Suivi plannning de livraison;CMS
+YVALID;{};Validation dépassement;
+YX3EDI;{};Importation des fichiers EDI;

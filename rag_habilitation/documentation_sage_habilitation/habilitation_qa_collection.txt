@@ -1,0 +1,376 @@
+la fonction ayant le code GESBPR est une fonction utilisée pour Tiers et ses options sont : {'W': 'Toutes sociétés', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est WCMS.
+la fonction ayant le code GESBIC est une fonction utilisée pour Factures tiers client et ses options sont : {'V': 'Validation des factures', 'E': 'Echéances', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VECMS.
+la fonction ayant le code GESBIS est une fonction utilisée pour Factures tiers fournisseur et ses options sont : {'V': 'Validation des factures', 'E': 'Echéances', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VECMS.
+la fonction ayant le code GESFRM est une fonction utilisée pour Saisie bordereau de remise et ses options sont : {'V': 'Validation', 'F': 'Fichier banque', 'T': 'Transactions', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VFTCMS.
+la fonction ayant le code GESPIH est une fonction utilisée pour Factures et ses options sont : {'V': 'Validation', 'E': 'Echéances', 'U': 'Déblocage erreur rapprochement', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VEUICMS.
+la fonction ayant le code GESPNH est une fonction utilisée pour Retours d'achat et ses options sont : {'V': 'Validation', 'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VKCMS.
+la fonction ayant le code GESSDH est une fonction utilisée pour Livraisons et ses options sont : {'V': 'Validation', 'P': 'Proforma', 'F': 'Facture', 'K': 'Modif. mvts de stock/qtés', 'G': 'Colisage', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VPFKGICMS.
+la fonction ayant le code GESSDH2 est une fonction utilisée pour Livraisons et ses options sont : {'V': 'Validation', 'P': 'Proforma', 'F': 'Facture', 'K': 'Modification mvts de stock', 'G': 'Colisage', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VPFKGCMS.
+la fonction ayant le code GESSIH est une fonction utilisée pour Factures et ses options sont : {'V': 'Validation', 'E': 'Echéances', 'R': 'Règlement', 'K': 'Modification mvts de stock', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VERKICMS.
+la fonction ayant le code GESSNL est une fonction utilisée pour Inventaire et ses options sont : {'V': 'Validation', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est VCMS.
+la fonction ayant le code FUNPSH est une fonction utilisée pour Solde des demandes achat et ses options sont : {'U': 'Tous demandeurs'} et sa liste options_exist correspondante est U.
+la fonction ayant le code FUNPSH2 est une fonction utilisée pour Solde des demandes achat et ses options sont : {'U': 'Tous demandeurs'} et sa liste options_exist correspondante est U.
+la fonction ayant le code BANAFFA est une fonction utilisée pour Affectation banques et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code BANAFFM est une fonction utilisée pour Saisie banques et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code BPCVAL est une fonction utilisée pour Validation client et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code BPSVAL est une fonction utilisée pour Validation fournisseur et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code CPTVAL est une fonction utilisée pour Validation définitive et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code FUNCFMINV est une fonction utilisée pour Validation facture/avoir vente et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code FUNPIH est une fonction utilisée pour Validation des factures et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code GENBORREM est une fonction utilisée pour Génération bordereau de remise et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code VALBIS est une fonction utilisée pour Factures en attente et ses options sont : {'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est U.
+la fonction ayant le code GESGAS est une fonction utilisée pour Saisie pièces et ses options sont : {'T': 'Transaction', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TCMS.
+la fonction ayant le code GESBPC est une fonction utilisée pour Clients et ses options sont : {'T': 'Tarif', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TCMS.
+la fonction ayant le code GESBPS est une fonction utilisée pour Fournisseurs et ses options sont : {'T': 'Tarif', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TCMS.
+la fonction ayant le code GESITM est une fonction utilisée pour Articles et ses options sont : {'T': 'Tarif', 'c': 'Coût', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TcCMS.
+la fonction ayant le code GESPOD est une fonction utilisée pour Demandes de livraisons et ses options sont : {'T': 'Solde', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TCMS.
+la fonction ayant le code GESPOH est une fonction utilisée pour Commandes et ses options sont : {'T': 'Solde', 'L': 'Détail structure de coût', 'I': 'Emission', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TLICMS.
+la fonction ayant le code GESPSH est une fonction utilisée pour Demandes d'achat et ses options sont : {'T': 'Solde', 'G': 'Génération', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TGCMS.
+la fonction ayant le code GESPTH est une fonction utilisée pour Réceptions et ses options sont : {'T': 'Solde', 'K': 'Modification mvts de stock', 'L': 'Détail structure de coût', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TKLCMS.
+la fonction ayant le code GESPTH2 est une fonction utilisée pour Réceptions et ses options sont : {'T': 'Solde', 'K': 'Modification mvts de stock', 'L': 'Détail structure de coût', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est TKLCMS.
+la fonction ayant le code LECTRACE est une fonction utilisée pour Lecture traces et ses options sont : {'S': 'Suppression'} et sa liste options_exist correspondante est S.
+la fonction ayant le code GESSTQ est une fonction utilisée pour Contrôle qualité et ses options sont : {'Q': 'Changement de statut', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est QCMS.
+la fonction ayant le code GESSOH est une fonction utilisée pour Gestion des commandes et ses options sont : {'P': 'Proforma', 'L': 'Livraison', 'F': 'Facture', 'A': 'Allocation', 'D': 'Solde', 'R': 'Préparation', 'I': 'Emission', 'B': 'Contremarque achat', 'G': 'Contremarque production', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est PLFADRIBGCMS.
+la fonction ayant le code GESBBY est une fonction utilisée pour Assemblage et ses options sont : {'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est KCMS.
+la fonction ayant le code GESDBY est une fonction utilisée pour Désassemblage et ses options sont : {'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est KCMS.
+la fonction ayant le code GESMTK est une fonction utilisée pour Suivi de fabrication et ses options sont : {'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est KCMS.
+la fonction ayant le code GESSMO est une fonction utilisée pour Sorties diverses et ses options sont : {'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est KCMS.
+la fonction ayant le code GESSMR est une fonction utilisée pour Entrées diverses et ses options sont : {'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est KCMS.
+la fonction ayant le code GESSRH est une fonction utilisée pour Retours client et ses options sont : {'K': 'Modification mvts de stock', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est KCMS.
+la fonction ayant le code PSIMP est une fonction utilisée pour Surveillance impressions et ses options sont : {'K': 'Arrêt processus'} et sa liste options_exist correspondante est K.
+la fonction ayant le code SAIWRKPLN est une fonction utilisée pour Moniteur Workflow et ses options sont : {'G': 'Signature', 'A': 'Annulation', 'U': 'Tous utilisateurs'} et sa liste options_exist correspondante est GAU.
+la fonction ayant le code PAYMEP est une fonction utilisée pour Comptabilisation des effets et ses options sont : {'G': 'Génération', 'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est GU.
+la fonction ayant le code REMBAN est une fonction utilisée pour Comptabilisation en banque et ses options sont : {'G': 'Génération', 'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est GU.
+la fonction ayant le code REMCPT est une fonction utilisée pour Comptabilisation intermédiaire et ses options sont : {'G': 'Génération', 'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est GU.
+la fonction ayant le code GESSIS est une fonction utilisée pour Transferts inter-sites et ses options sont : {'D': 'Suppression', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est DCMS.
+la fonction ayant le code BPRICRE est une fonction utilisée pour Création facture périodique et ses options sont : {'C': 'Client', 'S': 'Fournisseur', 'U': 'Accès par utilisateur'} et sa liste options_exist correspondante est CSU.
+la fonction ayant le code GESFAS est une fonction utilisée pour Biens comptables et ses options sont : {'A': 'Transfert analytique', 'G': 'Transfert géographique', 'R': 'Modif. imputation comptable', 'T': 'Changement de méthode', 'U': 'Actualisation', 'V': 'Réévaluation', 'W': 'Eclatement', 'Z': 'Sortie', 'O': 'Modif information bien concess', 'P': 'Changer la règle de TVA', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est AGRTUVWZOPCMS.
+la fonction ayant le code GESPAY est une fonction utilisée pour Règlements et ses options sont : {'A': 'Annulation comptable', 'V': 'Validation', 'T': 'Transactions', 'L': 'Lot de saisie', 'O': 'Annulation chèque', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est AVTLOCMS.
+la fonction ayant le code GESMFG est une fonction utilisée pour Gestion ordres de fabrication et ses options sont : {'A': 'Allocations manuelles', 'J': 'Jalonnement', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est AJCMS.
+la fonction ayant le code FUNDBENCH est une fonction utilisée pour Plan de travail et ses options sont : {'A': 'Allocations', 'M': 'Allocations manuelles', 'J': 'Jalonnement', 'P': 'Planification multi-niveaux'} et sa liste options_exist correspondante est AMJP.
+la fonction ayant le code FUNGBENCH est une fonction utilisée pour Planning global et ses options sont : {'A': 'Allocation', 'M': 'Allocations manuelles', 'J': 'Jalonnement'} et sa liste options_exist correspondante est AMJ.
+la fonction ayant le code GESSOQ est une fonction utilisée pour Gestion demandes de livraisons et ses options sont : {'A': 'Allocation', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est ACMS.
+la fonction ayant le code GESLOF est une fonction utilisée pour Dépenses et ses options sont : {'4': 'Eclatement', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est 4CMS.
+la fonction ayant le code GESGYM est une fonction utilisée pour Pyramides de comptes et ses options sont : {'2': 'Duplication', '3': 'Génération auto', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est 23CMS.
+la fonction ayant le code GESGAC est une fonction utilisée pour Comptes généraux et ses options sont : {'1': 'Changement de plan', 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est 1CMS.
+la fonction ayant le code GESCCE est une fonction utilisée pour Sections et ses options sont : {'1': "Changement d'axe", 'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est 1CMS.
+la fonction ayant le code AIMP est une fonction utilisée pour Impressions et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code ANURBK est une fonction utilisée pour Suppression relevé et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code ARCVISU est une fonction utilisée pour Visualisation archive et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code ARCVISUOBJ est une fonction utilisée pour Interrogation GED et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code BANREC est une fonction utilisée pour Pointage des relevés bancaires et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code BOMPRN est une fonction utilisée pour Impression nomenclatures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code BOMRET est une fonction utilisée pour Analyse de faisabilité et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code BSIIMPORT est une fonction utilisée pour Import transactions bancaires et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code BUDGET est une fonction utilisée pour Saisie budgets et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CALCSTSIM est une fonction utilisée pour Calcul coûts simulés et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CALCSTSTD est une fonction utilisée pour Calcul coûts standards et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CALMFGCOST est une fonction utilisée pour Calcul du prix de revient et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBAF est une fonction utilisée pour Consultation balance en devise et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBAG est une fonction utilisée pour Situation client et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBAGF est une fonction utilisée pour Situation fournisseur et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBAH est une fonction utilisée pour Balance âgée client à date et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBAHF est une fonction utilisée pour Balance âgée fourn à date et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBAL est une fonction utilisée pour Balances et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBAN est une fonction utilisée pour Banques et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBDT est une fonction utilisée pour Créances douteuses et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBPSI est une fonction utilisée pour Produits par fournisseur et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBSE est une fonction utilisée pour Consultation bilan et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSBTR est une fonction utilisée pour Situation bancaire et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCHQ est une fonction utilisée pour Consultation chèque et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPD est une fonction utilisée pour Consultation demandes d'achat et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPI est une fonction utilisée pour Consultation factures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPJ est une fonction utilisée pour Consultation lignes factures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPN est une fonction utilisée pour Consultation retours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPO est une fonction utilisée pour Consultation commandes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPP est une fonction utilisée pour Consultation lignes commandes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPQ est une fonction utilisée pour Consultation lignes retours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPR est une fonction utilisée pour Consultation réceptions et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPS est une fonction utilisée pour Consultation lignes réceptions et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCPT est une fonction utilisée pour Comptes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSD est une fonction utilisée pour Liste livraisons et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSF est une fonction utilisée pour Lignes livraisons et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSG est une fonction utilisée pour Tournées et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSG2 est une fonction utilisée pour Tournées et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSI est une fonction utilisée pour Liste factures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSN est une fonction utilisée pour Consultation de retours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSO est une fonction utilisée pour Liste commandes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSP est une fonction utilisée pour Lignes commandes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSR est une fonction utilisée pour Ligne de retours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCSS est une fonction utilisée pour Echéances facturation et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSCST est une fonction utilisée pour Lignes factures de vente et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSDNO est une fonction utilisée pour Gestion factures d'agios et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSFAC est une fonction utilisée pour Factures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSLPN est une fonction utilisée pour Stock par numéro contenant et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSMFG est une fonction utilisée pour Liste des OF et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSMKI est une fonction utilisée pour Productions et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSMKM est une fonction utilisée pour Consommations et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSMKO est une fonction utilisée pour Temps passés et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSNAT est une fonction utilisée pour Comptes analytiques et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSORD est une fonction utilisée pour Encours article et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSORD7 est une fonction utilisée pour Encours article et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSPAY est une fonction utilisée pour Règlements et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSPCE est une fonction utilisée pour Ecritures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSPIA est une fonction utilisée pour Traçabilité pièces achats et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSPIF est une fonction utilisée pour Traçabilité immobilisations et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSPIT est une fonction utilisée pour Traçabilité pièces tiers et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSPITV est une fonction utilisée pour Valorisation stock par période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSPIV est une fonction utilisée pour Traçabilité pièces ventes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSAR est une fonction utilisée pour Stocks par article et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSAT est une fonction utilisée pour Mouvements en attente et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSBI est une fonction utilisée pour Articles en inventaire et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSBP est une fonction utilisée pour Stock prêté et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSCBCB est une fonction utilisée pour Résultats CBN et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSDA est une fonction utilisée pour Stock à date et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSDE est une fonction utilisée pour Stocks détaillés et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSDI est une fonction utilisée pour Stock disponible et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSDO est une fonction utilisée pour Stocks inactifs et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSEA est une fonction utilisée pour Emplacements et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSEC est une fonction utilisée pour Sections et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSED est une fonction utilisée pour Emplacements dédiés et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSFC est une fonction utilisée pour Stock par site et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSH3 est une fonction utilisée pour Hist. fiche 130 et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSHO est une fonction utilisée pour OF en rupture et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSHQ est une fonction utilisée pour Hist. fiche technique et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSIM est une fonction utilisée pour Consultation de simulation et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSLO est une fonction utilisée pour Stocks par lots et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSMA est une fonction utilisée pour Evolution du PMP par mouvement et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSMF est une fonction utilisée pour Mouvement prix FIFO et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSMJ est une fonction utilisée pour Mouvements par date et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSML est une fonction utilisée pour Mouvement prix moyen lot et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSMV est une fonction utilisée pour Mouvements par article et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSOE est une fonction utilisée pour Occupation emplacements et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSPE est une fonction utilisée pour Stock périmé et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSPR est une fonction utilisée pour Stock projeté et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSRF est une fonction utilisée pour Réponses contrôle qualité et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSSC est une fonction utilisée pour Consultation sous-traitance et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSSE est une fonction utilisée pour Numéros de série et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSTK est une fonction utilisée pour Traçabilité et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code CONSSXT est une fonction utilisée pour Stocks externes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code COPYNOMEN est une fonction utilisée pour Copie nomenclatures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code COURDEV est une fonction utilisée pour Cours des devises et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code DELETTRAGE est une fonction utilisée pour Délettrage et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code DEPOINTAGE est une fonction utilisée pour Dépointage et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code DIVTSC est une fonction utilisée pour Fam. stat. clients et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code DIVTSI est une fonction utilisée pour Fam. stat. articles et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code DIVTSS est une fonction utilisée pour Fam. stat. fournisseurs et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code EDITBLA est une fonction utilisée pour Balances analytiques et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code EXEALH est une fonction utilisée pour Requêteur et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code EXEALHGRP est une fonction utilisée pour Requêteur et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FAS246G est une fonction utilisée pour Situation par code flux et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FASCALC est une fonction utilisée pour Calcul amortissements et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FASCLOTURE est une fonction utilisée pour Clôture période et exercice et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FASENTRY est une fonction utilisée pour Pièces immobilisations et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FASEXIT est une fonction utilisée pour Cessions et sorties immobilisations et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FASISSM est une fonction utilisée pour Sortie d'actif - Tr massif et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FASLISTDEP est une fonction utilisée pour Liste immobilisations et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FICMAG est une fonction utilisée pour Remises magnétiques et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FONADI est une fonction utilisée pour Tables diverses et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code FUNADCSEARCH est une fonction utilisée pour Paramétrage recherche stock et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNBENCHI est une fonction utilisée pour Suivi de fabrication et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNBENCHM est une fonction utilisée pour Suivi des matières et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNBENCHO est une fonction utilisée pour Plan de suivi des temps et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNBENCHR est une fonction utilisée pour Suivi des réintégrations et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNBENCHT est une fonction utilisée pour Plan des fiches techniques et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNBENPLT est une fonction utilisée pour Pilotage des plans de suivi et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNCALREO est une fonction utilisée pour Réappro zone consommation et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNCHGVAL est une fonction utilisée pour Changement de valeur et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNCLEAR est une fonction utilisée pour Solde des commandes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHPI est une fonction utilisée pour Consultation factures/période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHPI2 est une fonction utilisée pour Palmarès factures et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHPN est une fonction utilisée pour Consultation retours/période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHPN2 est une fonction utilisée pour Palmarès retours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHPO est une fonction utilisée pour Consultation commandes/période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHPR est une fonction utilisée pour Consultation réception/période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHSDH1 est une fonction utilisée pour Livraisons par période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHSDH2 est une fonction utilisée pour Palmarès motifs retours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHSIH1 est une fonction utilisée pour Factures par période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHSIH2 est une fonction utilisée pour Palmarès Devis et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHSIH3 est une fonction utilisée pour Factures par représentant et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHSOH1 est une fonction utilisée pour Commandes par période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNGRHSOH2 est une fonction utilisée pour Palmarès commandes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNIPTD est une fonction utilisée pour Modification date d'imputation et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNITC est une fonction utilisée pour Articles - Coûts et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code FUNLOCS est une fonction utilisée pour Resynchronisation emplacements et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMAUTR est une fonction utilisée pour Lancement automatique et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMAUTS est une fonction utilisée pour Suppression automatique et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMCLOSE est une fonction utilisée pour Clôture/solde OF et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMPICK est une fonction utilisée pour Regroupement et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMPS est une fonction utilisée pour Plan directeur production et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMRP est une fonction utilisée pour Calcul besoins nets et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMRPG est une fonction utilisée pour Calcul besoins nets et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNMSITU est une fonction utilisée pour Situation OF et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNPNHTRT est une fonction utilisée pour Validation des retours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNPNS est une fonction utilisée pour Gestion des acomptes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNPTH est une fonction utilisée pour Factures à recevoir et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNREO est une fonction utilisée pour Plan de réapprovisionnement et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSERMGT est une fonction utilisée pour Changement gestion no série et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSSL est une fonction utilisée pour Plan de rangement et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSTKACC est une fonction utilisée pour Interface comptabilité et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSTKADJ est une fonction utilisée pour Régularisation de prix et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSTKB est une fonction utilisée pour Réapprovisionnements hors MRP et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSTOR est une fonction utilisée pour Traitements divers stocks et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSTORUL est une fonction utilisée pour Règles de gestion de stock et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSTOWIPW est une fonction utilisée pour Resynchronisation qtés en saisie et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSTVA est une fonction utilisée pour Etat valorisé des stocks et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSYNCW est une fonction utilisée pour Resynchronisation encours et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSYNPIT est une fonction utilisée pour Resynchro valo. stock période et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSYNREO est une fonction utilisée pour Resynchro réappro zone conso et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSYNSER est une fonction utilisée pour Resynchronisation des séries et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNSYNSRG est une fonction utilisée pour Resynchro plan de rangement et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNTDUCLO est une fonction utilisée pour Clôture/solde en série et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNTDUMRP est une fonction utilisée pour Replanification en série et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNTDUOF est une fonction utilisée pour Modification des objectifs et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNWIPBOM est une fonction utilisée pour Coût en-cours sans OF et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code FUNWIPMFC est une fonction utilisée pour Calcul prix de revient de fab et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code GESABN est une fonction utilisée pour Banques (guichets) et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESADI2 est une fonction utilisée pour Tables diverses - Données et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESAGF est une fonction utilisée pour Groupes de sites et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESAIN est une fonction utilisée pour Interlocuteurs et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESALB est une fonction utilisée pour Liens subdivisions et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESATU est une fonction utilisée pour Subdivisions géographiques et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESBAN est une fonction utilisée pour Comptes en banque et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESBCG est une fonction utilisée pour Catégorie client et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESBODP est une fonction utilisée pour Nomenclatures production et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESBPP est une fonction utilisée pour Prospects et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESBPT est une fonction utilisée pour Transporteurs et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESBSG est une fonction utilisée pour Catégorie fournisseur et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESCIB est une fonction utilisée pour Ajustement manuel des sorties et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESCII est une fonction utilisée pour Validation de la cession et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESCOA est une fonction utilisée pour Plan comptable et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESCPY est une fonction utilisée pour Sociétés et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESDPP est une fonction utilisée pour Plan d'amortissement et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESFCY est une fonction utilisée pour Sites et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESFIY est une fonction utilisée pour Exercices et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESGDA est une fonction utilisée pour Schémas de comptes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESGSC est une fonction utilisée pour Groupes de collectif et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESICA est une fonction utilisée pour Coûts standards actualisés et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESICB est une fonction utilisée pour Coûts standards budget et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESICD est une fonction utilisée pour Coûts standards et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESICS est une fonction utilisée pour Coûts standards simulés et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESITF est une fonction utilisée pour Articles - Sites et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESITG est une fonction utilisée pour Catégorie article et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESJOU est une fonction utilisée pour Journaux comptables et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESLOC est une fonction utilisée pour Emplacements et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESMFC est une fonction utilisée pour Consultation prix revient et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESMFCP est une fonction utilisée pour Consultation coût prévisionnel et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESMWC est une fonction utilisée pour Sections de valorisation et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESMWI est une fonction utilisée pour Coûts de revient industriels et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESMWS est une fonction utilisée pour Postes de charge et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESMWW est une fonction utilisée pour Cas d'emploi postes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESONA est une fonction utilisée pour Catégories frais généraux et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESORZ est une fonction utilisée pour Prévisions de consommation et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESORZS est une fonction utilisée pour Prévisions de consommation et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESOVE est une fonction utilisée pour Codes frais généraux et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPAS est une fonction utilisée pour Paramètres interface comptable et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPCB est une fonction utilisée pour Paramètres calculs besoins et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPER est une fonction utilisée pour Périodes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPLP est une fonction utilisée pour Plan de production et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPOC est une fonction utilisée pour Gestion des commandes ouvertes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPOS est une fonction utilisée pour Codes postaux et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPOV est une fonction utilisée pour Visu des commandes ouvertes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPPA est une fonction utilisée pour Paramétrage code préparation et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPPL est une fonction utilisée pour Saisie des tarifs et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPPY est une fonction utilisée pour Positive Pay et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code GESPREPI est une fonction utilisée pour Facture d'acompte et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESPTO est une fonction utilisée pour Règles d'affectation et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESQCR est une fonction utilisée pour Demandes d'analyse et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESQLC est une fonction utilisée pour Fiches techniques et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESQST est une fonction utilisée pour Questions et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESRCC est une fonction utilisée pour Factures périodiques clients et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESRCS est une fonction utilisée pour Factures périodiques fourn et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESRLK est une fonction utilisée pour Relevé bancaire et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESROT est une fonction utilisée pour Opérations standard et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESROU est une fonction utilisée pour Gestion des gammes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESROW est une fonction utilisée pour Cas d'emploi gammes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESRTZ est une fonction utilisée pour Gestion des retenues et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESSCS est une fonction utilisée pour Changements stock et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESSNX est une fonction utilisée pour Sessions inventaires et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESSOR est une fonction utilisée pour Gestion des commandes ouvertes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESSPL est une fonction utilisée pour Saisie des tarifs et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESSST est une fonction utilisée pour Transferts sous-traitants et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESSTE est une fonction utilisée pour Paramètres stocks et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESSTR est une fonction utilisée pour Retours sous-traitants et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTAM est une fonction utilisée pour Modes de règlement et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTBO est une fonction utilisée pour Alternatives nomenclature et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTCM est une fonction utilisée pour Méthodes de valorisation et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTCO est une fonction utilisée pour Conversions d'unités et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTCT est une fonction utilisée pour Réponses et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTCU est une fonction utilisée pour Devises et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTCY est une fonction utilisée pour Pays et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTKI est une fonction utilisée pour Suivi OF et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTLA est une fonction utilisée pour Langues et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTLO est une fonction utilisée pour Types emplacements et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTMD est une fonction utilisée pour Modes livraisons et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTMS est une fonction utilisée pour Messages et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTPA est une fonction utilisée pour Emballages et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTPT est une fonction utilisée pour Conditions paiement et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTRO est une fonction utilisée pour Alternatives gammes et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTRP est une fonction utilisée pour Politiques de réapprovisionnement et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTRU est une fonction utilisée pour Règles d'allocations / sorties et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTSR est une fonction utilisée pour Rebuts et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTST est une fonction utilisée pour Statuts stock et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTUN est une fonction utilisée pour Unités et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTUV est une fonction utilisée pour Périodes d'indisponibilité et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESTWC est une fonction utilisée pour Centres de charge et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYAV est une fonction utilisée pour Gestion Avis et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYBH est une fonction utilisée pour Bordereaux de transmission et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYCO est une fonction utilisée pour Code comptable automatique et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYDEM est une fonction utilisée pour Demande Chiffrage et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYFI est une fonction utilisée pour Gestion des fiches inventaire et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYFP est une fonction utilisée pour Saisie des fiches inventaire et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYPH est une fonction utilisée pour Réception factures et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYRS est une fonction utilisée pour Retenue à la source et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYSI est une fonction utilisée pour Fiche chiffrage et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYSIM est une fonction utilisée pour Chiffrage et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code GESYSIM1 est une fonction utilisée pour Chiffrage test et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code IMPAYE est une fonction utilisée pour Impayés et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code LETTRAGE est une fonction utilisée pour Lettrage et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code LETTRAUTO est une fonction utilisée pour Lettrage automatique et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code MESINT est une fonction utilisée pour Lancement interface MES et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code MULTIWOX est une fonction utilisée pour Planification multi-niveaux et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code PAYPROPAL est une fonction utilisée pour Proposition automatique et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code POINTAGE est une fonction utilisée pour Pointage et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code PROROG est une fonction utilisée pour Prorogation fournisseur et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code PROROGC est une fonction utilisée pour Prorogation client et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RAPBAN est une fonction utilisée pour Rapprochement bancaire et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RELBANK est une fonction utilisée pour Importation relevé bancaire et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RETACC est une fonction utilisée pour Retour acceptation et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT02 est une fonction utilisée pour Impression/groupe et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT03 est une fonction utilisée pour Impression/groupe/compta et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT04 est une fonction utilisée pour Impression/groupe/compta et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT06 est une fonction utilisée pour Impression/groupe/compta et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT08 est une fonction utilisée pour Impression/groupe/compta et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT10 est une fonction utilisée pour Impression/groupe/compta et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT12 est une fonction utilisée pour Impression/groupe/ventes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT13 est une fonction utilisée pour Impression/groupe/ventes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT14 est une fonction utilisée pour Impression/groupe/ventes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT15 est une fonction utilisée pour Impression/groupe/ventes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT16 est une fonction utilisée pour Impression/groupe/ventes et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT18 est une fonction utilisée pour Impression/groupe/achats et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT19 est une fonction utilisée pour Impression/groupe/achats et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT20 est une fonction utilisée pour Impression/groupe/achats et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT21 est une fonction utilisée pour Impression/groupe/achats et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT22 est une fonction utilisée pour Impression/groupe/achats et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT25 est une fonction utilisée pour Impression/groupe/stocks et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT26 est une fonction utilisée pour Impression/groupe/stocks et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT27 est une fonction utilisée pour Impression/groupe/stocks et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT28 est une fonction utilisée pour Impression/groupe/stocks et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT29 est une fonction utilisée pour Impression/groupe/stocks et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT31 est une fonction utilisée pour Impression/groupe/production et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT32 est une fonction utilisée pour Impression/groupe/production et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT33 est une fonction utilisée pour Impression/groupe/production et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT34 est une fonction utilisée pour Impression/groupe/production et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code RPT35 est une fonction utilisée pour Impression/groupe/production et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code SUPPRCOMP est une fonction utilisée pour Suppression composants et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code UTICHK est une fonction utilisée pour Pointage en partie simple et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code VALPCE est une fonction utilisée pour Tâches comptables et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code VALPORT est une fonction utilisée pour Dévalorisation des effets et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code VISUBOMG est une fonction utilisée pour Nomenclatures multi niveaux et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code VISUBOMROU est une fonction utilisée pour Recette et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code VISUROUG est une fonction utilisée pour Gammes multi niveaux et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code YINTFRPX3 est une fonction utilisée pour Interfaçage FRP / X3 et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code YSFIINTER est une fonction utilisée pour Validation des fiches et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code YSPL est une fonction utilisée pour Suivi plannning de livraison et ses options sont : {'C': 'Création', 'M': 'Modification', 'S': 'Suppression'} et sa liste options_exist correspondante est CMS.
+la fonction ayant le code YVALID est une fonction utilisée pour Validation dépassement et ses options sont : {} et sa liste options_exist correspondante est nan.
+la fonction ayant le code YX3EDI est une fonction utilisée pour Importation des fichiers EDI et ses options sont : {} et sa liste options_exist correspondante est nan.

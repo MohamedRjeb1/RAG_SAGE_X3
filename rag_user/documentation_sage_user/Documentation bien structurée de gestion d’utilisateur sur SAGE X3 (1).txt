@@ -1,0 +1,5023 @@
+﻿Documentation bien structurée de gestion d’utilisateur sur SAGE X3
+Introduction:
+Cette documentation fournit une description complète et structurée du processus 
+de création d’un utilisateur dans SAGE X3, tout en étant adaptée pour une utilisation avec un modèle RAG (Retrieval-Augmented Generation) pour
+automatiser la gestion des utilisateurs. Les informations sont basées sur des ressources fiables et des pratiques standard de SAGE X3.
+
+
+1 . CREATION D'UN UTILISATEUR
+
+Pour créer un utilisateur ces champs sont indispensables:
+"code": "code de l'utilisateur",
+"Nom": "nom de l'utilisateur",
+"actif": "oui" ou "",
+"Connexion_X3":"oui" ou "",
+"Connexion_WS": "oui" ou "",
+"Demandeur": "oui" ou "",
+"ctr_annuaire" : "oui" ou "",
+"mail": "adresse mail de l'utilisateur" ou "",
+"telephone": "numéro de télèphone de l'utilisateur" ou "",
+"fax": "numéro de fax de l'utilisateur" ou "",
+"accès": "code de l'accès",
+"identif": "code de l'identifiant",
+"fonction": "nom de la fonction" ou "",
+"cod_metier" : "code du mètier" ou "",
+"Profil_menu": "nom du profil menu" ou "",
+"Profil_fonction" : "nom du profil fonction" ou ""
+
+exemples:
+
+« Salut l’équipe,
+s’il vous plaît créer ce user sage x3 :
+
+nom : Durand
+
+code c’est U1101
+
+profil_fonction => Resp_Finance
+
+Profil_menu: Menu_Finance
+
+identif: DUR1101
+
+il doit avoir accès X3 (oui)
+
+connexion_ws non
+
+actif oui
+
+c’est aussi un demandeur
+
+ctr_annuaire oui
+
+mail durand@exemple.com
+
+tél +33 6 12 34 56 78
+
+fax +33 6 87 65 43 21
+
+accès ACC_FIN
+
+cod_metier FIN01
+
+fonction Analyste financier
+»
+
+{
+  "code": "U1101",
+  "Nom": "Durand",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "durand@exemple.com",
+  "telephone": "+33 6 12 34 56 78",
+  "fax": "+33 6 87 65 43 21",
+  "accès": "ACC_FIN",
+  "identif": "DUR1101",
+  "fonction": "Analyste financier",
+  "cod_metier": "FIN01",
+  "Profil_menu": "Menu_Finance",
+  "Profil_fonction": "Resp_Finance"
+}
+Exemple :
+
+« bjr,
+creation user :
+code U2202, profil_menu Menu_Vente, profil_fonction Commercial,
+identif MAR2202,
+pas de connexion X3,
+ws oui,
+merci ! »
+
+ 
+
+{
+  "code": "U2202",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "MAR2202",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Vente",
+  "Profil_fonction": "Commercial"
+}
+Exemple :
+
+« Hello, je veux un nouvel utilisateur :
+U3303 pour Sophie B.,
+identif SB3303,
+Profil_menu : Menu_Prod
+Profil_fonction : Opérateur
+Et on active la connexion_ws, pas la X3,
+ajouter la personne au ctr_annuaire aussi
+»
+
+ 
+
+{
+  "code": "U3303",
+  "Nom": "Sophie B.",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "SB3303",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Prod",
+  "Profil_fonction": "Opérateur"
+}
+Exemple :
+
+« Yo l’équipe IT,
+je dois mettre en place l’usager :
+nom complet = Pierre_L,
+code = U4404
+identifiant : PIE4404
+profil_menu = Menu_Log
+profil_fonction = Resp_Log
+et faut qu’il soit rédà dans l’annuaire (ctr_annuaire) et qu’il puisse se connecter à x3.
+Pas besoin WS ni fax.
+Mail pierre.l@domain.fr.
+»
+
+ 
+
+{
+  "code": "U4404",
+  "Nom": "Pierre_L",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "pierre.l@domain.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "PIE4404",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Log",
+  "Profil_fonction": "Resp_Log"
+}
+Exemple :
+
+«   création user pour site support
+
+code: U5505
+
+nom : Leroy T
+
+identif: LER5505
+
+fonction Tech Support
+
+cod_metier TECH02
+
+profil_menu Menu_Support
+
+profil_fonction Technicien
+
+téléphone +21671234567
+»
+
+ Dictinnaire : 
+
+{
+  "code": "U5505",
+  "Nom": "Leroy T",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "+21671234567",
+  "fax": "",
+  "accès": "",
+  "identif": "LER5505",
+  "fonction": "Tech Support",
+  "cod_metier": "TECH02",
+  "Profil_menu": "Menu_Support",
+  "Profil_fonction": "Technicien"
+}
+Exemple :
+
+« Urgent !
+ajouter Adrien Rabah :
+accès ACC_FIN
+profil_fonction : Analyste
+profil_menu Menu_Finance
+identif ADR6606
+code AR6606
+pas d’X3, pas de WS, pas de mail ni tél
+»
+ Dictinnaire :
+ 
+
+{
+  "code": "AR6606",
+  "Nom": "Adrien Rabah",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_FIN",
+  "identif": "ADR6606",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Finance",
+  "Profil_fonction": "Analyste"
+}
+
+Exemple :
+
+« pls creer user :
+code U7707 nom : Dubois, profil_menu Menu_Achats, profil_fonction Acheteur, identif DUB7707, active oui,
+pas de ws, ctr_annuaire ok, mail dubois@mail.fr. »
+
+ Dictinnaire :
+
+{
+  "code": "U7707",
+  "Nom": "Dubois",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "dubois@mail.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "DUB7707",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Achats",
+  "Profil_fonction": "Acheteur"
+}
+Exemple :
+
+« Bonjour,
+Je vous prie de bien vouloir procéder à la mise en place de l’utilisateur suivant pour notre instance Sage X3 ; son code est U8808, il s’appelle Claude Morel,
+il doit être actif, pouvoir se connecter en X3 et en WS, figurer dans l’annuaire,
+en plus, son profil menu sera Menu_RH et fonction Profil_fonction Responsable_RH,
+son identif est CMO8808, et son fax est +33 4 56 78 90 12. Merci. »
+
+ 
+
+{
+  "code": "U8808",
+  "Nom": "Claude Morel",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "+33 4 56 78 90 12",
+  "accès": "",
+  "identif": "CMO8808",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_RH",
+  "Profil_fonction": "Responsable_RH"
+}
+Exemple :
+
+« Hi, svp add user:
+code = U9909; name = Jackson P; identif JACK9909
+profil_menu: Menu_LOG ; profil_fonction: Supervisor ; accès: ACC_LOG
+Connexion_WS: yes, Connexion_X3: no,
+phone: +21671122334, e-mail jackson@example.com
+»
+
+ 
+
+{
+  "code": "U9909",
+  "Nom": "Jackson P",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "jackson@example.com",
+  "telephone": "+21671122334",
+  "fax": "",
+  "accès": "ACC_LOG",
+  "identif": "JACK9909",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_LOG",
+  "Profil_fonction": "Supervisor"
+}
+Exemple :
+
+« 1. Création d’utilisateur
+2. Code : U1010
+3. Nom : Legrand
+4. Identifiant : LEG1010
+5. Profil_menu : Menu_Compta
+6. Profil_fonction : Auditeur
+7. Accès : ACC_AUD
+8. Connexion_X3 : oui
+9. Connexion_WS : non
+»
+
+ 
+
+{
+  "code": "U1010",
+  "Nom": "Legrand",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_AUD",
+  "identif": "LEG1010",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Compta",
+  "Profil_fonction": "Auditeur"
+}
+Exemple :
+
+« Hello,
+• nom = Nguyen
+• code U1111
+• profil_fonction = DevBack
+• profil_menu Menu_IT
+• identif NGU1111
+• demandeur oui
+• cod_metier DEV01
+Merci ! »
+
+  Dictinnaire :
+
+{
+  "code": "U1111",
+  "Nom": "Nguyen",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "NGU1111",
+  "fonction": "",
+  "cod_metier": "DEV01",
+  "Profil_menu": "Menu_IT",
+  "Profil_fonction": "DevBack"
+}
+Exemple :
+
+« [ ] code : U1212
+[x] nom: Karoui
+[x] identif: KAR1212
+[ ] actif: non
+[x] connexion_x3: oui
+[ ] connexion_ws:
+[x] ctr_annuaire: oui
+[ ] fax:
+[ ] tel:
+[x] mail: karoui@dom.tn
+[ ] cod_metier:
+[x] Profil_menu: Menu_Marketing
+[x] Profil_fonction: Chef_Marketing
+»
+
+ Dictionnaire : 
+
+{
+  "code": "U1212",
+  "Nom": "Karoui",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "karoui@dom.tn",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "KAR1212",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Marketing",
+  "Profil_fonction": "Chef_Marketing"
+}
+
+
+Exemple :
+
+« Objet : Créa utilisateur
+Bonjour,
+Merci de créer l’utilisateur suivant :
+Code : U1313
+Nom : Faure
+Identif : FAU1313
+Profil_menu : Menu_Qualité
+Profil_fonction : Inspecteur
+Connexion_X3 : oui
+ctr_annuaire : oui
+accès : ACC_QUAL
+Cordialement. »
+
+  Dictionnaire :
+
+{
+  "code": "U1313",
+  "Nom": "Faure",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_QUAL",
+  "identif": "FAU1313",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Qualité",
+  "Profil_fonction": "Inspecteur"
+}
+Exemple :
+
+« hey, tu peux faire un user pr Amal :
+nom Amal B, code U1414, profil_menu Menu_Dev, profil_fonction DévFullStack, identif AMA1414,
+telephone +21612345678, mail amal.b@web.com,
+active oui, demandeur non, connexion_ws oui. merci »
+
+ 
+ Dictionnaire :
+{
+  "code": "U1414",
+  "Nom": "Amal B",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "amal.b@web.com",
+  "telephone": "+21612345678",
+  "fax": "",
+  "accès": "",
+  "identif": "AMA1414",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Dev",
+  "Profil_fonction": "DévFullStack"
+}
+Exemple :
+
+« Merci d’ajouter l’utilisateur :
+
+Profil_fonction : GestionnaireRH
+
+Profil_menu : Menu_RH
+
+code U1515
+
+identif : GHR1515
+
+nom : Henry
+
+cod_metier : RH02
+
+actif : oui
+»
+
+ 
+ Dictionnaire :
+{
+  "code": "U1515",
+  "Nom": "Henry",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "GHR1515",
+  "fonction": "",
+  "cod_metier": "RH02",
+  "Profil_menu": "Menu_RH",
+  "Profil_fonction": "GestionnaireRH"
+}
+Exemple :
+
+« creer user: code U1616; nom Lebon; identif LEB1616; profil_menu Menu_Log; actif non; ws non; x3 oui; ctr_annuaire oui; »
+
+ 
+  Dictionnaire :
+  
+{
+  "code": "U1616",
+  "Nom": "Lebon",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "LEB1616",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Log",
+  "Profil_fonction": ""
+}
+Exemple :
+
+« Hello IT team,
+Merci d’ajouter l’utilisateur suivant :
+code = U1717, name = Olivier M, identif = OLI1717
+profil_menu = Menu_Sales, profil_fonction = SalesRep
+Connexion_X3 = yes, Connexion_WS = yes,
+actif = yes, ctr_annuaire = no,
+fax = +33 5 67 89 01 23
+»
+ Dictionnaire :
+ 
+
+{
+  "code": "U1717",
+  "Nom": "Olivier M",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "+33 5 67 89 01 23",
+  "accès": "",
+  "identif": "OLI1717",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Sales",
+  "Profil_fonction": "SalesRep"
+}
+Exemple :
+
+« Bonjour,
+je souhaiterais mettre en place un compte utilisateur Sage X3 pour Mme Leclerc.
+Son code interne est U1818, son identifiant technique est LEC1818.
+Elle a besoin d’un accès complet (X3 et WS), doit figurer dans notre annuaire (ctr_annuaire),
+et sera bien sûr active.
+Côté profils, je veux : Menu_Finance et Profil_fonction Comptable.
+Vous pouvez ignorer le fax et le téléphone. Merci d’avance. »
+
+ Dictionnaire : 
+
+{
+  "code": "U1818",
+  "Nom": "Leclerc",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "LEC1818",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Finance",
+  "Profil_fonction": "Comptable"
+}
+Exemple :
+
+« | Champ | Valeur |
+| code | U1919 |
+| Nom | Moreau |
+| identif | MOR1919 |
+| Profil_menu | Menu_Prod |
+| Profil_fonction| Opérateur |
+| accès | ACC_PROD |
+| connexion_ws | oui |
+| demandeur | oui | »
+
+  Dictionnaire :
+
+{
+  "code": "U1919",
+  "Nom": "Moreau",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_PROD",
+  "identif": "MOR1919",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Prod",
+  "Profil_fonction": "Opérateur"
+}
+Exemple :
+
+« Euh, bonjour,
+du coup, faudrait un user pour Mme Petit ;
+code U2020, identif PET2020, profil_fonction Assist_RH, profil_menu Menu_RH,
+accès ACC_RH, active oui, demandeur oui,
+telephone +21698123456, mail petit@entreprise.tn. Voilà. »
+
+  Dictionnaire :
+
+{
+  "code": "U2020",
+  "Nom": "Petit",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "",
+  "mail": "petit@entreprise.tn",
+  "telephone": "+21698123456",
+  "fax": "",
+  "accès": "ACC_RH",
+  "identif": "PET2020",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_RH",
+  "Profil_fonction": "Assist_RH"
+}
+Exemple :
+
+« Madame, Monsieur,
+Nous souhaiterions procéder à la création d’un utilisateur Sage X3 selon les données suivantes :
+
+Code de l’utilisateur : U2121
+Nom : Dubreuil
+Identifiant : DUB2121
+Profil_menu : Menu_Audit
+Profil_fonction : Auditeur_Interne
+Connexion_X3 : oui
+Connexion_WS : non
+ctr_annuaire : oui
+fonctionnalité métier : AUD01
+
+Je vous remercie pour votre diligence.
+Cordialement. »
+
+  Dictionnaire :
+
+{
+  "code": "U2121",
+  "Nom": "Dubreuil",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "DUB2121",
+  "fonction": "",
+  "cod_metier": "AUD01",
+  "Profil_menu": "Menu_Audit",
+  "Profil_fonction": "Auditeur_Interne"
+}
+Exemple :
+
+« [x] code: U2222
+[x] nom: Mhiri
+[ ] actif
+[x] Connexion_X3 oui
+[ ] Connexion_WS
+[x] ctr_annuaire oui
+[x] mail: mhiri@ex.com
+[x] profil_menu: Menu_IT
+[x] Profil_fonction: Support_IT
+[ ] tel
+[ ] fax
+[ ] accès
+[x] identif: MHI2222
+»
+
+ 
+ Dictionnaire :
+{
+  "code": "U2222",
+  "Nom": "Mhiri",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "mhiri@ex.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "MHI2222",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_IT",
+  "Profil_fonction": "Support_IT"
+}
+
+Exemple :
+
+"Je veux créer un utilisateur avec le code USR101, nom Paul Leclerc, actif, avec connexion X3 et WS, demandeur, ctr_annuaire activé, mail paul.leclerc@entreprise.com, téléphone 0612345678, fax 0198765432, accès ACC101, identif ID101, fonction Responsable, cod_metier MET101, Profil_menu MENU101, Profil_fonction PROF101."
+
+Dictionnaire :
+
+ 
+
+ Dictionnaire :
+{
+  "code": "USR101",
+  "Nom": "Paul Leclerc",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "paul.leclerc@entreprise.com",
+  "telephone": "0612345678",
+  "fax": "0198765432",
+  "accès": "ACC101",
+  "identif": "ID101",
+  "fonction": "Responsable",
+  "cod_metier": "MET101",
+  "Profil_menu": "MENU101",
+  "Profil_fonction": "PROF101"
+}
+Exemple :
+
+"Créer un utilisateur : code USR102, identif ID102, Profil_menu MENU102, Profil_fonction PROF102."
+
+Dictionnaire :
+
+ 
+
+
+{
+  "code": "USR102",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID102",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU102",
+  "Profil_fonction": "PROF102"
+}
+Exemple :
+
+"Ajouté un utilistaeur avec code USR103, nom Sophie Durand, conection X3, mail sophie.durand@exemple.com, Profil_menu MENU103, Profil_fonction PROF103."
+
+Dictionnaire :
+
+{
+  "code": "USR103",
+  "Nom": "Sophie Durand",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "sophie.durand@exemple.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU103",
+  "Profil_fonction": "PROF103"
+}
+Exemple :
+
+"Utilisateur à créer : Profil_fonction PROF104, nom Marc Dupont, code USR104, actif, mail marc.dupont@exemple.fr, Profil_menu MENU104, identif ID104, connexion WS."
+
+Dictionnaire :
+{
+  "code": "USR104",
+  "Nom": "Marc Dupont",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "marc.dupont@exemple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID104",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU104",
+  "Profil_fonction": "PROF104"
+}
+Exemple :
+
+"Créer un utilisateur avec le code USR105, nom Clara Martin, actif, connexion X3, mail clara.martin@domaine.com, Profil_menu MENU105, Profil_fonction PROF105, identif ID105. Elle commence lundi prochain."
+
+Dictionnaire :
+
+{
+  "code": "USR105",
+  "Nom": "Clara Martin",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "clara.martin@domaine.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID105",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU105",
+  "Profil_fonction": "PROF105"
+}
+Exemple :
+
+"Crée un utilisatteur : nom Julien Lefèvre, Profil_menu MENU106, code USR106, conection WS, Profil_fonction PROF106, identif ID106, mail julien.lefevre@entreprise.fr, actif."
+
+Dictionnaire :
+{
+  "code": "USR106",
+  "Nom": "Julien Lefèvre",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "julien.lefevre@entreprise.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID106",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU106",
+  "Profil_fonction": "PROF106"
+}
+Exemple :
+
+"Nouvel utilisateur avec code USR107, nom Laura Petit, actif, connexion X3 et WS, telephone 0789456123, accès ACC107, Profil_menu MENU107, Profil_fonction PROF107, identif ID107."
+
+Dictionnaire :
+{
+  "code": "USR107",
+  "Nom": "Laura Petit",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0789456123",
+  "fax": "",
+  "accès": "ACC107",
+  "identif": "ID107",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU107",
+  "Profil_fonction": "PROF107"
+}
+Exemple :
+
+"Créaion utilisateur : code USR108, nom Anna Lopez, Profil_menu MENU108, Profil_fonction PROF108, identif ID108."
+
+Dictionnaire :
+{
+  "code": "USR108",
+  "Nom": "Anna Lopez",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID108",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU108",
+  "Profil_fonction": "PROF108"
+}
+Exemple :
+
+"Créer un utilisateur comme USR101 mais avec code USR109, nom Emma Dubois, mail emma.dubois@exemple.com, Profil_menu MENU109, Profil_fonction PROF109, identif ID109."
+
+Dictionnaire :
+{
+  "code": "USR109",
+  "Nom": "Emma Dubois",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "emma.dubois@exemple.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID109",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU109",
+  "Profil_fonction": "PROF109"
+}
+Exemple :
+
+"Ajouter utilisateur : code USR110, Profil_fonction PROF110, nom Thomas Renault, actif, Profil_menu MENU110, identif ID110, fonction Analyste, cod_metier MET110, mail thomas.renault@exemple.com, connexion X3."
+
+Dictionnaire :
+{
+  "code": "USR110",
+  "Nom": "Thomas Renault",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "thomas.renault@exemple.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID110",
+  "fonction": "Analyste",
+  "cod_metier": "MET110",
+  "Profil_menu": "MENU110",
+  "Profil_fonction": "PROF110"
+}
+
+
+Exemple :
+
+« stp creer user Sage X3 code U2323 nom DurandC, profil_fonction Superviseur, identif DUR2323, ws oui, x3 non, actif non, ctr_annuaire oui, mail c.durand@mail.com »
+
+ Dictionnaire :
+
+{
+  "code": "U2323",
+  "Nom": "DurandC",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "c.durand@mail.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "DUR2323",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "",
+  "Profil_fonction": "Superviseur"
+}
+Exemple :
+
+« Bonjour,
+Merci de bien vouloir créer l’utilisateur ci-dessous pour Sage X3 :
+• Code : U2424
+• Nom : Petitjean
+• Identif : PET2424
+• Profil_menu : Menu_Admin
+• Profil_fonction : Administrateur
+• Connexion_X3 : oui
+• accès : ACC_ADMIN
+Cordialement. »
+
+ 
+Dictionnaire :
+{
+  "code": "U2424",
+  "Nom": "Petitjean",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_ADMIN",
+  "identif": "PET2424",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Admin",
+  "Profil_fonction": "Administrateur"
+}
+Exemple :
+
+« Alors euh, il faut un user pour Mme Giraud, codeGIRAUD U2525, nom = Giraud, identif GIR2525, profil_fonction ChargéAchats, profil_menu Menu_Achats, active oui, connexion_ws et X3 oui, pas de téléphone, fax +33 7 12 34 56 78 »
+
+ 
+Dictionnaire :
+{
+  "code": "U2525",
+  "Nom": "Giraud",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "+33 7 12 34 56 78",
+  "accès": "",
+  "identif": "GIR2525",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Achats",
+  "Profil_fonction": "ChargéAchats"
+}
+Exemple :
+
+« Salut,
+on a besoin d’un compte X3 : code U2626, nom Lambert, identif LAM2626, profil_menu Menu_Stock, profil_fonction Magasinier,
+ctr_annuaire non, actif oui, ws non. Merci ! »
+
+ 
+Dictionnaire :
+{
+  "code": "U2626",
+  "Nom": "Lambert",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "LAM2626",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Stock",
+  "Profil_fonction": "Magasinier"
+}
+Exemple :
+
+« Bonjour,
+Je vous prie de créer l’utilisateur suivant :
+code : U2727
+nom : Morel
+identif : MOR2727
+cod_metier : TECH03
+fonction : Ingénieur Support
+profil_menu : Menu_Support
+profil_fonction : Support_Technique
+mail : morel.tech@company.com
+téléphone : +216 55 123 456
+Merci de confirmer. »
+
+ 
+Dictionnaire :
+{
+  "code": "U2727",
+  "Nom": "Morel",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "morel.tech@company.com",
+  "telephone": "+216 55 123 456",
+  "fax": "",
+  "accès": "",
+  "identif": "MOR2727",
+  "fonction": "Ingénieur Support",
+  "cod_metier": "TECH03",
+  "Profil_menu": "Menu_Support",
+  "Profil_fonction": "Support_Technique"
+}
+Exemple :
+
+« creat user
+U2828
+DupontL
+ID DPN2828
+profil_menu Menu_Log
+profil_fonction Responsable
+acces ACC_LOG
+X3 oui
+WS non »
+
+ 
+Dictionnaire :
+{
+  "code": "U2828",
+  "Nom": "DupontL",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_LOG",
+  "identif": "DPN2828",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Log",
+  "Profil_fonction": "Responsable"
+}
+Exemple :
+
+« Hi team,
+besoin d’un user : code U2929, name = Bernard J, identif BNJ2929
+profil_menu = Menu_Mark, profil_fonction = MarketingLead
+Connexion_X3 = yes, connexion_ws = yes, actif = yes, demandeur = yes, ctr_annuaire = yes
+grazie »
+
+ 
+Dictionnaire :
+{
+  "code": "U2929",
+  "Nom": "Bernard J",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "BNJ2929",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Mark",
+  "Profil_fonction": "MarketingLead"
+}
+Exemple :
+
+« Alors, pour la personne Trabelsi, on a :
+identif TRB3030, code U3030, profil_fonction Opé_Log,
+profil_menu Menu_Logistique, cod_metier LOG05,
+ws oui, x3 oui, actif non, mail t.trabelsi@domain.tn,
+téléphone +216 98 765 432, fax +216 98 765 433 »
+
+ 
+Dictionnaire :
+{
+  "code": "U3030",
+  "Nom": "Trabelsi",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "t.trabelsi@domain.tn",
+  "telephone": "+216 98 765 432",
+  "fax": "+216 98 765 433",
+  "accès": "",
+  "identif": "TRB3030",
+  "fonction": "",
+  "cod_metier": "LOG05",
+  "Profil_menu": "Menu_Logistique",
+  "Profil_fonction": "Opé_Log"
+}
+Exemple :
+
+« Créer utilisateur :
+Champ code = U3131 ; Champ nom = Mahmoud
+Champ identif = MAH3131 ; Champ profil_menu = Menu_Vente
+Champ profil_fonction = Vendeur ; Champ accès = ACC_VTE
+Champ Connexion_X3 = oui ; Champ ctr_annuaire = non »
+
+ 
+Dictionnaire :
+{
+  "code": "U3131",
+  "Nom": "Mahmoud",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_VTE",
+  "identif": "MAH3131",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Vente",
+  "Profil_fonction": "Vendeur"
+}
+Exemple :
+
+« Add user: U3232, Name: Rossi, Identif: ROS3232, Profil_menu: Menu_Prod, Profil_fonction: Operateur, Connexion_WS: yes »
+
+ 
+Dictionnaire :
+{
+  "code": "U3232",
+  "Nom": "Rossi",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ROS3232",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Prod",
+  "Profil_fonction": "Operateur"
+}
+
+
+Exemple :
+
+« svp creer user U3333 nom : Petit, identif : PET3333, profil_menu : Menu_Vente, profil_fonction : Commercial, x3 oui, ws non, actif oui, mail petit@ex.fr »
+
+ 
+
+  Dictionnaire :
+{
+  "code": "U3333",
+  "Nom": "Petit",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "petit@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "PET3333",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Vente",
+  "Profil_fonction": "Commercial"
+}
+Exemple :
+
+« Créer stp user SageX3 code U3334, Nom Leroy, Identif : LER3334, profil_menu Menu_Logistique, profil_fonction Préparateur, connexion_ws : oui, pas de X3, téléphone : +33 6 00 11 22 33 »
+
+ 
+ 
+  Dictionnaire :
+{
+  "code": "U3334",
+  "Nom": "Leroy",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "+33 6 00 11 22 33",
+  "fax": "",
+  "accès": "",
+  "identif": "LER3334",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Logistique",
+  "Profil_fonction": "Préparateur"
+}
+Exemple :
+
+« Yo, ajout user U3335 / Nom : Martin / Identif MART3335 / profil_menu Menu_IT / profil_fonction DévBack / acces : ACC_IT / ctr_annuaire oui »
+
+ 
+ 
+  Dictionnaire :
+{
+  "code": "U3335",
+  "Nom": "Martin",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_IT",
+  "identif": "MART3335",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_IT",
+  "Profil_fonction": "DévBack"
+}
+Exemple :
+
+« Hello équipe, merci créer U3336 nom Bernard, identif : BER3336, profil_menu Menu_Compta, profil_fonction Comptable, connexion_x3 oui, demandeur oui, fax +33 4 11 22 33 44 »
+
+ 
+ 
+  Dictionnaire :
+{
+  "code": "U3336",
+  "Nom": "Bernard",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "+33 4 11 22 33 44",
+  "accès": "",
+  "identif": "BER3336",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Compta",
+  "Profil_fonction": "Comptable"
+}
+Exemple :
+
+« Salut, on a besoin de U3337, Nom : Dubois, Identif : DUB3337, profil_menu Menu_RH, profil_fonction Responsable_RH, ws non, x3 non, actif non, mail dubois@rh.com, tél +216 71 234 567 »
+
+ 
+ 
+  Dictionnaire :
+{
+  "code": "U3337",
+  "Nom": "Dubois",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "dubois@rh.com",
+  "telephone": "+216 71 234 567",
+  "fax": "",
+  "accès": "",
+  "identif": "DUB3337",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_RH",
+  "Profil_fonction": "Responsable_RH"
+}
+Exemple :
+
+« Urgent: create user code U3338 name : Jackson, identif JACK3338, profil_menu Menu_Support, profil_fonction Technicien, connexion_X3 yes, connexion_WS yes, cod_metier TECH01 »
+
+  Dictionnaire :
+{
+  "code": "U3338",
+  "Nom": "Jackson",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "JACK3338",
+  "fonction": "",
+  "cod_metier": "TECH01",
+  "Profil_menu": "Menu_Support",
+  "Profil_fonction": "Technicien"
+}
+Exemple :
+
+« bjr, ajout user U3339 nom Nguyen, identif NGU3339, actif oui, profil_menu Menu_Marketing, profil_fonction Chef_Mark, mail : nguyenn@comm.com »
+Dictionnaire :
+{
+  "code": "U3339",
+  "Nom": "Nguyen",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "nguyenn@comm.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "NGU3339",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Marketing",
+  "Profil_fonction": "Chef_Mark"
+}
+Exemple :
+
+« Créa user Sage X3 – code : U3340, nom Durand_p, identif DUR3340, profil_menu Menu_Audit, profil_fonction Auditeur, demandeur oui, ctr_annuaire non »
+Dictionnaire :
+{
+  "code": "U3340",
+  "Nom": "Durand_p",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "DUR3340",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Audit",
+  "Profil_fonction": "Auditeur"
+}
+Exemple :
+
+« Info user U3341, Nom : Leroy G, ID : LER3341, Accès : ACC_SALES, Connexion_X3 : oui, Connexion_WS : non, profil_menu Menu_Vente, profil_fonction Vendeur »
+Dictionnaire :
+{
+  "code": "U3341",
+  "Nom": "Leroy G",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC_SALES",
+  "identif": "LER3341",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Vente",
+  "Profil_fonction": "Vendeur"
+}
+Exemple :
+
+« demande créa util :
+code U3342 nom Besson, identif BES3342, profil_menu Menu_Log, profil_fonction Opérateur, mail besson@mail.fr, active oui, ws oui »
+Dictionnaire :
+{
+  "code": "U3342",
+  "Nom": "Besson",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "besson@mail.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "BES3342",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Log",
+  "Profil_fonction": "Opérateur"
+}
+Exemple :
+
+« Hello,
+ajoute user U3343 : Nom : MartinX, Identif : MTX3343, Profil_Menu : Menu_Prod, Profil_fonction : Superviseur, Cod_metier PROD02, tel +216 98 123 456, ctr_annuaire oui »
+Dictionnaire :
+{
+  "code": "U3343",
+  "Nom": "MartinX",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "+216 98 123 456",
+  "fax": "",
+  "accès": "",
+  "identif": "MTX3343",
+  "fonction": "",
+  "cod_metier": "PROD02",
+  "Profil_menu": "Menu_Prod",
+  "Profil_fonction": "Superviseur"
+}
+Exemple :
+
+« Urgent: U3344 / nom : Gauthier / identif : GAU3344 / profil_menu : Menu_IT / profil_fonction : DevOps / connexion_x3 : oui / fax : +33 7 00 11 22 33 »
+Dictionnaire :
+{
+  "code": "U3344",
+  "Nom": "Gauthier",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "+33 7 00 11 22 33",
+  "accès": "",
+  "identif": "GAU3344",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_IT",
+  "Profil_fonction": "DevOps"
+}
+Exemple :
+
+« Salut l’équipe, code : U3345, Nom : Petitjean, Identif : PTJ3345, x3 oui, ws oui, actif oui, ctr_annuaire oui, profil_menu : Menu_Admin, profil_fonction : Admin, cod_metier ADM01 »
+Dictionnaire : 
+{
+  "code": "U3345",
+  "Nom": "Petitjean",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "PTJ3345",
+  "fonction": "",
+  "cod_metier": "ADM01",
+  "Profil_menu": "Menu_Admin",
+  "Profil_fonction": "Admin"
+}
+Exemple :
+
+« bjr, creer user U3346 nom Dubois_L, identif DBO3346, profil_menu Menu_Qualité, profil_fonction Inspecteur, telephone +21671234567, actif non »
+Dictionnaire :
+{
+  "code": "U3346",
+  "Nom": "Dubois_L",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "+21671234567",
+  "fax": "",
+  "accès": "",
+  "identif": "DBO3346",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Qualité",
+  "Profil_fonction": "Inspecteur"
+}
+Exemple :
+
+« Création compte sage : code U3347, nom Morel, identif MRL3347, profil_menu Menu_Logistique, profil_fonction Opérateur, connexion_ws non, demandeur oui, mail morel@log.fr »
+Dictionnaire :
+{
+  "code": "U3347",
+  "Nom": "Morel",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "",
+  "mail": "morel@log.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "MRL3347",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Logistique",
+  "Profil_fonction": "Opérateur"
+}
+Exemple :
+
+« Hello IT, user U3348: Nom : Gérard, Identif : GER3348, profil_menu : Menu_RH, profil_fonction : RH_Assistant, Connexion_X3 : yes, ctr_annuaire : yes »
+Dictionnaire :
+{
+  "code": "U3348",
+  "Nom": "Gérard",
+  "actif": "",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "GER3348",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_RH",
+  "Profil_fonction": "RH_Assistant"
+}
+Exemple :
+
+« Add user U3349 code U3349, name Rossi, identif ROS3349, profil_menu Menu_Prod, profil_fonction Technicien, ws yes, x3 no, fax +33 3 11 22 33 44 »
+Dictionnaire : 
+{
+  "code": "U3349",
+  "Nom": "Rossi",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "+33 3 11 22 33 44",
+  "accès": "",
+  "identif": "ROS3349",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "Menu_Prod",
+  "Profil_fonction": "Technicien"
+}
+Exemple :
+
+« Bonjour, création util U3350 nom Schmidt, identif SCH3350, profil_menu Menu_Audit, profil_fonction Auditeur, cod_metier AUD02, active oui, ws non, ctr_annuaire oui »
+Dictionnaire :
+{
+  "code": "U3350",
+  "Nom": "Schmidt",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "oui",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "SCH3350",
+  "fonction": "",
+  "cod_metier": "AUD02",
+  "Profil_menu": "Menu_Audit",
+  "Profil_fonction": "Auditeur"
+}
+
+Exemple :
+
+"Créer utilisateur USR201, ID201, MENU201, PROF201"
+
+Dictionnaire :
+{
+  "code": "USR201",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID201",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU201",
+  "Profil_fonction": "PROF201"
+}
+Exemple :
+ 
+
+"Nouveau utilisteur: code USR202, nom Marie Dupont, aktif, conection X3, conection WS, demandeu, ctr_anuaire, mail marie.dupont@exemple.fr, tel 0612345678, fax 0123456789, acces ACC202, identif ID202, fonction Responsable, metier MET202, menu MENU202, profil PROF202"
+
+Dictionnaire :
+{
+  "code": "USR202",
+  "Nom": "Marie Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "marie.dupont@exemple.fr",
+  "telephone": "0612345678",
+  "fax": "0123456789",
+  "accès": "ACC202",
+  "identif": "ID202",
+  "fonction": "Responsable",
+  "cod_metier": "MET202",
+  "Profil_menu": "MENU202",
+  "Profil_fonction": "PROF202"
+}
+Exemple :
+ 
+
+"Ajouter user avec Profil_menu MENU203, code USR203, nom Paul Martin, actif oui, identif ID203, mail paul.martin@example.com, Profil_fonction PROF203, Connexion_X3 oui"
+
+Dictionnaire :
+{
+  "code": "USR203",
+  "Nom": "Paul Martin",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "paul.martin@example.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID203",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU203",
+  "Profil_fonction": "PROF203"
+}
+Exemple :
+ 
+"Salut, fais un nouvel utilisateur stp, code USR204, nom Léa, elle est active, faut X3 et WS, mail lea@example.fr, tel 0606060606, menu MENU204, profil PROF204, id ID204"
+
+Dictionnaire :
+{
+  "code": "USR204",
+  "Nom": "Léa",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "lea@example.fr",
+  "telephone": "0606060606",
+  "fax": "",
+  "accès": "",
+  "identif": "ID204",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU204",
+  "Profil_fonction": "PROF204"
+}
+Exemple :
+"Créer utilisateur : code USR205, nom François L'Éclair, actif, mail francois.leclair@example.com, Profil_menu MENU205, Profil_fonction PROF205, identif ID205"
+
+Dictionnaire :
+
+{
+  "code": "USR205",
+  "Nom": "François L'Éclair",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "francois.leclair@example.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID205",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU205",
+  "Profil_fonction": "PROF205"
+}
+Exemple :
+ 
+
+"Je veux un nouvel utilisateur pour l'équipe. Code USR206, nom Julien, il doit être actif et avoir X3, mail julien@example.com. Assure-toi qu'il est actif, profil PROF206, menu MENU206, id ID206. Ah oui, X3 est obligatoire."
+
+Dictionnaire :
+{
+  "code": "USR206",
+  "Nom": "Julien",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "julien@example.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID206",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU206",
+  "Profil_fonction": "PROF206"
+}
+Exemple :
+ 
+
+"Crrée un utilisateur avec code USR207, nom Sophie Durand, aktive, conection X3, email sophie.durand@exemple.fr, Profil_menu MENU207, Profil_fonction PROF207, identif ID207"
+
+Dictionnaire :
+{
+  "code": "USR207",
+  "Nom": "Sophie Durand",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "sophie.durand@exemple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID207",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU207",
+  "Profil_fonction": "PROF207"
+}
+Exemple :
+"Nv user : code USR208, nom Clara, actif, X3, WS, dem, ctr, mail clara@ex.fr, tel 0708091011, fax 0102030405, acc ACC208, id ID208, func Assistante, met MET208, menu MENU208, prof PROF208"
+
+Dictionnaire :
+{
+  "code": "USR208",
+  "Nom": "Clara",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "clara@ex.fr",
+  "telephone": "0708091011",
+  "fax": "0102030405",
+  "accès": "ACC208",
+  "identif": "ID208",
+  "fonction": "Assistante",
+  "cod_metier": "MET208",
+  "Profil_menu": "MENU208",
+  "Profil_fonction": "PROF208"
+}
+Exemple :
+"Créer un user avec code USR209, name Thomas Lee, actif oui, Connexion_X3 yes, mail thomas.lee@example.com, Profil_menu MENU209, Profil_fonction PROF209, identif ID209"
+
+Dictionnaire :
+{
+  "code": "USR209",
+  "Nom": "Thomas Lee",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "thomas.lee@example.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID209",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU209",
+  "Profil_fonction": "PROF209"
+}
+Exemple :
+"Ajouter un utilisateur comme USR201 mais avec code USR210, nom Élise, mail elise@example.fr, Profil_menu MENU210, Profil_fonction PROF210, identif ID210"
+
+Dictionnaire :
+{
+  "code": "USR210",
+  "Nom": "Élise",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "elise@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID210",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU210",
+  "Profil_fonction": "PROF210"
+}
+Exemple :
+"Nouvel utilisateur : User code USR211, Nom complet : Lucas Berger, Statut : actif, Accès X3 : oui, Accès WS : non, Demandeur : oui, Annuaire : oui, Adresse email : lucas.berger@example.fr, Numéro tel : 0611121314, Fax : 0516171819, Code accès : ACC211, ID utilisateur : ID211, Poste : Consultant, Code métier : MET211, Menu : MENU211, Profil fonction : PROF211"
+
+Dictionnaire :
+{
+  "code": "USR211",
+  "Nom": "Lucas Berger",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "lucas.berger@example.fr",
+  "telephone": "0611121314",
+  "fax": "0516171819",
+  "accès": "ACC211",
+  "identif": "ID211",
+  "fonction": "Consultant",
+  "cod_metier": "MET211",
+  "Profil_menu": "MENU211",
+  "Profil_fonction": "PROF211"
+}
+Exemple :
+"Créer user USR212, ID212, MENU212, PROF212, actif"
+
+Dictionnaire :
+{
+  "code": "USR212",
+  "Nom": "",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID212",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU212",
+  "Profil_fonction": "PROF212"
+}
+Exemple :
+"Nouveau utlisateur : code USR213, nom Anaïs, aktive, conection X3, emial anais@example.fr, Profil_menu MENU213, Profil_fonction PROF213, identif ID213"
+
+Dictionnaire :
+{
+  "code": "USR213",
+  "Nom": "Anaïs",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "anais@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID213",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU213",
+  "Profil_fonction": "PROF213"
+}
+Exemple :
+"Hé, besoin d’un user, code USR214, nom Tom, actif, X3 et WS, mail tom@ex.fr, tel 0607080910, menu MENU214, prof PROF214, id ID214"
+
+Dictionnaire : 
+{
+  "code": "USR214",
+  "Nom": "Tom",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "tom@ex.fr",
+  "telephone": "0607080910",
+  "fax": "",
+  "accès": "",
+  "identif": "ID214",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU214",
+  "Profil_fonction": "PROF214"
+}
+Exemple :
+ 
+
+"Créer un user pour le projet A12, code USR215, nom Emma, active oui, X3 obligatoire, mail emma@example.fr, tel 0613141516, fax 0511121314, accès ACC215, id ID215, fonction Dev, metier MET215, menu MENU215, profil PROF215. Vérifie qu’elle a X3 et envoie-moi un mail après."
+
+Dictionnaire :
+{
+  "code": "USR215",
+  "Nom": "Emma",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "emma@example.fr",
+  "telephone": "0613141516",
+  "fax": "0511121314",
+  "accès": "ACC215",
+  "identif": "ID215",
+  "fonction": "Dev",
+  "cod_metier": "MET215",
+  "Profil_menu": "MENU215",
+  "Profil_fonction": "PROF215"
+}
+Exemple :
+"Créer user USR216, ID216, MENU216, PROF216, fonction Développeur"
+
+Dictionnaire :
+{
+  "code": "USR216",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID216",
+  "fonction": "Développeur",
+  "cod_metier": "",
+  "Profil_menu": "MENU216",
+  "Profil_fonction": "PROF216"
+}
+Exemple :
+"Nouveau user : code USR217, nom João Silva, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail joão.silva@example.com, tel +351 912 345 678, fax +351 912 876 543, accès ACC217, identif ID217, fonction Manager, metier MET217, Profil_menu MENU217, Profil_fonction PROF217"
+
+Dictionnaire :
+
+{
+  "code": "USR217",
+  "Nom": "João Silva",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "joão.silva@example.com",
+  "telephone": "+351 912 345 678",
+  "fax": "+351 912 876 543",
+  "accès": "ACC217",
+  "identif": "ID217",
+  "fonction": "Manager",
+  "cod_metier": "MET217",
+  "Profil_menu": "MENU217",
+  "Profil_fonction": "PROF217"
+}
+Exemple :
+ 
+
+"Créer user USR218, ID218, MENU218, PROF218, mail user218@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR218",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user218@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID218",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU218",
+  "Profil_fonction": "PROF218"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR219, nom Camille Lefèvre, aktif, conection X3, email camille.lefevre@exmple.fr, Profil_menu MENU219, Profil_fonction PROF219, identif ID219"
+
+Dictionnaire :
+{
+  "code": "USR219",
+  "Nom": "Camille Lefèvre",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "camille.lefevre@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID219",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU219",
+  "Profil_fonction": "PROF219"
+}
+Exemple :
+ 
+
+"Nv user : code USR220, nom Hugo, actif, X3, WS, dem, ctr, mail hugo@ex.fr, tel 0617181920, fax 0513141516, acc ACC220, id ID220, func Technicien, met MET220, menu MENU220, prof PROF220"
+
+Dictionnaire :
+{
+  "code": "USR220",
+  "Nom": "Hugo",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "hugo@ex.fr",
+  "telephone": "0617181920",
+  "fax": "0513141516",
+  "accès": "ACC220",
+  "identif": "ID220",
+  "fonction": "Technicien",
+  "cod_metier": "MET220",
+  "Profil_menu": "MENU220",
+  "Profil_fonction": "PROF220"
+}
+Exemple :
+ 
+
+"Créer user USR221, ID221, MENU221, PROF221, tel 0619202122"
+
+Dictionnaire :
+{
+  "code": "USR221",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0619202122",
+  "fax": "",
+  "accès": "",
+  "identif": "ID221",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU221",
+  "Profil_fonction": "PROF221"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR222, nom Sara Dubois, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sara.dubois@example.fr, tel 0623242526, fax 0527282920, accès ACC222, identif ID222, fonction Testeur, metier MET222, Profil_menu MENU222, Profil_fonction PROF222"
+
+Dictionnaire :
+{
+  "code": "USR222",
+  "Nom": "Sara Dubois",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sara.dubois@example.fr",
+  "telephone": "0623242526",
+  "fax": "0527282920",
+  "accès": "ACC222",
+  "identif": "ID222",
+  "fonction": "Testeur",
+  "cod_metier": "MET222",
+  "Profil_menu": "MENU222",
+  "Profil_fonction": "PROF222"
+}
+Exemple :
+ 
+
+"Créer user USR223, ID223, MENU223, PROF223, accès ACC223"
+
+Dictionnaire : 
+{
+  "code": "USR223",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC223",
+  "identif": "ID223",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU223",
+  "Profil_fonction": "PROF223"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR224, nom Léo, aktive, conection X3, emial leo@example.fr, Profil_menu MENU224, Profil_fonction PROF224, identif ID224"
+
+Dictionnaire :
+{
+  "code": "USR224",
+  "Nom": "Léo",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "leo@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID224",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU224",
+  "Profil_fonction": "PROF224"
+}
+Exemple :
+ 
+
+"Nv user : code USR225, nom Inès, actif, X3, WS, dem, ctr, mail ines@ex.fr, tel 0629303132, fax 0533343536, acc ACC225, id ID225, func Designer, met MET225, menu MENU225, prof PROF225"
+
+Dictionnaire :
+{
+  "code": "USR225",
+  "Nom": "Inès",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ines@ex.fr",
+  "telephone": "0629303132",
+  "fax": "0533343536",
+  "accès": "ACC225",
+  "identif": "ID225",
+  "fonction": "Designer",
+  "cod_metier": "MET225",
+  "Profil_menu": "MENU225",
+  "Profil_fonction": "PROF225"
+}
+Exemple :
+ 
+
+"Créer user USR226, ID226, MENU226, PROF226, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR226",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID226",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU226",
+  "Profil_fonction": "PROF226"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR227, nom Élodie Noël, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail élodie.noël@example.fr, tel +33 6 34 35 36 37, fax +33 1 23 45 67 89, accès ACC227, identif ID227, fonction Manager, metier MET227, Profil_menu MENU227, Profil_fonction PROF227"
+
+Dictionnaire :
+{
+  "code": "USR227",
+  "Nom": "Élodie Noël",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "élodie.noël@example.fr",
+  "telephone": "+33 6 34 35 36 37",
+  "fax": "+33 1 23 45 67 89",
+  "accès": "ACC227",
+  "identif": "ID227",
+  "fonction": "Manager",
+  "cod_metier": "MET227",
+  "Profil_menu": "MENU227",
+  "Profil_fonction": "PROF227"
+}
+Exemple :
+ 
+
+"Créer user USR228, ID228, MENU228, PROF228, mail user228@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR228",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user228@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID228",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU228",
+  "Profil_fonction": "PROF228"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR229, nom Adrien Moreaux, aktif, conection X3, email adrien.moraux@exmple.fr, Profil_menu MENU229, Profil_fonction PROF229, identif ID229"
+
+Dictionnaire :
+{
+  "code": "USR229",
+  "Nom": "Adrien Moreaux",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "adrien.moraux@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID229",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU229",
+  "Profil_fonction": "PROF229"
+}
+Exemple :
+ 
+
+"Nv user : code USR230, nom Zoé, actif, X3, WS, dem, ctr, mail zoe@ex.fr, tel 0637383940, fax 0541424344, acc ACC230, id ID230, func Dev, met MET230, menu MENU230, prof PROF230"
+
+Dictionnaire :
+{
+  "code": "USR230",
+  "Nom": "Zoé",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "zoe@ex.fr",
+  "telephone": "0637383940",
+  "fax": "0541424344",
+  "accès": "ACC230",
+  "identif": "ID230",
+  "fonction": "Dev",
+  "cod_metier": "MET230",
+  "Profil_menu": "MENU230",
+  "Profil_fonction": "PROF230"
+}
+Exemple :
+ 
+
+"Créer user USR231, ID231, MENU231, PROF231, tel 0645464748"
+
+Dictionnaire :
+{
+  "code": "USR231",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0645464748",
+  "fax": "",
+  "accès": "",
+  "identif": "ID231",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU231",
+  "Profil_fonction": "PROF231"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR232, nom Nina Lopez, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail nina.lopez@example.fr, tel 0649505152, fax 0553545556, accès ACC232, identif ID232, fonction Testeur, metier MET232, Profil_menu MENU232, Profil_fonction PROF232"
+
+Dictionnaire :
+{
+  "code": "USR232",
+  "Nom": "Nina Lopez",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "nina.lopez@example.fr",
+  "telephone": "0649505152",
+  "fax": "0553545556",
+  "accès": "ACC232",
+  "identif": "ID232",
+  "fonction": "Testeur",
+  "cod_metier": "MET232",
+  "Profil_menu": "MENU232",
+  "Profil_fonction": "PROF232"
+}
+Exemple :
+ 
+
+"Créer user USR233, ID233, MENU233, PROF233, accès ACC233"
+
+Dictionnaire : 
+{
+  "code": "USR233",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC233",
+  "identif": "ID233",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU233",
+  "Profil_fonction": "PROF233"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR234, nom Mia, aktive, conection X3, emial mia@example.fr, Profil_menu MENU234, Profil_fonction PROF234, identif ID234"
+
+Dictionnaire :
+{
+  "code": "USR234",
+  "Nom": "Mia",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "mia@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID234",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU234",
+  "Profil_fonction": "PROF234"
+}
+Exemple :
+ 
+
+"Nv user : code USR235, nom Ethan, actif, X3, WS, dem, ctr, mail ethan@ex.fr, tel 0657585960, fax 0561626364, acc ACC235, id ID235, func Designer, met MET235, menu MENU235, prof PROF235"
+
+Dictionnaire :
+{
+  "code": "USR235",
+  "Nom": "Ethan",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ethan@ex.fr",
+  "telephone": "0657585960",
+  "fax": "0561626364",
+  "accès": "ACC235",
+  "identif": "ID235",
+  "fonction": "Designer",
+  "cod_metier": "MET235",
+  "Profil_menu": "MENU235",
+  "Profil_fonction": "PROF235"
+}
+Exemple :
+ 
+
+"Créer user USR236, ID236, MENU236, PROF236, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR236",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID236",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU236",
+  "Profil_fonction": "PROF236"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR237, nom Sören Müller, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sören.müller@example.com, tel +46 70 123 45 67, fax +46 70 987 65 43, accès ACC237, identif ID237, fonction Manager, metier MET237, Profil_menu MENU237, Profil_fonction PROF237"
+
+Dictionnaire :
+{
+  "code": "USR237",
+  "Nom": "Sören Müller",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sören.müller@example.com",
+  "telephone": "+46 70 123 45 67",
+  "fax": "+46 70 987 65 43",
+  "accès": "ACC237",
+  "identif": "ID237",
+  "fonction": "Manager",
+  "cod_metier": "MET237",
+  "Profil_menu": "MENU237",
+  "Profil_fonction": "PROF237"
+}
+Exemple :
+ 
+
+"Créer user USR238, ID238, MENU238, PROF238, mail user238@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR238",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user238@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID238",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU238",
+  "Profil_fonction": "PROF238"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR239, nom Léna Dupont, aktif, conection X3, email lena.dupont@exmple.fr, Profil_menu MENU239, Profil_fonction PROF239, identif ID239"
+
+Dictionnaire :
+{
+  "code": "USR239",
+  "Nom": "Léna Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "lena.dupont@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID239",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU239",
+  "Profil_fonction": "PROF239"
+}
+Exemple :
+ 
+
+"Nv user : code USR240, nom Max, actif, X3, WS, dem, ctr, mail max@ex.fr, tel 0667686970, fax 0571727374, acc ACC240, id ID240, func Dev, met MET240, menu MENU240, prof PROF240"
+
+Dictionnaire :
+ 
+{
+  "code": "USR240",
+  "Nom": "Max",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "max@ex.fr",
+  "telephone": "0667686970",
+  "fax": "0571727374",
+  "accès": "ACC240",
+  "identif": "ID240",
+  "fonction": "Dev",
+  "cod_metier": "MET240",
+  "Profil_menu": "MENU240",
+  "Profil_fonction": "PROF240"
+}
+Exemple :
+ 
+
+"Créer user USR241, ID241, MENU241, PROF241, tel 0675767778"
+
+Dictionnaire :
+{
+  "code": "USR241",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0675767778",
+  "fax": "",
+  "accès": "",
+  "identif": "ID241",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU241",
+  "Profil_fonction": "PROF241"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR242, nom Clara Ruiz, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail clara.ruiz@example.fr, tel 0679808182, fax 0583848586, accès ACC242, identif ID242, fonction Testeur, metier MET242, Profil_menu MENU242, Profil_fonction PROF242"
+
+Dictionnaire :
+{
+  "code": "USR242",
+  "Nom": "Clara Ruiz",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "clara.ruiz@example.fr",
+  "telephone": "0679808182",
+  "fax": "0583848586",
+  "accès": "ACC242",
+  "identif": "ID242",
+  "fonction": "Testeur",
+  "cod_metier": "MET242",
+  "Profil_menu": "MENU242",
+  "Profil_fonction": "PROF242"
+}
+Exemple :
+ 
+
+"Créer user USR243, ID243, MENU243, PROF243, accès ACC243"
+
+Dictionnaire :
+{
+  "code": "USR243",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC243",
+  "identif": "ID243",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU243",
+  "Profil_fonction": "PROF243"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR244, nom Liam, aktive, conection X3, emial liam@example.fr, Profil_menu MENU244, Profil_fonction PROF244, identif ID244"
+
+Dictionnaire :
+
+ 
+
+ 
+{
+  "code": "USR244",
+  "Nom": "Liam",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "liam@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID244",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU244",
+  "Profil_fonction": "PROF244"
+}
+Exemple :
+"Nv user : code USR245, nom Ava, actif, X3, WS, dem, ctr, mail ava@ex.fr, tel 0687888990, fax 0591929394, acc ACC245, id ID245, func Designer, met MET245, menu MENU245, prof PROF245"
+
+Dictionnaire :
+{
+  "code": "USR245",
+  "Nom": "Ava",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ava@ex.fr",
+  "telephone": "0687888990",
+  "fax": "0591929394",
+  "accès": "ACC245",
+  "identif": "ID245",
+  "fonction": "Designer",
+  "cod_metier": "MET245",
+  "Profil_menu": "MENU245",
+  "Profil_fonction": "PROF245"
+}
+Exemple :
+ 
+
+"Créer user USR246, ID246, MENU246, PROF246, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR246",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID246",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU246",
+  "Profil_fonction": "PROF246"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR247, nom Íñigo Pérez, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail íñigo.pérez@example.com, tel +34 600 987 654, fax +34 600 123 456, accès ACC247, identif ID247, fonction Manager, metier MET247, Profil_menu MENU247, Profil_fonction PROF247"
+
+Dictionnaire :
+ 
+{
+  "code": "USR247",
+  "Nom": "Íñigo Pérez",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "íñigo.pérez@example.com",
+  "telephone": "+34 600 987 654",
+  "fax": "+34 600 123 456",
+  "accès": "ACC247",
+  "identif": "ID247",
+  "fonction": "Manager",
+  "cod_metier": "MET247",
+  "Profil_menu": "MENU247",
+  "Profil_fonction": "PROF247"
+}
+Exemple :
+
+
+"Créer user USR248, ID248, MENU248, PROF248, mail user248@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR248",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user248@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID248",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU248",
+  "Profil_fonction": "PROF248"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR249, nom Noé Lambert, aktif, conection X3, email noe.lambert@exmple.fr, Profil_menu MENU249, Profil_fonction PROF249, identif ID249"
+
+Dictionnaire :
+
+{
+  "code": "USR249",
+  "Nom": "Noé Lambert",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "noe.lambert@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID249",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU249",
+  "Profil_fonction": "PROF249"
+}
+Exemple :
+ 
+"Nv user : code USR250, nom Eva, actif, X3, WS, dem, ctr, mail eva@ex.fr, tel 0698990011, fax 0501020304, acc ACC250, id ID250, func Dev, met MET250, menu MENU250, prof PROF250"
+
+Dictionnaire :
+ 
+{
+  "code": "USR250",
+  "Nom": "Eva",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "eva@ex.fr",
+  "telephone": "0698990011",
+  "fax": "0501020304",
+  "accès": "ACC250",
+  "identif": "ID250",
+  "fonction": "Dev",
+  "cod_metier": "MET250",
+  "Profil_menu": "MENU250",
+  "Profil_fonction": "PROF250"
+}
+
+Exemple :
+
+"Créer un user USR401, ID401, MENU401, PROF401"
+
+Dictionnaire :
+
+
+{
+  "code": "USR401",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID401",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU401",
+  "Profil_fonction": "PROF401"
+}
+Exemple :
+ 
+
+"Nouveau utilisatteur : code USR402, nom Chloé Martin, aktive, conection X3, conection WS, demandeu oui, ctr_anuaire oui, email chloe.martin@exemple.fr, tel 0611223344, fax 0122334455, acces ACC402, id ID402, fonction Responsable, metier MET402, menu MENU402, profil PROF402"
+
+Dictionnaire :
+
+{
+  "code": "USR402",
+  "Nom": "Chloé Martin",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "chloe.martin@exemple.fr",
+  "telephone": "0611223344",
+  "fax": "0122334455",
+  "accès": "ACC402",
+  "identif": "ID402",
+  "fonction": "Responsable",
+  "cod_metier": "MET402",
+  "Profil_menu": "MENU402",
+  "Profil_fonction": "PROF402"
+}
+Exemple :
+ 
+
+"Salut, crée un user vite fait, code USR403, nom Alex, actif, X3 et WS, mail alex@ex.fr, tel 0622334455, menu MENU403, prof PROF403, id ID403"
+
+Dictionnaire :
+
+{
+  "code": "USR403",
+  "Nom": "Alex",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "alex@ex.fr",
+  "telephone": "0622334455",
+  "fax": "",
+  "accès": "",
+  "identif": "ID403",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU403",
+  "Profil_fonction": "PROF403"
+}
+Exemple :
+"Ajouter un utilisateur : code USR404, nom José García, actif, mail josé.garcía@example.com, Profil_menu MENU404, Profil_fonction PROF404, identif ID404"
+
+Dictionnaire :
+
+{
+  "code": "USR404",
+  "Nom": "José García",
+  "actif": "oui",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "josé.garcía@example.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID404",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU404",
+  "Profil_fonction": "PROF404"
+}
+Exemple :
+ 
+
+"Nouveau user pour le projet B12, code USR405, nom Clara Dupont, elle est active, X3 oui, mail clara.dupont@ex.fr, tel 0633445566. Faut faire vite, menu MENU405, profil PROF405, id ID405"
+
+Dictionnaire :
+
+{
+  "code": "USR405",
+  "Nom": "Clara Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "clara.dupont@ex.fr",
+  "telephone": "0633445566",
+  "fax": "",
+  "accès": "",
+  "identif": "ID405",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU405",
+  "Profil_fonction": "PROF405"
+}
+Exemple :
+"Create un user avec code USR406, name Sophie Lee, active oui, X3 yes, mail sophie.lee@example.com, Profil_menu MENU406, Profil_fonction PROF406, identif ID406"
+
+Dictionnaire :
+
+{
+  "code": "USR406",
+  "Nom": "Sophie Lee",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "sophie.lee@example.com",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID406",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU406",
+  "Profil_fonction": "PROF406"
+}
+Exemple :
+ 
+
+"Crréer un utlisateur : code USR407, nom Léo Durand, aktiff, conection X3, emaill leo.durand@exemple.fr, Profil_menu MENU407, Profil_fonction PROF407, identif ID407"
+
+Dictionnaire :
+
+{
+  "code": "USR407",
+  "Nom": "Léo Durand",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "leo.durand@exemple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID407",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU407",
+  "Profil_fonction": "PROF407"
+}
+Exemple :
+ 
+
+"Nv user : code USR408, nom Emma, actif, X3, WS, dem, ctr, mail emma@ex.fr, tel 0644556677, acc ACC408, id ID408, func Dev, met MET408, menu MENU408, prof PROF408"
+
+Dictionnaire :
+
+{
+  "code": "USR408",
+  "Nom": "Emma",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "emma@ex.fr",
+  "telephone": "0644556677",
+  "fax": "",
+  "accès": "ACC408",
+  "identif": "ID408",
+  "fonction": "Dev",
+  "cod_metier": "MET408",
+  "Profil_menu": "MENU408",
+  "Profil_fonction": "PROF408"
+}
+Exemple :
+ 
+
+"Créer user USR409, ID409, MENU409, PROF409, fonction Manager"
+
+Dictionnaire :
+{
+  "code": "USR409",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID409",
+  "fonction": "Manager",
+  "cod_metier": "",
+  "Profil_menu": "MENU409",
+  "Profil_fonction": "PROF409"
+}
+Exemple :
+ 
+
+"Nouveau utilisateur : code USR410, nom Ana Silva, actif, X3 oui, WS oui, demandeur oui, annuaire oui, mail ana.silva@example.com, tel +351 912 345 678, fax +351 912 876 543, accès ACC410, identif ID410, fonction Consultante, metier MET410, Profil_menu MENU410, Profil_fonction PROF410"
+
+Dictionnaire :
+{
+  "code": "USR410",
+  "Nom": "Ana Silva",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ana.silva@example.com",
+  "telephone": "+351 912 345 678",
+  "fax": "+351 912 876 543",
+  "accès": "ACC410",
+  "identif": "ID410",
+  "fonction": "Consultante",
+  "cod_metier": "MET410",
+  "Profil_menu": "MENU410",
+  "Profil_fonction": "PROF410"
+}
+Exemple :
+ 
+
+"Ajouter user avec Profil_menu MENU411, nom Julien Dupont, code USR411, actif oui, mail julien.dupont@ex.fr, Profil_fonction PROF411, identif ID411, X3 oui"
+
+Dictionnaire :
+
+{
+  "code": "USR411",
+  "Nom": "Julien Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "julien.dupont@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID411",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU411",
+  "Profil_fonction": "PROF411"
+}
+Exemple :
+ 
+
+"Créer user USR412, ID412, MENU412, PROF412, mail user412@ex.fr"
+
+Dictionnaire :
+
+{
+  "code": "USR412",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user412@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID412",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU412",
+  "Profil_fonction": "PROF412"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR413, nom Zoé Lefèvre, aktive, conection X3, emial zoe.lefevre@exemple.fr, Profil_menu MENU413, Profil_fonction PROF413, identif ID413"
+
+Dictionnaire :
+{
+  "code": "USR413",
+  "Nom": "Zoé Lefèvre",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "zoe.lefevre@exemple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID413",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU413",
+  "Profil_fonction": "PROF413"
+}
+Exemple :
+ 
+
+"Hey, besoin d’un user, code USR414, nom Tom, actif, X3, WS, mail tom@ex.fr, tel 0655667788, menu MENU414, prof PROF414, id ID414"
+
+Dictionnaire :
+{
+  "code": "USR414",
+  "Nom": "Tom",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "tom@ex.fr",
+  "telephone": "0655667788",
+  "fax": "",
+  "accès": "",
+  "identif": "ID414",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU414",
+  "Profil_fonction": "PROF414"
+}
+Exemple :
+ 
+
+"Créer un user pour l’équipe C15, code USR415, nom Léa Dubois, active oui, X3 obligatoire, mail lea.dubois@ex.fr, tel 0666778899, accès ACC415, id ID415, fonction Dev, metier MET415, menu MENU415, profil PROF415. Assure-toi qu’elle a X3."
+
+Dictionnaire :
+
+{
+  "code": "USR415",
+  "Nom": "Léa Dubois",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "lea.dubois@ex.fr",
+  "telephone": "0666778899",
+  "fax": "",
+  "accès": "ACC415",
+  "identif": "ID415",
+  "fonction": "Dev",
+  "cod_metier": "MET415",
+  "Profil_menu": "MENU415",
+  "Profil_fonction": "PROF415"
+}
+Exemple :
+ 
+
+"Créer user USR416, ID416, MENU416, PROF416, tel 0677889900"
+
+Dictionnaire :
+
+{
+  "code": "USR416",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0677889900",
+  "fax": "",
+  "accès": "",
+  "identif": "ID416",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU416",
+  "Profil_fonction": "PROF416"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR417, nom Élise Noël, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail élise.noël@example.fr, tel +33 6 88 99 00 11, fax +33 1 22 33 44 55, accès ACC417, identif ID417, fonction Manager, metier MET417, Profil_menu MENU417, Profil_fonction PROF417"
+
+Dictionnaire :
+{
+  "code": "USR417",
+  "Nom": "Élise Noël",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "élise.noël@example.fr",
+  "telephone": "+33 6 88 99 00 11",
+  "fax": "+33 1 22 33 44 55",
+  "accès": "ACC417",
+  "identif": "ID417",
+  "fonction": "Manager",
+  "cod_metier": "MET417",
+  "Profil_menu": "MENU417",
+  "Profil_fonction": "PROF417"
+}
+Exemple :
+ 
+
+"Créer user USR418, ID418, MENU418, PROF418, accès ACC418"
+
+Dictionnaire :
+{
+  "code": "USR418",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC418",
+  "identif": "ID418",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU418",
+  "Profil_fonction": "PROF418"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR419, nom Maeva Dupont, aktif, conection X3, email maeva.dupont@exmple.fr, Profil_menu MENU419, Profil_fonction PROF419, identif ID419"
+
+Dictionnaire :
+{
+  "code": "USR419",
+  "Nom": "Maeva Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "maeva.dupont@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID419",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU419",
+  "Profil_fonction": "PROF419"
+}
+Exemple :
+ 
+
+"Nv user : code USR420, nom Noah, actif, X3, WS, dem, ctr, mail noah@ex.fr, tel 0688990011, acc ACC420, id ID420, func Technicien, met MET420, menu MENU420, prof PROF420"
+
+Dictionnaire :
+{
+  "code": "USR420",
+  "Nom": "Noah",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "noah@ex.fr",
+  "telephone": "0688990011",
+  "fax": "",
+  "accès": "ACC420",
+  "identif": "ID420",
+  "fonction": "Technicien",
+  "cod_metier": "MET420",
+  "Profil_menu": "MENU420",
+  "Profil_fonction": "PROF420"
+}
+Exemple :
+ 
+
+"Créer user USR421, ID421, MENU421, PROF421, fax 0123456789"
+
+Dictionnaire :
+{
+  "code": "USR421",
+  "Nom": "",
+  "actif": "",
+  "ConnArizona",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "0123456789",
+  "accès": "",
+  "identif": "ID421",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU421",
+  "Profil_fonction": "PROF421"
+}
+Exemple :
+ 
+
+"Veuillez créer un nouvel utilisateur avec les informations suivantes : code USR422, nom Pierre Lambert, statut actif, accès X3 oui, accès WS oui, demandeur oui, annuaire oui, adresse mail pierre.lambert@example.fr, téléphone 0699001122, fax 0133445566, accès ACC422, identifiant ID422, fonction Analyste, métier MET422, menu MENU422, profil PROF422"
+
+Dictionnaire :
+{
+  "code": "USR422",
+  "Nom": "Pierre Lambert",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "pierre.lambert@example.fr",
+  "telephone": "0699001122",
+  "fax": "0133445566",
+  "accès": "ACC422",
+  "identif": "ID422",
+  "fonction": "Analyste",
+  "cod_metier": "MET422",
+  "Profil_menu": "MENU422",
+  "Profil_fonction": "PROF422"
+}
+Exemple :
+ 
+
+"Créer user USR423, ID423, MENU423, PROF423, demandeur oui"
+
+Dictionnaire :
+{
+  "code": "USR423",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "oui",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID423",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU423",
+  "Profil_fonction": "PROF423"
+}
+Exemple :
+ 
+
+"Crrée un utilisatteur : code USR424, nom Sara Dupont, aktiff, conection X3, emaill sara.dupont@exemple.fr, Profil_menu MENU424, Profil_fonction PROF424, identif ID424"
+
+Dictionnaire :
+{
+  "code": "USR424",
+  "Nom": "Sara Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "sara.dupont@exemple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID424",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU424",
+  "Profil_fonction": "PROF424"
+}
+Exemple :
+ 
+
+"Nv user stp : code USR425, nom Mia, actif, X3, WS, mail mia@ex.fr, tel 0612345678, menu MENU425, prof PROF425, id ID425"
+
+Dictionnaire :
+{
+  "code": "USR425",
+  "Nom": "Mia",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "mia@ex.fr",
+  "telephone": "0612345678",
+  "fax": "",
+  "accès": "",
+  "identif": "ID425",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU425",
+  "Profil_fonction": "PROF425"
+}
+Exemple :
+ 
+
+"Créer user USR426, ID426, MENU426, PROF426, fonction Testeur"
+
+Dictionnaire :
+{
+  "code": "USR426",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID426",
+  "fonction": "Testeur",
+  "cod_metier": "",
+  "Profil_menu": "MENU426",
+  "Profil_fonction": "PROF426"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR427, nom André Müller, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail andré.müller@example.com, tel +49 151 23456789, fax +49 151 98765432, accès ACC427, identif ID427, fonction Manager, metier MET427, Profil_menu MENU427, Profil_fonction PROF427"
+
+Dictionnaire :
+{
+  "code": "USR427",
+  "Nom": "André Müller",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "andré.müller@example.com",
+  "telephone": "+49 151 23456789",
+  "fax": "+49 151 98765432",
+  "accès": "ACC427",
+  "identif": "ID427",
+  "fonction": "Manager",
+  "cod_metier": "MET427",
+  "Profil_menu": "MENU427",
+  "Profil_fonction": "PROF427"
+}
+Exemple :
+ 
+
+"Créer user USR428, ID428, MENU428, PROF428, mail user428@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR428",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user428@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID428",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU428",
+  "Profil_fonction": "PROF428"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR429, nom Julien Moreaux, aktif, conection X3, email julien.moraux@exmple.fr, Profil_menu MENU429, Profil_fonction PROF429, identif ID429"
+
+Dictionnaire :
+
+{
+  "code": "USR429",
+  "Nom": "Julien Moreaux",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "julien.moraux@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID429",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU429",
+  "Profil_fonction": "PROF429"
+}
+Exemple :
+ 
+
+"Nv user : code USR430, nom Clara, actif, X3, WS, dem, ctr, mail clara@ex.fr, tel 0623456789, acc ACC430, id ID430, func Designer, met MET430, menu MENU430, prof PROF430"
+
+Dictionnaire :
+{
+  "code": "USR430",
+  "Nom": "Clara",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "clara@ex.fr",
+  "telephone": "0623456789",
+  "fax": "",
+  "accès": "ACC430",
+  "identif": "ID430",
+  "fonction": "Designer",
+  "cod_metier": "MET430",
+  "Profil_menu": "MENU430",
+  "Profil_fonction": "PROF430"
+}
+Exemple :
+ 
+
+"Créer user USR431, ID431, MENU431, PROF431, tel 0634567890"
+
+Dictionnaire :
+{
+  "code": "USR431",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0634567890",
+  "fax": "",
+  "accès": "",
+  "identif": "ID431",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU431",
+  "Profil_fonction": "PROF431"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR432, nom Sophie Durand, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sophie.durand@example.fr, tel 0645678901, fax 0145678901, accès ACC432, identif ID432, fonction Testeur, metier MET432, Profil_menu MENU432, Profil_fonction PROF432"
+
+Dictionnaire :
+{
+  "code": "USR432",
+  "Nom": "Sophie Durand",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sophie.durand@example.fr",
+  "telephone": "0645678901",
+  "fax": "0145678901",
+  "accès": "ACC432",
+  "identif": "ID432",
+  "fonction": "Testeur",
+  "cod_metier": "MET432",
+  "Profil_menu": "MENU432",
+  "Profil_fonction": "PROF432"
+}
+Exemple :
+ 
+
+"Créer user USR433, ID433, MENU433, PROF433, accès ACC433"
+
+Dictionnaire :
+{
+  "code": "USR433",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC433",
+  "identif": "ID433",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU433",
+  "Profil_fonction": "PROF433"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR434, nom Emma, aktive, conection X3, emial emma@example.fr, Profil_menu MENU434, Profil_fonction PROF434, identif ID434"
+
+Dictionnaire :
+{
+  "code": "USR434",
+  "Nom": "Emma",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "emma@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID434",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU434",
+  "Profil_fonction": "PROF434"
+}
+Exemple :
+ 
+
+"Nv user : code USR435, nom Léo, actif, X3, WS, dem, ctr, mail leo@ex.fr, tel 0656789012, acc ACC435, id ID435, func Dev, met MET435, menu MENU435, prof PROF435"
+
+Dictionnaire :
+{
+  "code": "USR435",
+  "Nom": "Léo",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "leo@ex.fr",
+  "telephone": "0656789012",
+  "fax": "",
+  "accès": "ACC435",
+  "identif": "ID435",
+  "fonction": "Dev",
+  "cod_metier": "MET435",
+  "Profil_menu": "MENU435",
+  "Profil_fonction": "PROF435"
+}
+Exemple :
+ 
+
+"Créer user USR436, ID436, MENU436, PROF436, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR436",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID436",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU436",
+  "Profil_fonction": "PROF436"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR437, nom Élodie Noël, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail élodie.noël@example.fr, tel +33 6 78 90 12 34, fax +33 1 23 45 67 89, accès ACC437, identif ID437, fonction Manager, metier MET437, Profil_menu MENU437, Profil_fonction PROF437"
+
+Dictionnaire :
+{
+  "code": "USR437",
+  "Nom": "Élodie Noël",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "élodie.noël@example.fr",
+  "telephone": "+33 6 78 90 12 34",
+  "fax": "+33 1 23 45 67 89",
+  "accès": "ACC437",
+  "identif": "ID437",
+  "fonction": "Manager",
+  "cod_metier": "MET437",
+  "Profil_menu": "MENU437",
+  "Profil_fonction": "PROF437"
+}
+Exemple :
+ 
+
+"Créer user USR438, ID438, MENU438, PROF438, mail user438@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR438",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user438@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID438",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU438",
+  "Profil_fonction": "PROF438"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR439, nom Adrien Moreaux, aktif, conection X3, email adrien.moraux@exmple.fr, Profil_menu MENU439, Profil_fonction PROF439, identif ID439"
+
+Dictionnaire :
+{
+  "code": "USR439",
+  "Nom": "Adrien Moreaux",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "adrien.moraux@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID439",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU439",
+  "Profil_fonction": "PROF439"
+}
+Exemple :
+ 
+
+"Nv user : code USR440, nom Zoé, actif, X3, WS, dem, ctr, mail zoe@ex.fr, tel 0667890123, acc ACC440, id ID440, func Dev, met MET440, menu MENU440, prof PROF440"
+
+Dictionnaire :
+{
+  "code": "USR440",
+  "Nom": "Zoé",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "zoe@ex.fr",
+  "telephone": "0667890123",
+  "fax": "",
+  "accès": "ACC440",
+  "identif": "ID440",
+  "fonction": "Dev",
+  "cod_metier": "MET440",
+  "Profil_menu": "MENU440",
+  "Profil_fonction": "PROF440"
+}
+Exemple :
+ 
+
+"Créer user USR441, ID441, MENU441, PROF441, tel 0678901234"
+
+Dictionnaire :
+{
+  "code": "USR441",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0678901234",
+  "fax": "",
+  "accès": "",
+  "identif": "ID441",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU441",
+  "Profil_fonction": "PROF441"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR442, nom Nina Lopez, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail nina.lopez@example.fr, tel 0689012345, fax 0156789012, accès ACC442, identif ID442, fonction Testeur, metier MET442, Profil_menu MENU442, Profil_fonction PROF442"
+
+Dictionnaire :
+{
+  "code": "USR442",
+  "Nom": "Nina Lopez",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "nina.lopez@example.fr",
+  "telephone": "0689012345",
+  "fax": "0156789012",
+  "accès": "ACC442",
+  "identif": "ID442",
+  "fonction": "Testeur",
+  "cod_metier": "MET442",
+  "Profil_menu": "MENU442",
+  "Profil_fonction": "PROF442"
+}
+Exemple :
+ 
+
+"Créer user USR443, ID443, MENU443, PROF443, accès ACC443"
+
+Dictionnaire :
+
+{
+  "code": "USR443",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC443",
+  "identif": "ID443",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU443",
+  "Profil_fonction": "PROF443"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR444, nom Mia, aktive, conection X3, emial mia@example.fr, Profil_menu MENU444, Profil_fonction PROF444, identif ID444"
+
+Dictionnaire :
+{
+  "code": "USR444",
+  "Nom": "Mia",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "mia@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID444",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU444",
+  "Profil_fonction": "PROF444"
+}
+Exemple :
+ 
+
+"Nv user : code USR445, nom Ethan, actif, X3, WS, dem, ctr, mail ethan@ex.fr, tel 0690123456, acc ACC445, id ID445, func Designer, met MET445, menu MENU445, prof PROF445"
+
+Dictionnaire :
+{
+  "code": "USR445",
+  "Nom": "Ethan",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ethan@ex.fr",
+  "telephone": "0690123456",
+  "fax": "",
+  "accès": "ACC445",
+  "identif": "ID445",
+  "fonction": "Designer",
+  "cod_metier": "MET445",
+  "Profil_menu": "MENU445",
+  "Profil_fonction": "PROF445"
+}
+Exemple :
+ 
+
+"Créer user USR446, ID446, MENU446, PROF446, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR446",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID446",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU446",
+  "Profil_fonction": "PROF446"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR447, nom Sören Müller, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sören.müller@example.com, tel +46 70 123 45 67, fax +46 70 987 65 43, accès ACC447, identif ID447, fonction Manager, metier MET447, Profil_menu MENU447, Profil_fonction PROF447"
+
+Dictionnaire :
+{
+  "code": "USR447",
+  "Nom": "Sören Müller",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sören.müller@example.com",
+  "telephone": "+46 70 123 45 67",
+  "fax": "+46 70 987 65 43",
+  "accès": "ACC447",
+  "identif": "ID447",
+  "fonction": "Manager",
+  "cod_metier": "MET447",
+  "Profil_menu": "MENU447",
+  "Profil_fonction": "PROF447"
+}
+Exemple :
+ 
+
+"Créer user USR448, ID448, MENU448, PROF448, mail user448@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR448",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user448@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID448",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU448",
+  "Profil_fonction": "PROF448"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR449, nom Léna Dupont, aktif, conection X3, email lena.dupont@exmple.fr, Profil_menu MENU449, Profil_fonction PROF449, identif ID449"
+
+Dictionnaire :
+{
+  "code": "USR449",
+  "Nom": "Léna Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "lena.dupont@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID449",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU449",
+  "Profil_fonction": "PROF449"
+}
+Exemple :
+ 
+
+"Nv user : code USR450, nom Max, actif, X3, WS, dem, ctr, mail max@ex.fr, tel 0691234567, acc ACC450, id ID450, func Dev, met MET450, menu MENU450, prof PROF450"
+
+Dictionnaire :
+{
+  "code": "USR450",
+  "Nom": "Max",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "max@ex.fr",
+  "telephone": "0691234567",
+  "fax": "",
+  "accès": "ACC450",
+  "identif": "ID450",
+  "fonction": "Dev",
+  "cod_metier": "MET450",
+  "Profil_menu": "MENU450",
+  "Profil_fonction": "PROF450"
+}
+Exemple :
+ 
+
+"Créer user USR451, ID451, MENU451, PROF451, tel 0692345678"
+
+Dictionnaire :
+{
+  "code": "USR451",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0692345678",
+  "fax": "",
+  "accès": "",
+  "identif": "ID451",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU451",
+  "Profil_fonction": "PROF451"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR452, nom Sara Dubois, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sara.dubois@example.fr, tel 0693456789, fax 0167890123, accès ACC452, identif ID452, fonction Testeur, metier MET452, Profil_menu MENU452, Profil_fonction PROF452"
+
+Dictionnaire :
+{
+  "code": "USR452",
+  "Nom": "Sara Dubois",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sara.dubois@example.fr",
+  "telephone": "0693456789",
+  "fax": "0167890123",
+  "accès": "ACC452",
+  "identif": "ID452",
+  "fonction": "Testeur",
+  "cod_metier": "MET452",
+  "Profil_menu": "MENU452",
+  "Profil_fonction": "PROF452"
+}
+Exemple :
+ 
+
+"Créer user USR453, ID453, MENU453, PROF453, accès ACC453"
+
+Dictionnaire :
+{
+  "code": "USR453",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC453",
+  "identif": "ID453",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU453",
+  "Profil_fonction": "PROF453"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR454, nom Léo, aktive, conection X3, emial leo@example.fr, Profil_menu MENU454, Profil_fonction PROF454, identif ID454"
+
+Dictionnaire :
+{
+  "code": "USR454",
+  "Nom": "Léo",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "leo@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID454",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU454",
+  "Profil_fonction": "PROF454"
+}
+Exemple :
+ 
+
+"Nv user : code USR455, nom Inès, actif, X3, WS, dem, ctr, mail ines@ex.fr, tel 0694567890, acc ACC455, id ID455, func Designer, met MET455, menu MENU455, prof PROF455"
+
+Dictionnaire :
+{
+  "code": "USR455",
+  "Nom": "Inès",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ines@ex.fr",
+  "telephone": "0694567890",
+  "fax": "",
+  "accès": "ACC455",
+  "identif": "ID455",
+  "fonction": "Designer",
+  "cod_metier": "MET455",
+  "Profil_menu": "MENU455",
+  "Profil_fonction": "PROF455"
+}
+Exemple :
+ 
+
+"Créer user USR456, ID456, MENU456, PROF456, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR456",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID456",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU456",
+  "Profil_fonction": "PROF456"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR457, nom Élodie Noël, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail élodie.noël@example.fr, tel +33 6 56 78 90 12, fax +33 1 23 45 67 89, accès ACC457, identif ID457, fonction Manager, metier MET457, Profil_menu MENU457, Profil_fonction PROF457"
+
+Dictionnaire :
+{
+  "code": "USR457",
+  "Nom": "Élodie Noël",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "élodie.noël@example.fr",
+  "telephone": "+33 6 56 78 90 12",
+  "fax": "+33 1 23 45 67 89",
+  "accès": "ACC457",
+  "identif": "ID457",
+  "fonction": "Manager",
+  "cod_metier": "MET457",
+  "Profil_menu": "MENU457",
+  "Profil_fonction": "PROF457"
+}
+Exemple :
+ 
+
+"Créer user USR458, ID458, MENU458, PROF458, mail user458@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR458",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user458@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID458",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU458",
+  "Profil_fonction": "PROF458"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR459, nom Adrien Moreaux, aktif, conection X3, email adrien.moraux@exmple.fr, Profil_menu MENU459, Profil_fonction PROF459, identif ID459"
+
+Dictionnaire :
+{
+  "code": "USR459",
+  "Nom": "Adrien Moreaux",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "adrien.moraux@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID459",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU459",
+  "Profil_fonction": "PROF459"
+}
+Exemple :
+ 
+
+"Nv user : code USR460, nom Zoé, actif, X3, WS, dem, ctr, mail zoe@ex.fr, tel 0695678901, acc ACC460, id ID460, func Dev, met MET460, menu MENU460, prof PROF460"
+
+Dictionnaire :
+{
+  "code": "USR460",
+  "Nom": "Zoé",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "zoe@ex.fr",
+  "telephone": "0695678901",
+  "fax": "",
+  "accès": "ACC460",
+  "identif": "ID460",
+  "fonction": "Dev",
+  "cod_metier": "MET460",
+  "Profil_menu": "MENU460",
+  "Profil_fonction": "PROF460"
+}
+Exemple :
+ 
+
+"Créer user USR461, ID461, MENU461, PROF461, tel 0696789012"
+
+Dictionnaire :
+{
+  "code": "USR461",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0696789012",
+  "fax": "",
+  "accès": "",
+  "identif": "ID461",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU461",
+  "Profil_fonction": "PROF461"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR462, nom Nina Lopez, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail nina.lopez@example.fr, tel 0697890123, fax 0178901234, accès ACC462, identif ID462, fonction Testeur, metier MET462, Profil_menu MENU462, Profil_fonction PROF462"
+
+Dictionnaire :
+{
+  "code": "USR462",
+  "Nom": "Nina Lopez",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "nina.lopez@example.fr",
+  "telephone": "0697890123",
+  "fax": "0178901234",
+  "accès": "ACC462",
+  "identif": "ID462",
+  "fonction": "Testeur",
+  "cod_metier": "MET462",
+  "Profil_menu": "MENU462",
+  "Profil_fonction": "PROF462"
+}
+Exemple :
+ 
+
+"Créer user USR463, ID463, MENU463, PROF463, accès ACC463"
+
+Dictionnaire :
+{
+  "code": "USR463",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC463",
+  "identif": "ID463",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU463",
+  "Profil_fonction": "PROF463"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR464, nom Mia, aktive, conection X3, emial mia@example.fr, Profil_menu MENU464, Profil_fonction PROF464, identif ID464"
+
+Dictionnaire :
+{
+  "code": "USR464",
+  "Nom": "Mia",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "mia@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID464",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU464",
+  "Profil_fonction": "PROF464"
+}
+Exemple :
+ 
+
+"Nv user : code USR465, nom Ethan, actif, X3, WS, dem, ctr, mail ethan@ex.fr, tel 0698901234, acc ACC465, id ID465, func Designer, met MET465, menu MENU465, prof PROF465"
+
+Dictionnaire :
+{
+  "code": "USR465",
+  "Nom": "Ethan",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ethan@ex.fr",
+  "telephone": "0698901234",
+  "fax": "",
+  "accès": "ACC465",
+  "identif": "ID465",
+  "fonction": "Designer",
+  "cod_metier": "MET465",
+  "Profil_menu": "MENU465",
+  "Profil_fonction": "PROF465"
+}
+Exemple :
+ 
+
+"Créer user USR466, ID466, MENU466, PROF466, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR466",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID466",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU466",
+  "Profil_fonction": "PROF466"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR467, nom Sören Müller, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sören.müller@example.com, tel +46 70 123 45 67, fax +46 70 987 65 43, accès ACC467, identif ID467, fonction Manager, metier MET467, Profil_menu MENU467, Profil_fonction PROF467"
+
+Dictionnaire :
+{
+  "code": "USR467",
+  "Nom": "Sören Müller",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sören.müller@example.com",
+  "telephone": "+46 70 123 45 67",
+  "fax": "+46 70 987 65 43",
+  "accès": "ACC467",
+  "identif": "ID467",
+  "fonction": "Manager",
+  "cod_metier": "MET467",
+  "Profil_menu": "MENU467",
+  "Profil_fonction": "PROF467"
+}
+Exemple :
+ 
+
+"Créer user USR468, ID468, MENU468, PROF468, mail user468@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR468",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user468@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID468",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU468",
+  "Profil_fonction": "PROF468"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR469, nom Léna Dupont, aktif, conection X3, email lena.dupont@exmple.fr, Profil_menu MENU469, Profil_fonction PROF469, identif ID469"
+
+Dictionnaire :
+{
+  "code": "USR469",
+  "Nom": "Léna Dupont",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "lena.dupont@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID469",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU469",
+  "Profil_fonction": "PROF469"
+}
+Exemple :
+ 
+
+"Nv user : code USR470, nom Max, actif, X3, WS, dem, ctr, mail max@ex.fr, tel 0699012345, acc ACC470, id ID470, func Dev, met MET470, menu MENU470, prof PROF470"
+
+Dictionnaire :
+{
+  "code": "USR470",
+  "Nom": "Max",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "max@ex.fr",
+  "telephone": "0699012345",
+  "fax": "",
+  "accès": "ACC470",
+  "identif": "ID470",
+  "fonction": "Dev",
+  "cod_metier": "MET470",
+  "Profil_menu": "MENU470",
+  "Profil_fonction": "PROF470"
+}
+Exemple :
+ 
+
+"Créer user USR471, ID471, MENU471, PROF471, tel 0690123456"
+
+Dictionnaire :
+{
+  "code": "USR471",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0690123456",
+  "fax": "",
+  "accès": "",
+  "identif": "ID471",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU471",
+  "Profil_fonction": "PROF471"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR472, nom Sara Dubois, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sara.dubois@example.fr, tel 0691234567, fax 0189012345, accès ACC472, identif ID472, fonction Testeur, metier MET472, Profil_menu MENU472, Profil_fonction PROF472"
+
+Dictionnaire :
+{
+  "code": "USR472",
+  "Nom": "Sara Dubois",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sara.dubois@example.fr",
+  "telephone": "0691234567",
+  "fax": "0189012345",
+  "accès": "ACC472",
+  "identif": "ID472",
+  "fonction": "Testeur",
+  "cod_metier": "MET472",
+  "Profil_menu": "MENU472",
+  "Profil_fonction": "PROF472"
+}
+Exemple :
+ 
+
+"Créer user USR473, ID473, MENU473, PROF473, accès ACC473"
+
+Dictionnaire :
+{
+  "code": "USR473",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC473",
+  "identif": "ID473",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU473",
+  "Profil_fonction": "PROF473"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR474, nom Léo, aktive, conection X3, emial leo@example.fr, Profil_menu MENU474, Profil_fonction PROF474, identif ID474"
+
+Dictionnaire :
+{
+  "code": "USR474",
+  "Nom": "Léo",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "leo@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID474",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU474",
+  "Profil_fonction": "PROF474"
+}
+Exemple :
+ 
+
+"Nv user : code USR475, nom Inès, actif, X3, WS, dem, ctr, mail ines@ex.fr, tel 0692345678, acc ACC475, id ID475, func Designer, met MET475, menu MENU475, prof PROF475"
+
+Dictionnaire :
+{
+  "code": "USR475",
+  "Nom": "Inès",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ines@ex.fr",
+  "telephone": "0692345678",
+  "fax": "",
+  "accès": "ACC475",
+  "identif": "ID475",
+  "fonction": "Designer",
+  "cod_metier": "MET475",
+  "Profil_menu": "MENU475",
+  "Profil_fonction": "PROF475"
+}
+Exemple :
+ 
+
+"Créer user USR476, ID476, MENU476, PROF476, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR476",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID476",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU476",
+  "Profil_fonction": "PROF476"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR477, nom Élodie Noël, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail élodie.noël@example.fr, tel +33 6 34 56 78 90, fax +33 1 23 45 67 89, accès ACC477, identif ID477, fonction Manager, metier MET477, Profil_menu MENU477, Profil_fonction PROF477"
+
+Dictionnaire :
+{
+  "code": "USR477",
+  "Nom": "Élodie Noël",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "élodie.noël@example.fr",
+  "telephone": "+33 6 34 56 78 90",
+  "fax": "+33 1 23 45 67 89",
+  "accès": "ACC477",
+  "identif": "ID477",
+  "fonction": "Manager",
+  "cod_metier": "MET477",
+  "Profil_menu": "MENU477",
+  "Profil_fonction": "PROF477"
+}
+Exemple :
+ 
+
+"Créer user USR478, ID478, MENU478, PROF478, mail user478@ex.fr"
+
+Dictionnaire :
+{
+  "code": "USR478",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user478@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID478",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU478",
+  "Profil_fonction": "PROF478"
+}
+Exemple :
+ 
+
+"Crée un utilistaeur avec code USR479, nom Adrien Moreaux, aktif, conection X3, email adrien.moraux@exmple.fr, Profil_menu MENU479, Profil_fonction PROF479, identif ID479"
+
+Dictionnaire :
+{
+  "code": "USR479",
+  "Nom": "Adrien Moreaux",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "adrien.moraux@exmple.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID479",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU479",
+  "Profil_fonction": "PROF479"
+}
+Exemple :
+ 
+
+"Nv user : code USR480, nom Zoé, actif, X3, WS, dem, ctr, mail zoe@ex.fr, tel 0693456789, acc ACC480, id ID480, func Dev, met MET480, menu MENU480, prof PROF480"
+
+Dictionnaire :
+{
+  "code": "USR480",
+  "Nom": "Zoé",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "zoe@ex.fr",
+  "telephone": "0693456789",
+  "fax": "",
+  "accès": "ACC480",
+  "identif": "ID480",
+  "fonction": "Dev",
+  "cod_metier": "MET480",
+  "Profil_menu": "MENU480",
+  "Profil_fonction": "PROF480"
+}
+Exemple :
+ 
+
+"Créer user USR481, ID481, MENU481, PROF481, tel 0694567890"
+
+Dictionnaire :
+{
+  "code": "USR481",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "0694567890",
+  "fax": "",
+  "accès": "",
+  "identif": "ID481",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU481",
+  "Profil_fonction": "PROF481"
+}
+Exemple :
+ 
+
+"Nouveau user : code USR482, nom Nina Lopez, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail nina.lopez@example.fr, tel 0695678901, fax 0190123456, accès ACC482, identif ID482, fonction Testeur, metier MET482, Profil_menu MENU482, Profil_fonction PROF482"
+
+Dictionnaire :
+{
+  "code": "USR482",
+  "Nom": "Nina Lopez",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "nina.lopez@example.fr",
+  "telephone": "0695678901",
+  "fax": "0190123456",
+  "accès": "ACC482",
+  "identif": "ID482",
+  "fonction": "Testeur",
+  "cod_metier": "MET482",
+  "Profil_menu": "MENU482",
+  "Profil_fonction": "PROF482"
+}
+Exemple :
+ 
+
+"Créer user USR483, ID483, MENU483, PROF483, accès ACC483"
+
+Dictionnaire :
+{
+  "code": "USR483",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "ACC483",
+  "identif": "ID483",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU483",
+  "Profil_fonction": "PROF483"
+}
+Exemple :
+ 
+
+"Nouveau utlisateur : code USR484, nom Mia, aktive, conection X3, emial mia@example.fr, Profil_menu MENU484, Profil_fonction PROF484, identif ID484"
+
+Dictionnaire :
+{
+  "code": "USR484",
+  "Nom": "Mia",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "mia@example.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID484",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU484",
+  "Profil_fonction": "PROF484"
+}
+Exemple :
+ 
+
+"Nv user : code USR485, nom Ethan, actif, X3, WS, dem, ctr, mail ethan@ex.fr, tel 0696789012, acc ACC485, id ID485, func Designer, met MET485, menu MENU485, prof PROF485"
+
+Dictionnaire :
+{
+  "code": "USR485",
+  "Nom": "Ethan",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "ethan@ex.fr",
+  "telephone": "0696789012",
+  "fax": "",
+  "accès": "ACC485",
+  "identif": "ID485",
+  "fonction": "Designer",
+  "cod_metier": "MET485",
+  "Profil_menu": "MENU485",
+  "Profil_fonction": "PROF485"
+}
+Exemple :
+
+"Créer user USR486, ID486, MENU486, PROF486, fonction Analyste"
+
+Dictionnaire :
+{
+  "code": "USR486",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID486",
+  "fonction": "Analyste",
+  "cod_metier": "",
+  "Profil_menu": "MENU486",
+  "Profil_fonction": "PROF486"
+}
+Exemple :
+
+"Nouveau user : code USR487, nom Sören Müller, actif, X3 connexion, WS connexion, demandeur, ctr_annuaire, mail sören.müller@example.com, tel +46 70 123 45 67, fax +46 70 987 65 43, accès ACC487, identif ID487, fonction Manager, metier MET487, Profil_menu MENU487, Profil_fonction PROF487"
+
+Dictionnaire :
+{
+  "code": "USR487",
+  "Nom": "Sören Müller",
+  "actif": "oui",
+  "Connexion_X3": "oui",
+  "Connexion_WS": "oui",
+  "Demandeur": "oui",
+  "ctr_annuaire": "oui",
+  "mail": "sören.müller@example.com",
+  "telephone": "+46 70 123 45 67",
+  "fax": "+46 70 987 65 43",
+  "accès": "ACC487",
+  "identif": "ID487",
+  "fonction": "Manager",
+  "cod_metier": "MET487",
+  "Profil_menu": "MENU487",
+  "Profil_fonction": "PROF487"
+}
+Exemple :
+"Créer user USR488, ID488, MENU488, PROF488, mail user488@ex.fr"
+
+Dictionnaire :
+
+{
+  "code": "USR488",
+  "Nom": "",
+  "actif": "",
+  "Connexion_X3": "",
+  "Connexion_WS": "",
+  "Demandeur": "",
+  "ctr_annuaire": "",
+  "mail": "user488@ex.fr",
+  "telephone": "",
+  "fax": "",
+  "accès": "",
+  "identif": "ID488",
+  "fonction": "",
+  "cod_metier": "",
+  "Profil_menu": "MENU488",
+  "Profil_fonction": "PROF488"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

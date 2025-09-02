@@ -1,0 +1,2024 @@
+﻿CODINT_0;FLAG_0;FLAG_1;FLAG_2;FLAG_3;FLAG_4;FLAG_5;FLAG_6;FLAG_7;FLAG_8;FLAG_9;FLAG_10;FLAG_11;FLAG_12;OPTION_0;OPTION_1;OPTION_2;OPTION_3;OPTION_4;OPTION_5;OPTION_6;OPTION_7;OPTION_8;OPTION_9;OPTION_10;OPTION_11;OPTION_12;TYP_0;Texte0;Texte1;Texte2;Texte3;Texte4;Texte5;Texte6;Texte7;Texte8;Texte9;Texte10;Texte11;Texte12;Désignation
+METDI;z; ; ; ; ; ; ; ; ; ; ; ; ;4954;0;0;0;0;0;0;0;0;0;0;0;0;1;z-Quantités;;;;;;;;;;;;;#N/A
+GESBPD;W; ; ; ; ; ; ; ; ; ; ; ; ;6052;0;0;0;0;0;0;0;0;0;0;0;0;2;W-Toutes sociétés;;;;;;;;;;;;;#N/A
+GESBPR;W; ; ; ; ; ; ; ; ; ; ; ; ;6052;0;0;0;0;0;0;0;0;0;0;0;0;2;W-Toutes sociétés;;;;;;;;;;;;;Tiers
+GESITU;W; ; ; ; ; ; ; ; ; ; ; ; ;6052;0;0;0;0;0;0;0;0;0;0;0;0;2;W-Toutes sociétés;;;;;;;;;;;;;#N/A
+GESBIC;V;E; ; ; ; ; ; ; ; ; ; ; ;10374;3460;0;0;0;0;0;0;0;0;0;0;0;2;V-Validation des factures;E-Echéances;;;;;;;;;;;;Factures tiers client
+GESBIS;V;E; ; ; ; ; ; ; ; ; ; ; ;10374;3460;0;0;0;0;0;0;0;0;0;0;0;2;V-Validation des factures;E-Echéances;;;;;;;;;;;;Factures tiers fournisseur
+GESFRM;V;F;T; ; ; ; ; ; ; ; ; ; ;18624;7514;10735;0;0;0;0;0;0;0;0;0;0;2;V-Validation;F-Fichier banque;T-Transactions;;;;;;;;;;;Saisie bordereau de remise
+GESPAB;V;F;T; ; ; ; ; ; ; ; ; ; ;18624;7514;3211;0;0;0;0;0;0;0;0;0;0;2;V-Validation;F-Fichier banque;T-Transaction;;;;;;;;;;;Saisie avis de domiciliation
+GESPIH;V;E;U;I; ; ; ; ; ; ; ; ; ;18624;3460;44107;7445;0;0;0;0;0;0;0;0;0;2;V-Validation;E-Echéances;U-Déblocage erreur rapprochement;I-Emission;;;;;;;;;;Factures
+GESPNH;V;K; ; ; ; ; ; ; ; ; ; ; ;1049;16462;0;0;0;0;0;0;0;0;0;0;0;2;V-Validation;K-Modification mvts de stock;;;;;;;;;;;;Retours d'achat
+GESREL;V;J; ; ; ; ; ; ; ; ; ; ; ;18624;3770;0;0;0;0;0;0;0;0;0;0;0;2;V-Validation;J-Mise à jour;;;;;;;;;;;;Relevés
+GESSDH;V;P;F;K;G;I; ; ; ; ; ; ; ;1049;12450;9784;43877;12257;7445;0;0;0;0;0;0;0;2;V-Validation;P-Proforma;F-Facture;K-Modif. mvts de stock/qtés;G-Colisage;I-Emission;;;;;;;;Livraisons
+GESSDH2;V;P;F;K;G; ; ; ; ; ; ; ; ;1049;12450;9784;16462;12257;0;0;0;0;0;0;0;0;2;V-Validation;P-Proforma;F-Facture;K-Modification mvts de stock;G-Colisage;;;;;;;;;Livraisons
+GESSIH;V;E;R;K;I; ; ; ; ; ; ; ; ;18624;3460;7770;16462;7445;0;0;0;0;0;0;0;0;2;V-Validation;E-Echéances;R-Règlement;K-Modification mvts de stock;I-Emission;;;;;;;;;Factures
+GESSNL;V; ; ; ; ; ; ; ; ; ; ; ; ;18624;0;0;0;0;0;0;0;0;0;0;0;0;2;V-Validation;;;;;;;;;;;;;Inventaire
+AREQUETE;U; ; ; ; ; ; ; ; ; ; ; ; ;6481;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Tous utilisateurs;;;;;;;;;;;;;Gestion des requêtes
+EXERQT;U; ; ; ; ; ; ; ; ; ; ; ; ;6481;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Tous utilisateurs;;;;;;;;;;;;;Soumission des requêtes
+GESABA;U; ; ; ; ; ; ; ; ; ; ; ; ;6481;0;0;0;0;0;0;0;0;0;0;0;0;2;U-Tous utilisateurs;;;;;;;;;;;;;Gestion des abonnements
+GESAWU;U; ; ; ; ; ; ; ; ; ; ; ; ;6481;0;0;0;0;0;0;0;0;0;0;0;0;2;U-Tous utilisateurs;;;;;;;;;;;;;Utilisateurs délégués
+FUNPSH;U; ; ; ; ; ; ; ; ; ; ; ; ;11045;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Tous demandeurs;;;;;;;;;;;;;Solde des demandes achat
+FUNPSH2;U; ; ; ; ; ; ; ; ; ; ; ; ;11045;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Tous demandeurs;;;;;;;;;;;;;Solde des demandes achat
+BANAFFA;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Affectation banques
+BANAFFM;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Saisie banques
+BPCVAL;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Validation client
+BPSVAL;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Validation fournisseur
+CPTACTSIM;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Activation simulations
+CPTANA;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Modification analytique
+CPTANUSIM;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Annulation simulations
+CPTCLP;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Ecritures calculées
+CPTDESSIM;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Désactivation simulations
+CPTDSPANA;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Répartitions analytiques
+CPTEXT;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Extournes
+CPTLOT;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Validation des lots
+CPTVAL;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Validation définitive
+CPTVALSIM;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Validation simulations
+EXSGEN;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Comptabilisation des frais
+FRADSICTL;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Ctrl. signatures électroniques
+FUNCFMINV;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Validation facture/avoir vente
+FUNPIH;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Validation des factures
+GENAVIDOM;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Génération domiciliations
+GENBORREM;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Génération bordereau de remise
+SOLABT;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Solde des abonnements
+TRFSAC;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Transfert collectif
+VALABT;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Génération abonnements
+VALBIS;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;Factures en attente
+VATSAI;U; ; ; ; ; ; ; ; ; ; ; ; ;14174;0;0;0;0;0;0;0;0;0;0;0;0;1;U-Accès par utilisateur;;;;;;;;;;;;;TVA déclarée
+GESCAZ;T; ; ; ; ; ; ; ; ; ; ; ; ;3211;0;0;0;0;0;0;0;0;0;0;0;0;2;T-Transaction;;;;;;;;;;;;;Codes interdiction
+GESGAS;T; ; ; ; ; ; ; ; ; ; ; ; ;3211;0;0;0;0;0;0;0;0;0;0;0;0;2;T-Transaction;;;;;;;;;;;;;Saisie pièces
+GESLOT;T; ; ; ; ; ; ; ; ; ; ; ; ;3211;0;0;0;0;0;0;0;0;0;0;0;0;2;T-Transaction;;;;;;;;;;;;;Saisie lots
+BATCHEXP;T; ; ; ; ; ; ; ; ; ; ; ; ;60;0;0;0;0;0;0;0;0;0;0;0;0;1;T-Traitement;;;;;;;;;;;;;#N/A
+BATCHIMP;T; ; ; ; ; ; ; ; ; ; ; ; ;60;0;0;0;0;0;0;0;0;0;0;0;0;1;T-Traitement;;;;;;;;;;;;;#N/A
+GEXPOBJ;T; ; ; ; ; ; ; ; ; ; ; ; ;60;0;0;0;0;0;0;0;0;0;0;0;0;1;T-Traitement;;;;;;;;;;;;;Exports
+GIMPOBJ;T; ; ; ; ; ; ; ; ; ; ; ; ;60;0;0;0;0;0;0;0;0;0;0;0;0;1;T-Traitement;;;;;;;;;;;;;Imports
+GESBPC;T; ; ; ; ; ; ; ; ; ; ; ; ;1596;6052;0;0;0;0;0;0;0;0;0;0;0;2;T-Tarif; -Toutes sociétés;;;;;;;;;;;;Clients
+GESBPS;T; ; ; ; ; ; ; ; ; ; ; ; ;1596;6052;0;0;0;0;0;0;0;0;0;0;0;2;T-Tarif; -Toutes sociétés;;;;;;;;;;;;Fournisseurs
+GESITM;T;c; ; ; ; ; ; ; ; ; ; ; ;1596;5010;0;0;0;0;0;0;0;0;0;0;0;2;T-Tarif;c-Coût;;;;;;;;;;;;Articles
+GESPOD;T; ; ; ; ; ; ; ; ; ; ; ; ;17875;0;0;0;0;0;0;0;0;0;0;0;0;2;T-Solde;;;;;;;;;;;;;Demandes de livraisons
+GESPOH;T;L;I; ; ; ; ; ; ; ; ; ; ;17875;50860;7445;0;0;0;0;0;0;0;0;0;0;2;T-Solde;L-Détail structure de coût;I-Emission;;;;;;;;;;;Commandes
+GESPSH;T;G; ; ; ; ; ; ; ; ; ; ; ;17875;7042;0;0;0;0;0;0;0;0;0;0;0;2;T-Solde;G-Génération;;;;;;;;;;;;Demandes d'achat
+GESPTH;T;K;L; ; ; ; ; ; ; ; ; ; ;17875;16462;50860;0;0;0;0;0;0;0;0;0;0;2;T-Solde;K-Modification mvts de stock;L-Détail structure de coût;;;;;;;;;;;Réceptions
+GESPTH2;T;K;L; ; ; ; ; ; ; ; ; ; ;17875;16462;50860;0;0;0;0;0;0;0;0;0;0;2;T-Solde;K-Modification mvts de stock;L-Détail structure de coût;;;;;;;;;;;Réceptions
+LECTRACE;S; ; ; ; ; ; ; ; ; ; ; ; ;12225;0;0;0;0;0;0;0;0;0;0;0;0;1;S-Suppression;;;;;;;;;;;;;Lecture traces
+GESSTQ;Q; ; ; ; ; ; ; ; ; ; ; ; ;23884;0;0;0;0;0;0;0;0;0;0;0;0;2;Q-Changement de statut;;;;;;;;;;;;;Contrôle qualité
+GESSOH;P;L;F;A;D;R;I;B;G; ; ; ; ;12450;5852;9784;7974;17875;10574;7445;17825;16684;0;0;0;0;2;P-Proforma;L-Livraison;F-Facture;A-Allocation;D-Solde;R-Préparation;I-Emission;B-Contremarque achat;G-Contremarque production;;;;;Gestion des commandes
+GESSQH;P;O; ; ; ; ; ; ; ; ; ; ; ;12450;3312;0;0;0;0;0;0;0;0;0;0;0;2;P-Proforma;O-Commande;;;;;;;;;;;;Gestion des devis
+GESANU;P; ; ; ; ; ; ; ; ; ; ; ; ;31911;0;0;0;0;0;0;0;0;0;0;0;0;2;P-Annulation mot de passe;;;;;;;;;;;;;Annuaire utilisateur
+CONSSTA;N; ; ; ; ; ; ; ; ; ; ; ; ;16477;0;0;0;0;0;0;0;0;0;0;0;0;1;N-Tous niveaux;;;;;;;;;;;;;Statistiques
+SYRACHPPSI;M;C; ; ; ; ; ; ; ; ; ; ; ;31737;31737;0;0;0;0;0;0;0;0;0;0;0;1;M-Consultation;C-Consultation;;;;;;;;;;;;#N/A
+SYRVENSPSI;M;C; ; ; ; ; ; ; ; ; ; ; ;31737;31737;0;0;0;0;0;0;0;0;0;0;0;1;M-Consultation;C-Consultation;;;;;;;;;;;;#N/A
+GESPRH;L;G; ; ; ; ; ; ; ; ; ; ; ;5852;12257;0;0;0;0;0;0;0;0;0;0;0;2;L-Livraison;G-Colisage;;;;;;;;;;;;Bons de préparation
+GESPRH2;L;G; ; ; ; ; ; ; ; ; ; ; ;5852;12257;0;0;0;0;0;0;0;0;0;0;0;2;L-Livraison;G-Colisage;;;;;;;;;;;;Bons de préparation
+GESBBY;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Assemblage
+GESDBY;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Désassemblage
+GESITN;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Interventions
+GESMTK;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Suivi de fabrication
+GESSMO;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Sorties diverses
+GESSMR;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Entrées diverses
+GESSRH;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Retours client
+GESSRL;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Retours prêt
+GESSRS;K; ; ; ; ; ; ; ; ; ; ; ; ;16462;0;0;0;0;0;0;0;0;0;0;0;0;2;K-Modification mvts de stock;;;;;;;;;;;;;Retours matière sous-traitance
+PSADX;K;S; ; ; ; ; ; ; ; ; ; ; ;12295;12225;0;0;0;0;0;0;0;0;0;0;0;1;K-Arrêt processus;S-Suppression;;;;;;;;;;;;Surveillance utilisateurs
+PSIMP;K; ; ; ; ; ; ; ; ; ; ; ; ;12295;0;0;0;0;0;0;0;0;0;0;0;0;1;K-Arrêt processus;;;;;;;;;;;;;Surveillance impressions
+GESPHY;G; ; ; ; ; ; ; ; ; ; ; ; ;35491;0;0;0;0;0;0;0;0;0;0;0;0;2;G-Transfert géographique;;;;;;;;;;;;;#N/A
+GESSRE;G;H;K;F; ; ; ; ; ; ; ; ; ;23468;23392;16462;9784;0;0;0;0;0;0;0;0;0;2;G-Suivi des modifications;H-Couverture par défaut;K-Modification mvts de stock;F-Facture;;;;;;;;;;Demandes de service
+CONSAWW;G;A;U; ; ; ; ; ; ; ; ; ; ;6913;716;6481;0;0;0;0;0;0;0;0;0;0;1;G-Signature;A-Annulation;U-Tous utilisateurs;;;;;;;;;;;#N/A
+SAIWRKPLN;G;A;U; ; ; ; ; ; ; ; ; ; ;6913;716;6481;0;0;0;0;0;0;0;0;0;0;1;G-Signature;A-Annulation;U-Tous utilisateurs;;;;;;;;;;;Moniteur Workflow
+GESMST;G;H; ; ; ; ; ; ; ; ; ; ; ;18478;18479;0;0;0;0;0;0;0;0;0;0;0;2;G-Génération secteurs;H-Consultation secteurs;;;;;;;;;;;;Secteurs de marché
+PAYMEP;G;U; ; ; ; ; ; ; ; ; ; ; ;7042;14174;0;0;0;0;0;0;0;0;0;0;0;1;G-Génération;U-Accès par utilisateur;;;;;;;;;;;;Comptabilisation des effets
+REMBAN;G;U; ; ; ; ; ; ; ; ; ; ; ;7042;14174;0;0;0;0;0;0;0;0;0;0;0;1;G-Génération;U-Accès par utilisateur;;;;;;;;;;;;Comptabilisation en banque
+REMCPT;G;U; ; ; ; ; ; ; ; ; ; ; ;7042;14174;0;0;0;0;0;0;0;0;0;0;0;1;G-Génération;U-Accès par utilisateur;;;;;;;;;;;;Comptabilisation intermédiaire
+GESSPT;G; ; ; ; ; ; ; ; ; ; ; ; ;33690;0;0;0;0;0;0;0;0;0;0;0;0;2;G-Affectation lead;;;;;;;;;;;;;Secteurs lead
+GESFIFCV;F;R;G; ; ; ; ; ; ; ; ; ; ;1003513;9767;18624;0;0;0;0;0;0;0;0;0;0;2;F-Position finale;R-Annulation comptable;G-Validation;;;;;;;;;;;Calcul taux FIFO
+GESCON;F; ; ; ; ; ; ; ; ; ; ; ; ;9784;0;0;0;0;0;0;0;0;0;0;0;0;2;F-Facture;;;;;;;;;;;;;Contrats de service
+MODECHE;E;B;T; ; ; ; ; ; ; ; ; ; ;8225;8226;8227;0;0;0;0;0;0;0;0;0;0;1;E-Modification échéances;B-Modification relance;T-Modification tiers;;;;;;;;;;;Gestion des échéances
+MODECHE2;E;B;T; ; ; ; ; ; ; ; ; ; ;8225;8226;8227;0;0;0;0;0;0;0;0;0;0;1;E-Modification échéances;B-Modification relance;T-Modification tiers;;;;;;;;;;;Saisie des échéances
+GESSIS;D; ; ; ; ; ; ; ; ; ; ; ; ;12225;0;0;0;0;0;0;0;0;0;0;0;0;2;D-Suppression;;;;;;;;;;;;;Transferts inter-sites
+SYRCONSSDI;C;M; ; ; ; ; ; ; ; ; ; ; ;192;192;0;0;0;0;0;0;0;0;0;0;0;1;C-Consultation;M-Consultation;;;;;;;;;;;;#N/A
+BPRICRE;C;S;U; ; ; ; ; ; ; ; ; ; ;3662;3680;14174;0;0;0;0;0;0;0;0;0;0;1;C-Client;S-Fournisseur;U-Accès par utilisateur;;;;;;;;;;;Création facture périodique
+FASTRFM;A;G; ; ; ; ; ; ; ; ; ; ; ;35490;35491;0;0;0;0;0;0;0;0;0;0;0;1;A-Transfert analytique;G-Transfert géographique;;;;;;;;;;;;Trf massif ana / géo
+GESFAS;A;G;R;T;U;V;W;Z;O;P; ; ; ;35490;35491;35435;34629;35495;7972;15938;23308;41862;37318;0;0;0;2;A-Transfert analytique;G-Transfert géographique;R-Modif. imputation comptable;T-Changement de méthode;U-Actualisation;V-Réévaluation;W-Eclatement;Z-Sortie;O-Modif information bien concess;P-Changer la règle de TVA;;;;Biens comptables
+GESAFT;A; ; ; ; ; ; ; ; ; ; ; ; ;18599;0;0;0;0;0;0;0;0;0;0;0;0;2;A-Modification codes accès;;;;;;;;;;;;;Profil fonction
+GESAUS;A;P; ; ; ; ; ; ; ; ; ; ; ;18599;21873;0;0;0;0;0;0;0;0;0;0;0;2;A-Modification codes accès;P-Modification du mot de passe;;;;;;;;;;;;Utilisateurs
+GESPAY;A;V;T;L;O; ; ; ; ; ; ; ; ;9767;18624;10735;15349;43824;0;0;0;0;0;0;0;0;2;A-Annulation comptable;V-Validation;T-Transactions;L-Lot de saisie;O-Annulation chèque;;;;;;;;;Règlements
+GESMFG;A;J; ; ; ; ; ; ; ; ; ; ; ;3862;2378;0;0;0;0;0;0;0;0;0;0;0;2;A-Allocations manuelles;J-Jalonnement;;;;;;;;;;;;Gestion ordres de fabrication
+GESSCO;A;O; ; ; ; ; ; ; ; ; ; ; ;3862;17077;0;0;0;0;0;0;0;0;0;0;0;2;A-Allocations manuelles;O-Commander;;;;;;;;;;;;Ordres de sous-traitance
+FUNDBENCH;A;M;J;P; ; ; ; ; ; ; ; ; ;3164;3862;2378;18114;0;0;0;0;0;0;0;0;0;1;A-Allocations;M-Allocations manuelles;J-Jalonnement;P-Planification multi-niveaux;;;;;;;;;;Plan de travail
+FUNMLINK;A;M;J; ; ; ; ; ; ; ; ; ; ;3164;3862;2378;0;0;0;0;0;0;0;0;0;0;1;A-Allocations;M-Allocations manuelles;J-Jalonnement;;;;;;;;;;;Plan d'affectation
+FUNDBENCHA;A;M;J;P; ; ; ; ; ; ; ; ; ;7974;3862;2378;18114;0;0;0;0;0;0;0;0;0;1;A-Allocation;M-Allocations manuelles;J-Jalonnement;P-Planification multi-niveaux;;;;;;;;;;Plan de travail
+FUNGBENCH;A;M;J; ; ; ; ; ; ; ; ; ; ;7974;3862;2378;0;0;0;0;0;0;0;0;0;0;1;A-Allocation;M-Allocations manuelles;J-Jalonnement;;;;;;;;;;;Planning global
+FUNGBENCHA;A;M;J; ; ; ; ; ; ; ; ; ; ;7974;3862;2378;0;0;0;0;0;0;0;0;0;0;1;A-Allocation;M-Allocations manuelles;J-Jalonnement;;;;;;;;;;;Planning global
+GESSOQ;A; ; ; ; ; ; ; ; ; ; ; ; ;7974;0;0;0;0;0;0;0;0;0;0;0;0;2;A-Allocation;;;;;;;;;;;;;Gestion demandes de livraisons
+SYRWRKPLN;A; ; ; ; ; ; ; ; ; ; ; ; ;72;0;0;0;0;0;0;0;0;0;0;0;0;1;A-Accès;;;;;;;;;;;;;#N/A
+GESLOF;4; ; ; ; ; ; ; ; ; ; ; ; ;15938;0;0;0;0;0;0;0;0;0;0;0;0;2;4-Eclatement;;;;;;;;;;;;;Dépenses
+GESCYM;2;3; ; ; ; ; ; ; ; ; ; ; ;12408;29430;0;0;0;0;0;0;0;0;0;0;0;2;2-Duplication;3-Génération auto;;;;;;;;;;;;Pyramides analytiques sections
+GESGYM;2;3; ; ; ; ; ; ; ; ; ; ; ;12408;29430;0;0;0;0;0;0;0;0;0;0;0;2;2-Duplication;3-Génération auto;;;;;;;;;;;;Pyramides de comptes
+GESEXS;1; ; ; ; ; ; ; ; ; ; ; ; ;6481;0;0;0;0;0;0;0;0;0;0;0;0;2;1-Tous utilisateurs;;;;;;;;;;;;;Relevés de frais
+GESCRY;1;2;3; ; ; ; ; ; ; ; ; ; ;29429;12408;29430;0;0;0;0;0;0;0;0;0;0;2;1-Changement pyramide;2-Duplication;3-Génération auto;;;;;;;;;;;Groupes de sections
+GESGRY;1;2;3; ; ; ; ; ; ; ; ; ; ;29429;12408;29430;0;0;0;0;0;0;0;0;0;0;2;1-Changement pyramide;2-Duplication;3-Génération auto;;;;;;;;;;;Groupes de comptes
+GESGAC;1; ; ; ; ; ; ; ; ; ; ; ; ;29432;0;0;0;0;0;0;0;0;0;0;0;0;2;1-Changement de plan;;;;;;;;;;;;;Comptes généraux
+GESCCE;1; ; ; ; ; ; ; ; ; ; ; ; ;29428;0;0;0;0;0;0;0;0;0;0;0;0;2;1-Changement d'axe;;;;;;;;;;;;;Sections
+ABATPAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Paramètres serveur batch
+ABT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+ACHANGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement de clé en masse
+ACHGCOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ACOMPOBJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Différence d'objets
+ACOPADO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie valeurs paramètres
+ACOPAPH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie paramétrage
+ACOPDIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie dictionnaire
+ACOPELT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie élément client
+ACOPFIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie fichiers
+ACOPPOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie codes postaux
+ACOPTRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie transactions
+ACTIVLNK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Activation des liaisons
+ACTLSPE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ADELETE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppressions
+ADELSESS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ADIFSUB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Différence arguments sous-prog
+ADILNG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Perso tables diverses
+ADOSCOPDAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie de données
+ADOTRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Editeur scripts
+ADPVAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Valeurs paramètres
+ADSVAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ADXD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Surveillance services
+AECLIEXE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AECLIRDV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AFRAP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AFRAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AGDPRMAI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste des données Email
+AGDPRPDATA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste des données personnelles
+AGDPRPHONE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste des données téléphone
+AGDPRSEA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche protection données
+AGENADO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AGENASWLNK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Synchronisation des liens
+AGENCLATECH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation classes systèmes
+AHISTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Historisation / Epuration
+AICONE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Affichage icônes
+AIFIMPGENFIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Conversion fichiers mono-ligne
+AIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impressions
+AIMPCRYS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AIMPCRYSD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AINITEXTRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Init textes traduisibles
+AIOBENCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Indice performance
+ALANG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération des libellés
+ALISTDPOCPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contrôle société pour DPD
+ALOGSUP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Trace pour le support
+AMAINTPORT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion du portail
+AMIEXE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transactions système
+AMIGNAMFIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AMIGSYR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Migration objet
+AMOULIN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Moniteur d'enchainement
+AMOULIN4; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ANAMEMO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Analyse mémos
+ANUPAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ANURBK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression relevé
+APARHIS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Paramètres épurations
+APATCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création de patchs
+APATCHA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création automatique de patchs
+APORC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+APORP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+APORS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+APRSMSK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Affectation style conditionnel
+APRTRAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Traduction processus
+APTLOBJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+APTLREQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ARCHFLASH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création archive flash
+ARCHGENTRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération archive traitements
+ARCHTRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Archive traitements
+ARCVISU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Visualisation archive
+ARCVISUOBJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Interrogation GED
+ARECAUO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;MAJ des utilisateurs nommés
+ARECHMEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche menu
+ARECOPRO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recodification processus
+ARECSRC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche rapide traitements
+ARECTXTTRD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche  message / texte
+ASEAAPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche  message / texte
+ASSOMAJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ASYNCBCOU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Synchronisation compteur batch
+ATFCT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+ATPRD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+ATRAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+ATSTREC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Récupération données stables
+ATSTSAV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sauvegarde données stables
+ATTLS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AUSRSTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Envoi statistiques licence
+AVALAFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynch. profils fonction site
+AVERIFSRC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Vérification des sources
+AVISULIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AVOCAB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Personnalisation vocabulaire
+AWRKCLASSIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AWRKSIG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+AYT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYT1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYTCHGFCYW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sélection site courant
+AYTF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYTFCYCOP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Duplication de site web
+AYTFCYDEL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression site Web
+AYTFCYGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation site Web
+AYTFCYTAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion design/archive
+AYTK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYTL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYTP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYTS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYTT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+AYTWSRGES; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie service web
+BADBTGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion créances douteuses
+BALCONSO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Extraction pour consolidation
+BANREC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pointage des relevés bancaires
+BIMAJBUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mise à jour budgets BI
+BNKTRSIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Import virements tréso Sage
+BOMPRN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression nomenclatures
+BOMRET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Analyse de faisabilité
+BPCREDIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Blocage client
+BPCREDITD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Déblocage client
+BPOINET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Compensation tiers
+BPRMERGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Fusions de tiers
+BPS1099CLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calculer règlements 1099
+BPS1099GEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération 1099
+BPS1099SUM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Récapitulatif règlements 1099
+BSIIMPORT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Import transactions bancaires
+BSIMTCSTM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+BSIRAPBAN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+BUDCOP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie de budgets
+BUDGET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Saisie budgets
+CALALH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CALALQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CALCSTBUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul coûts budget
+CALCSTCUT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul coûts actualisés
+CALCSTSIM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul coûts simulés
+CALCSTSTD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul coûts standards
+CALCSTUPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mise à jour coûts calculés
+CALMFGCOST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul du prix de revient
+CALSCOCOST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul coût prévisionnel ss-trait
+CASNOMENP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Cas d'emploi composants
+CASNOMENS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Cas d'emploi services
+CCEUOM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Unités d'oeuvre sur sections
+CCMIMPBATF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CCONS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CHDOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement de dossier
+CHGDAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement de date
+CHXPERSO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Personnalisation
+CLOPER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CMMREP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Report des engagements
+CMPGAU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Comparaison pièces auto
+CNVECAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Ecarts de conversion
+CNVUTF8; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Conversion UTF8
+CODACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Affectation codes d'accès
+CODCTL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Affectation tables contrôle
+COMBOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Menus locaux
+COMPCOUT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Comparaison des coûts
+COMPCOUTM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression comparatif coûts
+CONSAGSD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSALL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSALLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations
+CONSALLG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations
+CONSALLS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations
+CONSALO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Audit
+CONSAUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Audit
+CONSAUH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Audit
+CONSAYU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Cas d'emploi
+CONSB9I; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSBAF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation balance en devise
+CONSBAG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Situation client
+CONSBAGF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Situation fournisseur
+CONSBAH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Balance âgée client à date
+CONSBAHF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Balance âgée fourn à date
+CONSBAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Balances
+CONSBAN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Banques
+CONSBDT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Créances douteuses
+CONSBPSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Produits par fournisseur
+CONSBSE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation bilan
+CONSBTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Situation bancaire
+CONSCAA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Analyse compte contrepartie
+CONSCHQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation chèque
+CONSCOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contenu colis
+CONSCOL2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contenu colis
+CONSCON; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contrats de service
+CONSCPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation demandes d'achat
+CONSCPI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation factures
+CONSCPJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation lignes factures
+CONSCPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation retours
+CONSCPO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation commandes
+CONSCPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation lignes commandes
+CONSCPQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation lignes retours
+CONSCPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation réceptions
+CONSCPS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation lignes réceptions
+CONSCPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Comptes
+CONSCSD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste livraisons
+CONSCSF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lignes livraisons
+CONSCSG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Tournées
+CONSCSG2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Tournées
+CONSCSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste factures
+CONSCSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lignes devis
+CONSCSN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation de retours
+CONSCSO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste commandes
+CONSCSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lignes commandes
+CONSCSQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste Devis
+CONSCSR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Ligne de retours
+CONSCSS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Echéances facturation
+CONSCST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lignes factures de vente
+CONSDCL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Reporting déclarations TVA
+CONSDMWD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Résultats détaillés calcul
+CONSDMWDD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Résultats détaillés calcul
+CONSDMWG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Résultats groupés calcul
+CONSDMWGD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Résultats groupés calcul
+CONSDNO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion factures d'agios
+CONSEDK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSESL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Listing ventes intracom.
+CONSESR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Historique des e-Signatures
+CONSFAC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Factures
+CONSLLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consult codes plus bas niveau
+CONSLPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock par numéro contenant
+CONSMCC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSMCN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSMFG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste des OF
+CONSMKI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Productions
+CONSMKM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consommations
+CONSMKO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Temps passés
+CONSMWK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation charge
+CONSNAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Comptes analytiques
+CONSOIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSOPX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Encours charge
+CONSORD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Encours article
+CONSORD7; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Encours article
+CONSPAY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Règlements
+CONSPCE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Ecritures
+CONSPIA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;3821;25422;19569;5091;0;0;0;0;0;0;0;0;1;; -Ventes; -CRM; -Tiers; -Immobilisations;;;;;;;;;Traçabilité pièces achats
+CONSPIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;3821;25422;19569;5091;0;0;0;0;0;0;0;0;1;; -Ventes; -CRM; -Tiers; -Immobilisations;;;;;;;;;Traçabilité pièces CRM
+CONSPIF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;3821;25422;19569;5091;0;0;0;0;0;0;0;0;1;; -Ventes; -CRM; -Tiers; -Immobilisations;;;;;;;;;Traçabilité immobilisations
+CONSPIH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;3821;25422;19569;5091;0;0;0;0;0;0;0;0;1;; -Ventes; -CRM; -Tiers; -Immobilisations;;;;;;;;;Traçabilité pièces support clt
+CONSPIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;3821;25422;19569;5091;0;0;0;0;0;0;0;0;1;; -Ventes; -CRM; -Tiers; -Immobilisations;;;;;;;;;Traçabilité pièces tiers
+CONSPITV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Valorisation stock par période
+CONSPIV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;3821;25422;19569;5091;0;0;0;0;0;0;0;0;1;; -Ventes; -CRM; -Tiers; -Immobilisations;;;;;;;;;Traçabilité pièces ventes
+CONSPRH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Bons de préparation
+CONSPRH2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Bons de préparation
+CONSSAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations détaillées
+CONSSAG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations globales
+CONSSAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stocks par article
+CONSSAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mouvements en attente
+CONSSBI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Articles en inventaire
+CONSSBII; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Articles en inventaire
+CONSSBP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock prêté
+CONSSCB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSSCBCB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Résultats CBN
+CONSSCBCB1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interrogation CBN GPAO
+CONSSCBPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Résultats PDP
+CONSSCBPD1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interro calculs PDP
+CONSSCI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul comptages
+CONSSCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consommation sous-traitance
+CONSSDA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock à date
+CONSSDE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stocks détaillés
+CONSSDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock disponible
+CONSSDI1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock disponible vente
+CONSSDO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stocks inactifs
+CONSSEA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Emplacements
+CONSSEC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sections
+CONSSED; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Emplacements dédiés
+CONSSET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transaction carte crédit
+CONSSFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock par site
+CONSSH3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Hist. fiche 130
+CONSSHIPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lignes d'expéditions
+CONSSHO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;OF en rupture
+CONSSHQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Hist. fiche technique
+CONSSHS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Historique stocks
+CONSSHT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSSHTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations en rupture
+CONSSHTG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations en rupture
+CONSSHTS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations en rupture
+CONSSII; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Articles à inventorier
+CONSSIM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation de simulation
+CONSSLO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stocks par lots
+CONSSMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Evolution du PMP par mouvement
+CONSSMF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mouvement prix FIFO
+CONSSMJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mouvements par date
+CONSSML; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mouvement prix moyen lot
+CONSSMQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stocks manquants
+CONSSMV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mouvements par article
+CONSSOE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Occupation emplacements
+CONSSPE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock périmé
+CONSSPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock projeté
+CONSSPR1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stock projeté
+CONSSRF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réponses contrôle qualité
+CONSSSC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation sous-traitance
+CONSSSE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Numéros de série
+CONSSST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sous-traitance
+CONSSTCITG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSSTCITM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSSTCITP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSSTK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Traçabilité
+CONSSTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSSTT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CONSSXT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Stocks externes
+CONSTRN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation de transports
+CONSVCI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Incohérence code TVA
+CONSYHH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+COPRPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie états
+COPTRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie traitements
+COPYCOUT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transfert de coûts
+COPYGAMME; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie gammes
+COPYNOMEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Copie nomenclatures
+COURDEV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Cours des devises
+CPBUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+CPCSF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+CPTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CPTDUM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation code déversement
+CPTQUIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Comptabilisation quittances
+CPTSVC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;CCA/PCA d'arrêtés
+CPUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+CREEVL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CREHISTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création dossier historisé
+CREITFMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création article-site
+CRELPNMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création numéros contenants
+CRERVV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CRMEXPCSV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWALR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWPRH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWPTH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWQPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWQPH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWQSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWQSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSALR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSLPNA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSLPNG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSLPNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSLPNU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSPRH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSPTH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSSCS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSSCSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSSIS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSSMO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSSMR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSSSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+CWSSST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+DAS2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+DATEV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+DCLESD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Déclaration Européenne de Services
+DCLVATBAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+DCLVATFRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+DCLVATGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+DCLVATOTH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Déclaration préparatoire TVA
+DELETTRAGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Délettrage
+DELQUIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Annulation quittances
+DEPOINTAGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Dépointage
+DEVERROU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Déverrouillage dossier
+DIVAVO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Motifs avoirs
+DIVCCL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Motifs solde
+DIVRET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Motifs retours
+DIVTSC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fam. stat. clients
+DIVTSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fam. stat. articles
+DIVTSS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fam. stat. fournisseurs
+DMWBAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Calcul des déchets
+DMWPA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+DMWPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+DOSEXTRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Extraction données
+DOSINTEG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Intégration données
+DVBAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+DVIEX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+DVSTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+ECMLINK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lien e-commerce
+ECOMM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+EDIBAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+EDIBPRCPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIBPRPAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDICAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDICPYPAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIDEB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIFCYPAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIFLO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+EDIISS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+EDILINK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+EDIMSG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIPARTNER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIPTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIPUR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+EDIQRY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIRUNISS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIRUNREC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDISEQFIL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDISTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDITBLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Balances analytiques
+EDITRKDOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIXMLFIL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+EDIXSDUPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+ETAFIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Etat des tables
+EURO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+EVCBAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Revalidation ID TVA intracom
+EXEALH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Requêteur
+EXEALHGRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Requêteur
+EXEFNC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+EXETRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Exécution traitements
+EXPBAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Export balance
+EXPCASDUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Export échéancier tréso Sage
+EXPCASPAY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Export règlements tréso Sage
+EXPCONSO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Export balance conso Sage
+FAEINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement interface FEC
+FAS246G; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Situation par code flux
+FASACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASCALC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul amortissements
+FASCLOTURB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASCLOTURE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Clôture période et exercice
+FASCNL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASCNXSYNC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Synchronisation contextes
+FASDDE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASENTRY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pièces immobilisations
+FASEXIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Cessions et sorties immobilisations
+FASFLXM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération flux provisoires
+FASIML; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASIMLM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Dépréciation - Tr massif
+FASISR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASISS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASISSM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sortie d'actif - Tr massif
+FASLISTDEP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Liste immobilisations
+FASMTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASMTCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changer la méthode - Tr massif
+FASNSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASRVA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASRVAM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réévaluation - Trt massif
+FASSIMU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Simulation amortissements
+FASSPE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASSPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASSPLM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Eclatement massif des biens
+FASTRF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASTRFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASTRFCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changer l'imputation comptable
+FASVATREG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Régularisation TVA - Biens
+FASVATRGG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Régularisation TVA globale
+FASVEH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FASVISPLN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FFRAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+FICMAG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Remises magnétiques
+FISDE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+FIYEND; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Fin d'exercice
+FONADI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Tables diverses
+FOTH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+FUNACHPPSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche tarifs
+FUNADCSEARCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Paramétrage recherche stock
+FUNADRVAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation adresse
+FUNANL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Analyse de production
+FUNAUTALL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations automatiques
+FUNAUTDLV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération livraison commande
+FUNAUTDLV2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Livraisons des commandes
+FUNAUTFAE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Factures à émettre
+FUNAUTINVC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération factures contrats
+FUNAUTINVD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération factures livraisons
+FUNAUTINVO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération factures commandes
+FUNAUTINVS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération factures services
+FUNAUTINVSCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération factures échéances
+FUNAUTINVT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération factures transferts
+FUNAUTPRE2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération listes préparation
+FUNAUTPREP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération listes préparation
+FUNBCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Paramétrage inter-sociétés
+FUNBENCHI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suivi de fabrication
+FUNBENCHM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suivi des matières
+FUNBENCHO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan de suivi des temps
+FUNBENCHR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suivi des réintégrations
+FUNBENCHT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan des fiches techniques
+FUNBENPLT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pilotage des plans de suivi
+FUNBPCALL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion réservations clients
+FUNBPCMVT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation en-cours client
+FUNBPSMVT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation en-cours
+FUNCALREO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réappro zone consommation
+FUNCFMDLV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation des livraisons
+FUNCFMDLV2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation livraison
+FUNCFMTNH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation note de transport
+FUNCHGITG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement catégorie
+FUNCHGVAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement de valeur
+FUNCLEAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Solde des commandes
+FUNCMG3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNCON6; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Historique des indices
+FUNCONH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNCPTITH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Compléments ITMMVTHIS
+FUNCRM9; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Identifier
+FUNCRMAGD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Agenda
+FUNCRMLCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation en-cours client
+FUNCTLBPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contrôle des tiers inter-site
+FUNCUSSEA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche Client
+FUNCXT0; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNCXT1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNDEB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération fichier DEB
+FUNDESALL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Désallocations
+FUNDSC1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNECE2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNEMIINS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Emission des acomptes
+FUNFOAROLL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Cumul allergènes alimentaires
+FUNGENBUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération version de Budget
+FUNGENPIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération version de PIC
+FUNGFSFDMAUP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recalcul 1e date dispo mat. OF
+FUNGFSMOPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Soumettre à l’ordonnancement
+FUNGLOAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Charge graphique
+FUNGRHPI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation factures/période
+FUNGRHPI2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Palmarès factures
+FUNGRHPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation retours/période
+FUNGRHPN2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Palmarès retours
+FUNGRHPO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation commandes/période
+FUNGRHPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation réception/période
+FUNGRHSDH1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Livraisons par période
+FUNGRHSDH2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Palmarès motifs retours
+FUNGRHSIH1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Factures par période
+FUNGRHSIH2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Palmarès Devis
+FUNGRHSIH3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Factures par représentant
+FUNGRHSOH1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Commandes par période
+FUNGRHSOH2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Palmarès commandes
+FUNGRHSQH1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Devis par période
+FUNGRHSQH2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Palmarès Devis
+FUNGRHSQH3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Devis par représentant
+FUNHDK5; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNHDK6; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNHDKAGD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Agenda
+FUNIESGNR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Génération IES
+FUNINTBPC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Migration en clients internes
+FUNIPTD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Modification date d'imputation
+FUNITC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Articles - Coûts
+FUNITNH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNLBEIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression
+FUNLOCS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation emplacements
+FUNLPNLBE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression étiquette contenant
+FUNMACA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNMANALL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations par article
+FUNMANL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Edition analyse produits
+FUNMAUTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocation automatique
+FUNMAUTD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Déjalonnement
+FUNMAUTF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contremarque
+FUNMAUTJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Jalonnement automatique
+FUNMAUTM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mise à niveau OF
+FUNMAUTMTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Affectations
+FUNMAUTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Décalage opérations
+FUNMAUTP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Décalage OF
+FUNMAUTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement automatique
+FUNMAUTRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réactivation OF
+FUNMAUTS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression automatique
+FUNMAUTSU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suspension OF
+FUNMCLOSE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Clôture/solde OF
+FUNMCOV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Historique PEC
+FUNMDESA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Désallocation
+FUNMDESMTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Désaffectations
+FUNMGG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Ciblage marketing
+FUNMGG4; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Exécution ciblages marketing
+FUNMGGGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Régénération ciblage
+FUNMIWL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recalcul charges
+FUNMPICK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Regroupement
+FUNMPICKA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan de regroupement
+FUNMPS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan directeur production
+FUNMREACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réouverture OF
+FUNMRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul besoins nets
+FUNMRPG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul besoins nets
+FUNMSITU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Situation OF
+FUNMST6; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Affectation secteurs marché
+FUNMST7; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation des secteurs
+FUNMST8; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion des hors-secteurs
+FUNPBLGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Régénération stats/compétences
+FUNPEC2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUNPITGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Régénération des points
+FUNPKD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Colisage déclaratif
+FUNPKD2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Colisage déclaratif
+FUNPKE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression étiquettes colisage
+FUNPKE2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression étiquettes colisage
+FUNPKP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Post-colisage
+FUNPKP2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Post-colisage
+FUNPLG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Planning marketing
+FUNPMCCL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Clôture période multi-soc.
+FUNPNH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Avoirs à recevoir
+FUNPNHTRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation des retours
+FUNPNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion des acomptes
+FUNPOHW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contremarques
+FUNPPCACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Activation tarifs achats
+FUNPPD3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération lignes tarifs
+FUNPREDLV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Livraison des bons préparation
+FUNPREDLV2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Livraison des bons préparation
+FUNPREP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan préparation d'expéditions
+FUNPREP2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan préparation d'expéditions
+FUNPTH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Factures à recevoir
+FUNPURSUG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge des suggestions
+FUNPURSUGA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge des suggestions
+FUNPURWIP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purger enreg. coûts en-cours
+FUNREJDRFMGT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Commandes brouillon rejetées
+FUNREL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Relance Appels d'offres
+FUNREO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan de réapprovisionnement
+FUNSAFTEXT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Extraction SAF-T
+FUNSCOMVT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchro sous-traitance
+FUNSERMGT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement gestion no série
+FUNSFTEAC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Activité collaborateur
+FUNSFTPOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suivi atelier
+FUNSFTVAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation saisie main oeuvre
+FUNSHTSEL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Régul. stocks manquants
+FUNSMU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Modification caract. utilis.
+FUNSMXUPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement en série lot
+FUNSNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion des acomptes
+FUNSPCACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Activation tarifs ventes
+FUNSPCINC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Révision tarifs
+FUNSPT6; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Affectation piste
+FUNSSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Plan de rangement
+FUNSSTENT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Initialisation Sage Sales Tax
+FUNSTDTDU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Modif des opérations std
+FUNSTKA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul classe ABC
+FUNSTKACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interface comptabilité
+FUNSTKADJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Régularisation de prix
+FUNSTKB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réapprovisionnements hors MRP
+FUNSTKTRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation transactions Stock
+FUNSTOLTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changt statut lots re-contrôle
+FUNSTOP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changt statut lots périmés
+FUNSTOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Traitements divers stocks
+FUNSTORUL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Règles de gestion de stock
+FUNSTOWIPW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation qtés en saisie
+FUNSTPE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge numéros séries
+FUNSTPI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge sessions inventaires
+FUNSTPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge lots nuls
+FUNSTPQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge analyses qualité
+FUNSTPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge traçabilité
+FUNSTPU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Purge mouvements stocks
+FUNSTVA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Etat valorisé des stocks
+FUNSYD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Données synchronisation
+FUNSYD6; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Forçage synchronisation
+FUNSYL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gestion des anomalies
+FUNSYNCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation charge
+FUNSYNCW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation encours
+FUNSYNPIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchro valo. stock période
+FUNSYNREO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchro réappro zone conso
+FUNSYNSER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation des séries
+FUNSYNSRG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchro plan de rangement
+FUNTDUCAP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;P. charge/Variation capacité
+FUNTDUCLO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Clôture/solde en série
+FUNTDUMRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Replanification en série
+FUNTDUOF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Modification des objectifs
+FUNTDUPDR5; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Modification des opérations
+FUNTDUPDW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Modification des postes
+FUNTDUVAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Variation de capacité
+FUNTDUWST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Remplacement postes
+FUNTEOALL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Allocations automatiques
+FUNTEOCLO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Clôture/solde en série
+FUNTEODESA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Désallocations automatiques
+FUNTLPATT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Attributs lignes de produits
+FUNTRAAXP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Textes à traduire
+FUNTRAAXS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Textes à traduire
+FUNTRATXI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Traduction désignations
+FUNTRTCFO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération de prévisions
+FUNUOT1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Paramétrage unités de temps
+FUNUTICMM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation engagements
+FUNUTIPOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contrôle contrats inter-sites
+FUNVENSPSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche tarifs
+FUNWANL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Edition analyse ressources
+FUNWIPACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Comptabilisation en-cours OF
+FUNWIPBOM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Coût en-cours sans OF
+FUNWIPMFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul prix de revient de fab
+FUNWIPSCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul prix revient ss-trait
+FUNYEC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Echéance
+FUNYSIH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+FUSAP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+FUSAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+FXDINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Intégration des mouvements
+GACCDEL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression comptes en masse
+GACCDUP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Duplication comptes en masse
+GACMERGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Fusions de comptes
+GCOD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GDEV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+GDOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GDON; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GDOP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GENE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+GENFIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération de fichier
+GENMENULOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mise à jour menus locaux
+GENMSKTRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération transactions
+GENQUIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération quittances
+GENTXTTRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Maj textes traduisibles
+GESAAB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Table des abréviations
+GESAAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres des actions
+GESABC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Calendrier serveur batch
+GESABG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupes de tâches
+GESABH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Contraintes horaires
+GESABN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Banques (guichets)
+GESABT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion des tâches
+GESACD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESACG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage changement de clé
+GESACL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Tables de contrôles
+GESACLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Classes
+GESACM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Compteurs
+GESACN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consultations
+GESACO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Codification des rubriques
+GESACS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Codes d'accès
+GESACST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Constante
+GESACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire des actions
+GESACTX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Contexte
+GESACV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Codes activité
+GESAD7; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESADC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire scripts
+GESADF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Liens de documentation
+GESADG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Jeux de valeurs
+GESADI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Tables diverses
+GESADI2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Tables diverses - Données
+GESADLK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Kits de paramétrage
+GESADLV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Livrable
+GESADM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Eléments de dimensionnement
+GESADO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Documentation
+GESADP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Définition paramètres
+GESADS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dossiers
+GESADV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Définition tables diverses
+GESADZ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Documentation sur champs
+GESAEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Enchaînements import/export
+GESAEV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage tableau/import
+GESAF1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAF9; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire des fonctions
+GESAFE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAFO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Formules de dimensionnement
+GESAFP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Habilitation fonctionnelle
+GESAGB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Variables globales
+GESAGF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupes de sites
+GESAGS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage protection données
+GESAH2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAHI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Historisation / Epuration
+GESAIA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Destinations par utilisateur
+GESAIM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Destinations
+GESAIN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Interlocuteurs
+GESAIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Composants interactifs
+GESALB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Liens subdivisions
+GESALH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Requêteur
+GESALQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Requêteur SQL
+GESALT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Requêteur graphique
+GESAM3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Procédures de migration
+GESAMC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Mot-clé d'aide
+GESAMC2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAME; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Profil métier
+GESAMI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transactions système
+GESAMK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire des écrans
+GESAMM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Mémos
+GESANG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Navigation
+GESANM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Compteurs document
+GESANX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Index spécifiques
+GESAOB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Objets de base
+GESAOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Personnalisation objets
+GESAOE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modèles import/export
+GESAONSQH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAOP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Propriétés objets
+GESAOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transcodage Import/Export
+GESAOW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sas import/export
+GESAPB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pool Java Bridge
+GESAPE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Points d'entrée
+GESAPH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modèle de paramétrage
+GESAPM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Profil menu utilisateur
+GESAPO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Menu processus
+GESAPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres portail
+GESAPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Processus
+GESAPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consultation de patchs
+GESAPV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Vues du portail
+GESAPW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pool de services web
+GESARC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Règles d'archivage
+GESARE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres d'archivage
+GESARL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Restrictions d'accès
+GESARP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire des états
+GESARU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESARV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Valeurs par défaut
+GESARX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Code impression
+GESARY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESARZ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Etats ZPL
+GESAS2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAS3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESASB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Composants graphiques
+GESASL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Styles conditionnels
+GESASU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sous-programmes
+GESASW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Représentations
+GESASY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Styles de présentation
+GESATB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire des tables
+GESATN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de transactions
+GESATP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Familles gadgets
+GESATU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Subdivisions géographiques
+GESATY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de données
+GESATYP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Content type
+GESAUPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Mise à jour
+GESAUR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Composants écran
+GESAUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Utilitaires
+GESAVL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAVP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAVR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Contexte assistant de formules
+GESAVW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire des vues
+GESAWA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Règles Workflow
+GESAWE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Services web
+GESAWI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion des fenêtres
+GESAWM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modèles de données
+GESAWR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Règles d'affectation
+GESAWV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affectation utilisateur
+GESAWW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage plan de travail
+GESAWX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Notifications
+GESAYA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Action Web
+GESAYB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Blocs
+GESAYC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Liste de valeurs
+GESAYD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Profils site Web
+GESAYE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Entité
+GESAYF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Champs
+GESAYG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pages Web
+GESAYH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Profil Safe X3 WAS
+GESAYI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Interface
+GESAYL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Liens dynamiques
+GESAYM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Message Web
+GESAYO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESAYP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Styles personnalisés
+GESAYS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sites Web
+GESAYT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Test site Web
+GESAYU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage avancé
+GESAYW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Blocs conditionnés
+GESAYY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Document Html
+GESAYZ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Formulaire
+GESB9B; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Balance d'ouverture 1099
+GESB9M; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Case fournisseur 1099
+GESBAN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Comptes en banque
+GESBAP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Rendez-vous
+GESBCG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Catégorie client
+GESBDO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;OD budgétaires
+GESBDT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Conditions créances douteuses
+GESBGR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupe bancaire
+GESBOD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESBODC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Nomenclatures commerciales
+GESBODP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Nomenclatures production
+GESBODS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Nomenclatures sous-traitance
+GESBOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESBOLP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Bon de transport
+GESBOLS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Bon de transport
+GESBOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESBPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Prospects
+GESBPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transporteurs
+GESBRD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Eclatement - Clés ventilation
+GESBSG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Catégorie fournisseur
+GESBSIMTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESBSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESBTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Tâches comptables
+GESBUC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Calcul budgets
+GESBUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESBUP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage budgets
+GESBUV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Versions de budgets
+GESBX9; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Case 1099
+GESCAC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Codes comptables
+GESCAI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Caisses
+GESCBA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Agenda action commerciale
+GESCCC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Articles concurrents
+GESCCL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Lignes des codes comptables
+GESCCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESCCMAUS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESCDA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Destinations comptables
+GESCDE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Section par défaut
+GESCDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Axes par défaut
+GESCFO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion prévisions de tréso.
+GESCFT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types prévisions de trésorerie
+GESCHB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Chéquiers
+GESCIB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ajustement manuel des sorties
+GESCIG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Définition de l'opération
+GESCII; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Validation de la cession
+GESCIS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sélection biens CIG
+GESCIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pré-enregistrement des sorties
+GESCLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ecritures calculées
+GESCLL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Appel
+GESCLS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Classes de comptes
+GESCMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction parc client
+GESCMD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transac. agenda support client
+GESCMG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Campagnes marketing
+GESCMI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction intervention
+GESCMM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Engagements
+GESCMS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction demande de service
+GESCNX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Contextes d'amortissements
+GESCOA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan comptable
+GESCOE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coeff. et indices réévaluation
+GESCOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Correspondants
+GESCOT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modèles de contrat de service
+GESCPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sociétés
+GESCRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESCRMSFS01; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESCSF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Extraction compte contrepartie
+GESCSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESCSRH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Analyse flux trésorerie
+GESCSTAXUID; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Définitions lignes états
+GESCSVATMAP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Mapping soumission en ligne
+GESCTRH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Conteneur fret
+GESCUCA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESDAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Répartitions a posteriori
+GESDEB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion fichier DEB
+GESDER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESDIE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Axes
+GESDIH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Schémas horaires
+GESDIHCRM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Schémas horaires
+GESDMWBPREX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Exceptions gestion des déchets
+GESDMWPAORD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Classification Ordonnance emballage
+GESDMWPPA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affectation emballage article
+GESDMWQUOTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Quotas de gestion des déchets
+GESDMWSC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Système de gestion des déchets
+GESDPM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modes d'amortissement
+GESDPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan d'amortissement
+GESDRN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Régimes et natures mouvement
+GESDSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Répartitions a priori
+GESDTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affectation cpte général/DATEV
+GESDTB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affectation tiers/DATEV
+GESDTE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Export DATEV
+GESDTP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Répartitions temporelles
+GESDTT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Attribution code taxe DATEV
+GESECE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESECS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Versions
+GESEDM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Formules
+GESEDP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage messages
+GESEDS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Segments
+GESEOK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESESLASS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affec. par type vente intracom.
+GESESLTYP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de ventes intracom.
+GESEXM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Indemnités kilométriques
+GESFAE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage FEC
+GESFAM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Familles immobilisation
+GESFCC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Code fret de marchandises
+GESFCS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Charges
+GESFCT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Factors
+GESFCY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sites
+GESFGP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupes de relances
+GESFID; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Critères de ciblage
+GESFIY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Exercices
+GESFLU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Définition des flux comptables
+GESFLY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coupons de garantie
+GESFPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Textes de relance
+GESFRF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Propriétés des zones libres
+GESFRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Classe de fret
+GESFTD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Structure fichier DADS-U
+GESFUP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Campagnes de relances
+GESFXM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Mouvements à intégrer
+GESGAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESGAF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Abonnements
+GESGAU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pièces automatiques
+GESGBS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ecran situation tiers
+GESGBSH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ecrans balance âgée à date
+GESGC2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESGC3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESGC4; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESGCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modèles comptables
+GESGCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction saisie code compta
+GESGCU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupes de devises
+GESGDA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Schémas de comptes
+GESGDE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transactions saisie pièces
+GESGDS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ecrans gestion échéances
+GESGFP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ecran campagnes de relances
+GESGFSATT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Attribut
+GESGFSCV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Valeurs perso. ordonnanceur
+GESGFSOPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Matrice d'optimisation
+GESGFSSTM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Matrice temps réglage
+GESGPC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pièces comptables
+GESGRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupe pièces automatiques
+GESGRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Subventions
+GESGSC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupes de collectif
+GESGSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupes de répartitions
+GESGTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ecrans de consultation
+GESGTE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de pièces
+GESGTEGRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Groupes de types de pièce
+GESGVA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres des variables
+GESGVD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESGVG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Variables pièces automatiques
+GESHDA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESHIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Historique Coûts
+GESHIM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Historique prix de revient
+GESHOI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Articles pour horodatage
+GESHTMMAI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Texte e-mails CRM
+GESICA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coûts standards actualisés
+GESICB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coûts standards budget
+GESICD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coûts standards
+GESICS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coûts standards simulés
+GESICT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Incoterms
+GESICV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage compteurs versions
+GESIDP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage saisie factures tiers
+GESINDREF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESINO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Nomenclatures NC8
+GESINVCND; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Conditions de facturation
+GESITC2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESITF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Articles - Sites
+GESITG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Catégorie article
+GESITP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESITS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESJOU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Journaux comptables
+GESLDA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Lien Dépenses-Biens comptables
+GESLDS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Leads
+GESLEA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Contrats location financement
+GESLED; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Référentiels
+GESLGT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Regroupement des dépenses
+GESLOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Emplacements
+GESLPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Identifiant contenant interne
+GESLPNAFF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affectation numéro contenant
+GESLPNOPE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Opérations numéro contenant
+GESLTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMAC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Parc client
+GESMAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Règles rapprochement
+GESMCL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan des fiches techniques
+GESMDL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de travail
+GESMDLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de travail
+GESMES; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage MES
+GESMF0; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consultation prix revient
+GESMFCP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consultation coût prévisionnel
+GESMFK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMFL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ordres de fabrication
+GESMFS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMFSH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Lier numéros de série
+GESMGL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Planning global
+GESMGLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Planning global
+GESMIL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de production
+GESMKI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMKM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMKO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMML; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de suivi matières
+GESMMS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage MMS
+GESMOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de suivi des temps
+GESMPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pilotage des plans de suivi
+GESMPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESMRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de réintégration
+GESMRL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Regroupement
+GESMRLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de regroupement
+GESMSLW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Cas d'emploi numéro de série
+GESMTL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Suivi fabrication
+GESMWC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sections de valorisation
+GESMWI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coûts de revient industriels
+GESMWS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Postes de charge
+GESMWW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Cas d'emploi postes
+GESMXL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Publipostages XML
+GESNCSA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Actions
+GESNCSH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Non-conformité
+GESNCSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan d'action
+GESNTG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Catégories notes
+GESNTS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESOMM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Publipostage
+GESOMN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Campagne de presse
+GESOMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Campagne d'appels
+GESOMR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Etat mailing
+GESOMT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Salons professionnels
+GESONA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Catégories frais généraux
+GESOPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affaire
+GESORO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage APS
+GESORZ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Prévisions de consommation
+GESORZS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Prévisions de consommation
+GESOVE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Codes frais généraux
+GESPAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres interface comptable
+GESPBDECO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESPBL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Familles de compétences
+GESPBY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Assemblage/Désassemblage
+GESPCB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres calculs besoins
+GESPCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Codes préparation
+GESPDB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Débits de points
+GESPDM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage déversement
+GESPEC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage des escalades
+GESPER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Périodes
+GESPFI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESPFI1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Eléments de facturation achats
+GESPIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pivots
+GESPJA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres jalonnement
+GESPLM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage PLM
+GESPLP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de production
+GESPOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion des commandes ouvertes
+GESPOHREV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESPOI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de l'acheteur
+GESPOO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pools bancaires
+GESPOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Codes postaux
+GESPOV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Visu des commandes ouvertes
+GESPPA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage code préparation
+GESPPC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage tarifs achats
+GESPPD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Réponses
+GESPPF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESPPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Saisie des tarifs
+GESPPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Motifs tarifs achats
+GESPPTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pré-réception des commandes
+GESPPTS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pré-réception des expéditions
+GESPPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Positive Pay
+GESPQH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Demandes appel d'offre
+GESPRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan préparation d'expéditions
+GESPREPI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Facture d'acompte
+GESPRL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESPRM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage extraction
+GESPRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Structure tarifs achats
+GESPRSS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Structure tarifs ventes
+GESPRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Bons de préparation
+GESPRV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Prestataires d'honoraires
+GESPS1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Déclencheurs statistiques
+GESPS2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres statistiques
+GESPTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction appel d'offre
+GESPTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction commande
+GESPTD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction demande d'achat
+GESPTE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction ordre ss-traitance
+GESPTF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction fact./avoir achat
+GESPTN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction retour fournisseur
+GESPTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Règles d'affectation
+GESPTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction Réception
+GESPTR2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction Réception
+GESPTT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction commande ouverte
+GESPVT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage événements avancé
+GESPWA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres agrégation compta.
+GESPWI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consulter en-cours ss-trait.
+GESPYRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage HRMS NA
+GESQCR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Demandes d'analyse
+GESQLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fiches techniques
+GESQST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Questions
+GESQUE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Queues
+GESRC1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESRCC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Factures périodiques clients
+GESRCR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESRCS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Factures périodiques fourn
+GESRDE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Associations - définitions
+GESREC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Recodifications massives
+GESREP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Représentants
+GESRLK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Relevé bancaire
+GESROT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Opérations standard
+GESROU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion des gammes
+GESROW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Cas d'emploi gammes
+GESRQW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Demandes de garantie
+GESRRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Réservations de ressources
+GESRSE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ressources
+GESRTZ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion des retenues
+GESRVA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Associations - valeurs
+GESSCC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consultation prix revient
+GESSCCP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consultation coût prévisionnel
+GESSCP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Déroulement scripts d'appel
+GESSCQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSCS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Changements stock
+GESSCSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Changements stock
+GESSCT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Changements stock
+GESSEA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Secteurs d'activité
+GESSEB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres passerelle paiement
+GESSES; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Saisonnalités
+GESSET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSFA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage SFA NA
+GESSFI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSFI1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Eléments de facturation ventes
+GESSHFT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSHIP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Expédition
+GESSLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction avoir
+GESSLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction commande
+GESSLD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transactions livraison
+GESSLD2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction livraison
+GESSLI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction facture
+GESSLL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction retours prêt
+GESSLM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Renumérotation/mélange
+GESSLO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction commande ouverte
+GESSLQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction devis
+GESSLR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transaction retour client
+GESSLS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transac.retours matière ss-trt
+GESSLT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modification de lot
+GESSMX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Changement caractéristiques
+GESSND; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSNE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Définition révision tarifs
+GESSNP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Inventaires
+GESSNX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sessions inventaires
+GESSOHREV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSOI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Solutions
+GESSOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion des commandes ouvertes
+GESSOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSOT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Sorties diverses
+GESSOV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Visu demandes de livraisons
+GESSPC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage tarifs ventes
+GESSPF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSPK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Colisage
+GESSPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Saisie des tarifs
+GESSPLPRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Génération catalogues tarifs
+GESSPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Motifs tarifs ventes
+GESSQHREV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSQT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Contrôle qualité
+GESSRG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plans de rangement
+GESSRO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan de réapprovisionnement
+GESSRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Entrées diverses
+GESSSO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESSSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Supports de sélection
+GESSST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transferts sous-traitants
+GESSTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Structures de coûts
+GESSTCITF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Frais d'approche - site
+GESSTE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres stocks
+GESSTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Retours sous-traitants
+GESSWA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres agrégation compta.
+GESSYP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramètres de synchronisation
+GESSZP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage Prévision APS
+GESTAM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modes de règlement
+GESTAU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Utilisateurs Safe X3 WAS
+GESTBA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Panier d'achat
+GESTBO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Alternatives nomenclature
+GESTBU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transactions de budgets
+GESTCA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Affectation des compteurs
+GESTCI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Mappage comptes inter-sociétés
+GESTCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Méthodes de valorisation
+GESTCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Conversions d'unités
+GESTCT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Réponses
+GESTCTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESTCU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Devises
+GESTCY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Pays
+GESTDA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Escomptes/Agios
+GESTEC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Nature transaction
+GESTED; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Code édition
+GESTEM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Equipes
+GESTES; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Codes frais
+GESTFB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fichiers bancaires
+GESTFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fichier trésorerie
+GESTFO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Formules
+GESTFOLEG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Formules par législation
+GESTFT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fichier déclaration honoraires
+GESTGL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Dictionnaire des cibles
+GESTGP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Supports de présentation
+GESTIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Articles Safe X3 WAS
+GESTKI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Suivi OF
+GESTLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Langues
+GESTLO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types emplacements
+GESTLP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Lignes de produits
+GESTMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESTMD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modes livraisons
+GESTMS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Messages
+GESTNH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Note de transport
+GESTPA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Emballages
+GESTPC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESTPCT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESTPE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types d'écritures comptables
+GESTPM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modèles d'édition
+GESTPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de retours
+GESTPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Conditions paiement
+GESTPV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types facture fournisseur
+GESTPV2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types facture fournisseur
+GESTPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transactions de règlements
+GESTRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de retours
+GESTRN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Arrondis
+GESTRNP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transport
+GESTRO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Alternatives gammes
+GESTRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Politiques de réapprovisionnement
+GESTRU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Règles d'allocations / sorties
+GESTSA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Coef stock sécurité
+GESTSC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Régime statistique
+GESTSD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de livraisons
+GESTSG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types changement de stock
+GESTSH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Transactions objets métiers
+GESTSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESTSK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Tâche
+GESTSO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de commandes
+GESTSQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de devis
+GESTSR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Rebuts
+GESTST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Statuts stock
+GESTSV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types facture vente
+GESTSV2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Types de factures
+GESTTN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Type note transport
+GESTUN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Unités
+GESTUV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Périodes d'indisponibilité
+GESTUVM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Périodes d'indisponibilité
+GESTVB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Régime de taxe du tiers
+GESTVC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Détermination des taxes
+GESTVI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Niveau de taxe
+GESTVT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Taxes
+GESTWC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Centres de charge
+GESTWD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Schémas hebdomadaires
+GESTWDCRM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Schémas hebdomadaires
+GESTXS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage tableaux de bord
+GESTXW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Consultation tableaux de bord
+GESTZI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESTZL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Alimentation zones libres
+GESUNNB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Numéro ONU
+GESVATGRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Entités de TVA
+GESVCL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Classification fiscale
+GESVEF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Formulaire TVA
+GESVFE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Déclarations de TVA
+GESVTB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Cases TVA
+GESXED; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Import delfort
+GESXEDH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Historique Import delfort
+GESYAP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Programme de production
+GESYAV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion Avis
+GESYBF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion bons commandes fiscaux
+GESYBH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Bordereaux de transmission
+GESYCD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Destinations comptables
+GESYCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Code comptable automatique
+GESYCR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYCS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYDE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYDEM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Demande Chiffrage
+GESYDF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYDH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYDR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYFB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Flux par baque
+GESYFDR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYFDRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYFI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion des fiches inventaire
+GESYFP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Saisie des fiches inventaire
+GESYFR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYGO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Gestion d'objet
+GESYHD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Historique déclaration
+GESYIDR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYIS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYNA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Plan d'actions
+GESYNC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Non-Conformités
+GESYNG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;NC - Demande de dérogation
+GESYNU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYOP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYPH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Réception factures
+GESYPTH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYPV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Ventilation livraison client
+GESYRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Retenue à la source
+GESYSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Fiche chiffrage
+GESYSIM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Chiffrage
+GESYSIM1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Chiffrage test
+GESYSMO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYSMO1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYSMO2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYSP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYSP1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+GESYTSK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Tâche NC
+GESYVP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Version PIC
+GESYXC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Colisage
+GESYXE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage Easy Planning
+GESYXED; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Import delfort
+GESYXG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Paramétrage TECHNO-GM
+GEXPENCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Enchaînements d'exports
+GFSOPTFREE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Retirer de l’ordonnancement
+GIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GIMPA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GIMPC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GIMPENCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Enchaînements d'imports
+GIMPEXPPAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Paramètres import/export
+GIMPF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GIMPM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GIMPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GIMPS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GIMPV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GMAINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Maintenance des tables en lig.
+GPORT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GRACAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul des subventions
+GSTDCOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Maintenance en colonnes
+GSTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GTAB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GTAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GTRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GTRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GTRR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GTRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GTRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GUNIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+GUTIL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+HONLINANN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Annulation lignes d'honoraires
+HONLINEXT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Extraction des honoraires
+IDNGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération factures d'agios
+IMPAYE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impayés
+IMPDOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Import dossier
+IMPORTV3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Structuration tableau/import
+INQPOH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+INQPOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+INQSTOLOC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+INQSTOLPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+INQSTOPRO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+INTF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+IPTACPTCLI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Imputation acomptes clients
+IPTACPTFOU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Imputation acomptes
+LCKSRC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Traitements verrouillés
+LEAPAY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Evénements de redevance
+LETTRAGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lettrage
+LETTRAUTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lettrage automatique
+LIA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+LOFECL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+LOFGRPFAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Immobilisation des dépenses
+LOFLDAB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+LOFVATREG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Régularisation TVA - Dépenses
+LTPAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Connexion à Sage sales tax
+M1099; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MACA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MACO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MAPOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MAPS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MAUD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MAUDF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MBACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCANA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MCAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCCNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCDBA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCDIV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCEM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCENC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCICC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCMFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCON; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCQU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MCRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCRM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCSCC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MCUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDBA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDBLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDBOM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDBPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDBPU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDCAN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MDCGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDCPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDDEB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDEB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDEBP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDEBS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDFAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDIS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MDITC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDITM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDITU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDMW; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDMWP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDMWS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDON; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDRBP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MDRCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDRGP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDRIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MDRLO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDTRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MDWAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MEADL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MEGEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MEIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MENU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MENV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MEPGC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MEPGD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MEPGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MEPGT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MESINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement interface MES
+MEUSR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MEWFL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MEXFA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MEXP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MEXS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFAE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFASC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFASM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFAST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFCNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFEE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFFXM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFIN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFRPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFSTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFSTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFSTM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFSTR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFSTS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MFSTU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MGDPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MGINQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MGPER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MGREO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MHCNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MHDA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MHDK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MIGX3PV12; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;X3 People - Migration
+MIMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MINV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MLIVR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MLOCF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMAG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMANL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMAUA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMAUJ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMAUO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMAUT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMES; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMFG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMFSL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMGFS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMINA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMINC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMINE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMINQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMINR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMINS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMINV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMKA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMKG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMMS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMOUL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMPLN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMQLY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMROU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMSFT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMSINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement interface MMS
+MMTDU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MMTEC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMTRK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MMWCR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MNCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MNCS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MNTPVT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MODCPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Valeurs des compteurs
+MONO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mode mono
+MORO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MOTH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MOTHD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MOTHP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MOTHS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MOTIF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPACA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPCNC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPCND; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPCNE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPCNF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPCNI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPCNR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPCNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MPCNZ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPERE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPERS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPHDK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPINV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPJM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPJUT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPLM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPMKA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPMKG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPOPG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPORC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MPORD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPOVR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPQUO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MPRC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPRCP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPREQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MPRET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPRQS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPSCO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPSUP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPSYN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPTAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MPTRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MPUR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MPUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MPYRA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MRBSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MREMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSALL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSCM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCNA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCNC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCND; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCNF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCNL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCNR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSCNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSCUN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSDLV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSEPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSETI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSEXT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSFA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSHIP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSINA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSINL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSINM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSINQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSINS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSINV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSLOT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSLPN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSMTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSORC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSORD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSPAC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSPER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSPR2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSPRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSPUR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSQUA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSQUO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSRCP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSREO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSRET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSSYN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSSYV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSTAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSTAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSTRF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSUPP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MSUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MSVAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MTAXE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MTC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MTDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+MTRSN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MULTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mode multi
+MULTIWOX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Planification multi-niveaux
+MUSA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MUSER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+MUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+NTFQUIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Notification de réglements
+OMMEMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+OMMFAX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+OMMMAI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+OPNFIY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Ré-ouverture d'exercice
+OPNPER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Ré-ouverture période
+ORAPRO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ORAPROP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ORASTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ORASTAB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+ORDWIPVAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Valorisation en-cours
+OROINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement interface APS
+PACPA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PACPF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PACPG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PACPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+PAEDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PAINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+PAMFG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+PAPTL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PAPTY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PAPUR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+PAPUT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PASAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+PASAT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PASSE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changement mot de passe
+PASTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+PASTY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PATCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Intégration de patchs
+PATCHT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Test de patchs
+PATRS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PAYPROPAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Proposition automatique
+PAYPROPAL2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+PBSI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PECR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PEXS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PFIC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PHYISSM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sortie d'actif - Tr massif
+PHYTRFM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transfert géographique massif
+PLMINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement interface PLM
+POINTAGE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pointage
+PREL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+PRHBATCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération liste de valeurs
+PROROG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Prorogation fournisseur
+PROROGC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Prorogation client
+PYRAINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interface HRMS NA
+RAPBAN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Rapprochement bancaire
+RAPLCRAUT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Rapprochement domiciliations
+RAPLCRMAN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Rapprochement domiciliations
+RAZDOS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Remise à zéro dossier
+RECBAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation balances
+RECBLA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation balances ana
+RECBLM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation balances eng
+RECBLQ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation balances qté
+RECECT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pièces
+RECENG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation engagements
+RECHACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche code d'accès
+RECHACI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche action
+RECHACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche code activité
+RECHADC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche sur type de donnée
+RECHAMZ; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche champ
+RECHDU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation échéances
+RECHMESS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche message
+RECHTXT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche texte
+RECHTYP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche type de données
+RECLET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation lettrage
+RECOBJTXT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pièces jointes et images
+RECPYRACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchro pyramides comptes
+RECPYRCCE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchro pyramides sections
+RECSOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation soldes
+RECTXTUTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Textes
+RECUPLNK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchronisation des liaisons
+RELBANK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Importation relevé bancaire
+RELLCR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Import relevé LCR
+REMPLCOMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Remplacement composants
+REMPLSRV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Remplacement services
+REPLCR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Export relevé LCR
+REPRISEAE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Reprise Abel Entreprise
+REQUET; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+RETACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Retour acceptation
+RFI5M; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+RFI60; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RFI64; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RFI66; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RFI68; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RFI6B; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RFI6M; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+RFIS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+RPT01; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe
+RPT02; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe
+RPT03; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT04; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT05; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT06; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT08; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT09; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT10; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT11; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT12; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/ventes
+RPT13; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/ventes
+RPT14; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/ventes
+RPT15; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/ventes
+RPT16; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/ventes
+RPT18; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/achats
+RPT19; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/achats
+RPT20; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/achats
+RPT21; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/achats
+RPT22; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/achats
+RPT23; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/CRM
+RPT24; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/CRM
+RPT25; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/stocks
+RPT26; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/stocks
+RPT27; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/stocks
+RPT28; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/stocks
+RPT29; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/stocks
+RPT31; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/production
+RPT32; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/production
+RPT33; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/production
+RPT34; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/production
+RPT35; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/production
+RPT5M; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+RPT60; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT64; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT66; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT68; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT6F; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/compta
+RPT6M; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+RPTF1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo
+RPTF2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/financement
+RPTF3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo phy
+RPTF4; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo
+RPTF5; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo
+RPTF6; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo
+RPTF7; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo
+RPTF8; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo
+RPTF9; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe/immo
+RPTHR03; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe
+RPTHR08; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Impression/groupe
+SAIFCT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Saisie factors
+SAISTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Prévisions statistiques
+SAISTACPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Statut des contextes
+SAIWRKMAN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Workflow manuel
+SCMAINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement interface Prév. APS
+SEPAR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Passerelles paiement
+SFAINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Connecteur SFA NA
+SIMULFINEX; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Reconstitution à nouveau
+SPCE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+SQLDICO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recherche index
+SQLPRO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+SQLPROP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+SQLSTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+SUBHLN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mise à jour lignes honoraires
+SUPGAMME; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression gammes
+SUPPRCOMP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression composants
+SUPPRSRV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression services
+SYNCHDICO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Synchronisation des fenêtres
+SYNCLLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Resynchro codes plus bas niv
+SYSTEME; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Exécution d'un ordre système
+TCONS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TDBOR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TDSCTL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contrôles TDS
+TDSGENE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération fichier TDS
+TRACKTPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;#N/A
+TRMFG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRPUR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+TRSAL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+TRSCH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSDO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSDU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSFC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSIM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSIN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSPY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRSTO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRTCPTINT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interface comptable
+TRTF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRTP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+TRTPERMC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Ouverture période multi-soc.
+TRTPRO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Processus base de données
+TRTPROP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Propriétés base de données
+TRTSOHDRAFT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation commandes brouillon
+TRTSTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Statistiques base de données
+TRTVATENT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+TXSGRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Calcul
+TXT;M;C;S; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Messages applicatif
+UCREDEPCUM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création DEPREC courant
+UDELPLN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suppression plan amortissement
+ULOFCRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création dépense
+UMAJDEROG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Mise à jour du dérogatoire
+UMAJFACT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+UMAJSUIV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Synchronisation des suivis
+UPDWAITRT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Modifications en attente
+UTI0; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+UTI1B; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI1D; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI1S; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI1V; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI2; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+UTI2A; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI2C; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI2D; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI2V; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+UTI4; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+UTI5; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI6; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+UTI7; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI8; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTI9; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTIBASE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Vérification cohérence base
+UTICHK; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pointage en partie simple
+UTICLOPER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Fermeture période
+UTIDEP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Contrôle des dépendances
+UTIEN; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTIFIYPER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Création exercices/périodes
+UTIGNRLED; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération écritures
+UTILE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTIMI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+UTIRE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VALDICO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation du dictionnaire
+VALEVL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+VALMENU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation des menus
+VALPCE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Tâches comptables
+VALPORT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Dévalorisation des effets
+VALRVV; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+VALSTA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation statistiques
+VATST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VERFEURO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Vérification date fin devise
+VERROU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Verrouillage dossier
+VERSYMB; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Symboles verrouillés
+VFECLC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Extraction déclarations de TVA
+VISUAYS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Visualisation site web
+VISUBOMG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Nomenclatures multi niveaux
+VISUBOMROU; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recette
+VISUROUBOM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Recette
+VISUROUG; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Gammes multi niveaux
+VXABP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Préparations d'expéditions
+VXACC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Inventaires
+VXADC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VXADI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VXADM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VXADS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VXAIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transferts inter-sites
+VXALR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réappro emplacement
+VXAMO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sorties diverses
+VXAMR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Entrées diverses
+VXAMT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sortie matières
+VXAOT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Suivi des temps
+VXAPI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation commande Achat
+VXAPR; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réceptions
+VXAPT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Déclaration prod
+VXARI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Commandes à réceptionner
+VXASC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changements stock
+VXASP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Définir la destination
+VXASS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Définir le site
+VXAST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transferts sous-traitants
+VXASY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Rangements sur liste
+VXBDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VXBIT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transferts inter-sites
+VXBMO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sorties diverses
+VXBMT; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Sortie matières
+VXBRKI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Début de pause
+VXBRKO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Arrêt de pause
+VXBSC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Changements stock
+VXBST; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Transferts sous-traitants
+VXCAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Articles - Sites
+VXCEM; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Emplacements
+VXCNS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+VXECI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pointage arrivée
+VXECO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Pointage départ
+VXELP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Heures passées
+VXINDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Début temps hors production
+VXINDO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Arrêt temps hors production
+VXRUNI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Début exécution
+VXRUNO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Arrêt exécution
+VXSETI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Début préparation
+VXSETO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Fin préparation
+X3EAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+X3FRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+X3GMA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+YATTBC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Attribution automatique BCF
+YCNC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+YDEC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+YDECEXE; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Exécution déclaration
+YDECP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+YEVALPA; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Requêteur PA
+YEVALPAD; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Requêteur PAD
+YFI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+YGENDEC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Génération fichier déclaration
+YIMPCOL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+YINTFRPX3; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interfaçage FRP / X3
+YINTX3FRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interfaçage X3 / FRP
+YNCEXEALH; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Requêteur NC
+YNCF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+YRESBC; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Réservation automatique BCF
+YSFIINTER; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation des fiches
+YSOF; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+YSPL; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Suivi plannning de livraison
+YSUS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;;;;;;;;;;#N/A
+YTRANSFRP; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;MAJ Flag Interface FRP
+YVALID; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Validation dépassement
+YVENTI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;2;;;;;;;;;;;;;;Lancement Ventilation Liv.
+YVREQBAS; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Consultation stock projeté
+YX3EASY; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement interface X3 / Easy
+YX3EASY1; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Interface X3 / Easy (PIC)
+YX3EDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Importation des fichiers EDI
+YX3GMAO; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;Lancement inter X3 / TECHNO-GM
+YX3NEWEDI; ; ; ; ; ; ; ; ; ; ; ; ; ;0;0;0;0;0;0;0;0;0;0;0;0;0;1;;;;;;;;;;;;;;#N/A
+
